@@ -76,4 +76,74 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.3}Obiettivi personali}{24}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Glossario}{27}{chapter.1}
+\contentsline {chapter}{\numberline {3}Stage}{27}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Pianificazione del lavoro}{27}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Definizione del piano di lavoro}{27}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Livello di autonomia}{29}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Studio degli strumenti di sviluppo}{29}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Tecnologie utilizzate}{30}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Piattaforma web}{30}{section*.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Presentazione}{31}{section*.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Framework}{33}{section*.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Properties}{34}{section*.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Logging}{35}{section*.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Stampe PDF}{36}{section*.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Alternative analizzate}{36}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Hibernate}{36}{section*.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Spring}{37}{section*.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Maven}{37}{section*.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{SVN}{38}{section*.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Processo di sviluppo}{38}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Analisi dei requisiti}{38}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Progettazione}{41}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Progettazione architetturale}{42}{section*.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Progettazione di dettaglio}{43}{section*.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.3}Codifica}{45}{subsection.3.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Verifica e validazione}{47}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Analisi statica}{48}{subsection.3.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}Analisi dinamica}{49}{subsection.3.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Test di sistema}{49}{section*.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Collaudo}{49}{section*.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Rilascio delle funzionalit\IeC {\`a}}{49}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Valutazione retrospettiva}{51}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Conoscenze preliminari}{51}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Obiettivi raggiunti}{52}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Obbligatori}{52}{section*.68}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Desiderabili}{53}{section*.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Facoltativi}{53}{section*.72}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Bilancio formativo}{54}{section.4.3}

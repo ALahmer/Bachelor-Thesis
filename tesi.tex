@@ -103,12 +103,12 @@
 \input{tesi-config}                     % file con le impostazioni personali
 
 \begin{document}
-%\input{inizio-fine/copertina}
-%\end{document}
+
 %**************************************************************
 % Materiale iniziale
 %**************************************************************
-%\frontmatter
+
+\frontmatter
 \pagenumbering{Roman}
 \input{inizio-fine/frontespizio}
 \input{inizio-fine/colophon}
@@ -124,15 +124,28 @@
 \mainmatter
 \input{capitoli/capitolo-1}             % Azienda
 \input{capitoli/capitolo-2}             % Progetto
-%\input{capitoli/capitolo-3}             % Stage
-%\input{capitoli/capitolo-4}             % Valutazioni
+\input{capitoli/capitolo-3}             % Stage
+\input{capitoli/capitolo-4}             % Valutazioni
 
 %**************************************************************
 % Materiale finale
 %**************************************************************
-\appendix                               
+\appendix 
+%aggiunto per fix glossario                              
 \glsaddall
 \printglossaries
 \backmatter
 \input{inizio-fine/ringraziamenti}
 \end{document}
+
+$
+The book class has some advantages over the report class since it defines three
+commands (\frontmatter, \mainmatter, and \backmatter) that control the page
+number and chapter numbering formats. In the frontmatter, pages are numbered
+with lower case Roman numbers (i, ii, iii, etc.) and the chapters are not numbered
+(as if the asterisk version /chapter*{} was used). In the mainmatter, pages are
+numbered with Arabic numbers (the numbers start from 1) and the chapters
+are numbered with Arabic numbers as well. In the backmatter, the pages are
+numbered as in the mainmatter (numbering continues) but the chapters are not
+numbered.
+$
