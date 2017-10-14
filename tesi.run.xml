@@ -59,6 +59,7 @@
       <file>verbose-ibid.cbx</file>
       <file>biblatex.cfg</file>
       <file>italian.lbx</file>
+      <file>english.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="0">
