@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.2)  14 OCT 2017 18:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.2)  15 OCT 2017 19:42
 entering extended mode
 **./tesi.tex
 (tesi.tex
@@ -1285,18 +1285,18 @@ Package geometry Warning: Over-specification in `v'-direction.
 \glo@main@file=\write6
 \openout6 = `tesi.glo'.
 
-Package glossaries Info: Writing glossary file tesi.glo on input line 101.
-Package hyperref Info: Option `colorlinks' set `true' on input line 146.
-Package hyperref Info: Option `linktocpage' set `true' on input line 146.
-Package hyperref Info: Option `colorlinks' set `false' on input line 146.
-Package hyperref Info: Option `linktocpage' set `false' on input line 146.
-Package hyperref Info: Option `breaklinks' set `true' on input line 146.
-Package hyperref Info: Option `pageanchor' set `true' on input line 146.
-Package hyperref Info: Option `plainpages' set `false' on input line 146.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 146.
+Package glossaries Info: Writing glossary file tesi.glo on input line 102.
+Package hyperref Info: Option `colorlinks' set `true' on input line 147.
+Package hyperref Info: Option `linktocpage' set `true' on input line 147.
+Package hyperref Info: Option `colorlinks' set `false' on input line 147.
+Package hyperref Info: Option `linktocpage' set `false' on input line 147.
+Package hyperref Info: Option `breaklinks' set `true' on input line 147.
+Package hyperref Info: Option `pageanchor' set `true' on input line 147.
+Package hyperref Info: Option `plainpages' set `false' on input line 147.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 147.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 146.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 146.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 147.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 147.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
@@ -1534,7 +1534,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8] (tesi.lof [9
+[8] (tesi.lof
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9
 
 
 ])
@@ -1583,31 +1586,33 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\mt-ptm.cfg"
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-<immagini/logo_azienda.png, id=285, 431.6125pt x 59.22125pt>
+<immagini/logo_azienda.png, id=288, 431.6125pt x 59.22125pt>
 File: immagini/logo_azienda.png Graphic file (type png)
 
 <use immagini/logo_azienda.png>
 Package pdftex.def Info: immagini/logo_azienda.png used on input line 15.
 (pdftex.def)             Requested size: 213.39784pt x 29.2798pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+<immagini/dipendenti_paesi_fatturato_mondo.png, id=290, 220.825pt x 577.15625pt
+>
+File: immagini/dipendenti_paesi_fatturato_mondo.png Graphic file (type png)
+ <use immagini/dipendenti_paesi_fatturato_mondo.png>
+Package pdftex.def Info: immagini/dipendenti_paesi_fatturato_mondo.png used on 
+input line 27.
+(pdftex.def)             Requested size: 71.1308pt x 185.90909pt.
 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[1
+ [1
 
 
  <./immagini/logo_azienda.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
@@ -1617,26 +1622,37 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+[2 <./immagini/dipendenti_paesi_fatturato_mondo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-<immagini/mercati_principali.png, id=302, 647.41875pt x 409.53pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+<immagini/mercati_principali.png, id=311, 647.41875pt x 409.53pt>
 File: immagini/mercati_principali.png Graphic file (type png)
 
 <use immagini/mercati_principali.png>
-Package pdftex.def Info: immagini/mercati_principali.png used on input line 68.
+Package pdftex.def Info: immagini/mercati_principali.png used on input line 80.
 
 (pdftex.def)             Requested size: 284.52866pt x 179.9813pt.
 
@@ -1649,8 +1665,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
@@ -1660,22 +1676,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4 <./immagini/mercati_principali.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+[5 <./immagini/mercati_principali.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
-<immagini/modello_incrementale.png, id=312, 1216.545pt x 568.1225pt>
+<immagini/modello_incrementale.png, id=321, 1216.545pt x 568.1225pt>
 File: immagini/modello_incrementale.png Graphic file (type png)
 
 <use immagini/modello_incrementale.png>
 Package pdftex.def Info: immagini/modello_incrementale.png used on input line 1
-00.
+12.
 (pdftex.def)             Requested size: 355.65947pt x 166.0863pt.
 
 
@@ -1684,49 +1700,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5 <./immagini/modello_incrementale.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+[6 <./immagini/modello_incrementale.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--112
+Underfull \hbox (badness 10000) in paragraph at lines 121--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
@@ -1736,23 +1736,39 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] <immagini/utilizzi_java.jpg, id=328, 1003.75pt x 581.17125pt>
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8] <immagini/utilizzi_java.jpg, id=337, 1003.75pt x 581.17125pt>
 File: immagini/utilizzi_java.jpg Graphic file (type jpg)
 
 <use immagini/utilizzi_java.jpg>
-Package pdftex.def Info: immagini/utilizzi_java.jpg used on input line 145.
+Package pdftex.def Info: immagini/utilizzi_java.jpg used on input line 157.
 (pdftex.def)             Requested size: 284.52866pt x 164.73985pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
-<immagini/architettura_struts.png, id=329, 1597.97pt x 637.38126pt>
+<immagini/architettura_struts.png, id=338, 1597.97pt x 637.38126pt>
 File: immagini/architettura_struts.png Graphic file (type png)
 
 <use immagini/architettura_struts.png>
-Package pdftex.def Info: immagini/architettura_struts.png used on input line 15
-4.
+Package pdftex.def Info: immagini/architettura_struts.png used on input line 16
+6.
 (pdftex.def)             Requested size: 355.65947pt x 141.85822pt.
 
 
@@ -1761,21 +1777,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8 <./immagini/utilizzi_java.jpg> <./immagini/architettura_struts.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+[9 <./immagini/utilizzi_java.jpg> <./immagini/architettura_struts.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
-<immagini/face2face.png, id=336, 897.3525pt x 553.31718pt>
+<immagini/face2face.png, id=345, 897.3525pt x 553.31718pt>
 File: immagini/face2face.png Graphic file (type png)
 
 <use immagini/face2face.png>
-Package pdftex.def Info: immagini/face2face.png used on input line 175.
+Package pdftex.def Info: immagini/face2face.png used on input line 187.
 (pdftex.def)             Requested size: 320.09134pt x 197.37036pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1787,23 +1803,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--186
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
@@ -1817,16 +1833,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10 <./immagini/face2face.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+[11 <./immagini/face2face.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
-<immagini/ambienti_sviluppo.png, id=348, 1172.38pt x 295.1025pt>
+<immagini/ambienti_sviluppo.png, id=357, 1172.38pt x 295.1025pt>
 File: immagini/ambienti_sviluppo.png Graphic file (type png)
 
 <use immagini/ambienti_sviluppo.png>
-Package pdftex.def Info: immagini/ambienti_sviluppo.png used on input line 215.
+Package pdftex.def Info: immagini/ambienti_sviluppo.png used on input line 227.
 
 (pdftex.def)             Requested size: 355.65947pt x 89.52206pt.
 
@@ -1839,18 +1855,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
@@ -1864,8 +1880,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12 <./immagini/ambienti_sviluppo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
+[13 <./immagini/ambienti_sviluppo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
@@ -1876,9 +1892,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13] [14
-
-]
+[14]
 Capitolo 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
@@ -1895,7 +1909,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-[15]
+[15
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
@@ -1905,7 +1921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-<immagini/fasi_progetto.png, id=374, 1248.665pt x 475.7775pt>
+<immagini/fasi_progetto.png, id=379, 1248.665pt x 475.7775pt>
 File: immagini/fasi_progetto.png Graphic file (type png)
 
 <use immagini/fasi_progetto.png>
@@ -1928,7 +1944,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16 <./immagini/fasi_progetto.png>]
-<immagini/architettura_ELISE.png, id=381, 1732.4725pt x 584.1825pt>
+<immagini/architettura_ELISE.png, id=386, 1732.4725pt x 584.1825pt>
 File: immagini/architettura_ELISE.png Graphic file (type png)
 
 <use immagini/architettura_ELISE.png>
@@ -1943,7 +1959,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17 <./immagini/architettura_ELISE.png>]
-<immagini/interfaccia_ELISE.png, id=388, 1185.67969pt x 563.10374pt>
+<immagini/interfaccia_ELISE.png, id=393, 1185.67969pt x 563.10374pt>
 File: immagini/interfaccia_ELISE.png Graphic file (type png)
 
 <use immagini/interfaccia_ELISE.png>
@@ -2070,7 +2086,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
-<immagini/suddivisione_obiettivi.png, id=420, 424.58624pt x 286.06876pt>
+<immagini/suddivisione_obiettivi.png, id=425, 424.58624pt x 286.06876pt>
 File: immagini/suddivisione_obiettivi.png Graphic file (type png)
 
 <use immagini/suddivisione_obiettivi.png>
@@ -2119,7 +2135,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Capitolo 3.
-[27] <immagini/tabella_gantt.png, id=440, 539.01375pt x 450.68375pt>
+[27] <immagini/tabella_gantt.png, id=445, 539.01375pt x 450.68375pt>
 File: immagini/tabella_gantt.png Graphic file (type png)
 
 <use immagini/tabella_gantt.png>
@@ -2163,7 +2179,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-<immagini/architettura_javaEE.png, id=449, 1678.27pt x 737.75626pt>
+<immagini/architettura_javaEE.png, id=454, 1678.27pt x 737.75626pt>
 File: immagini/architettura_javaEE.png Graphic file (type png)
 
 <use immagini/architettura_javaEE.png>
@@ -2186,7 +2202,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
-<immagini/web_xml.png, id=456, 423.83344pt x 305.64188pt>
+<immagini/web_xml.png, id=461, 423.83344pt x 305.64188pt>
 File: immagini/web_xml.png Graphic file (type png)
 
 <use immagini/web_xml.png>
@@ -2209,14 +2225,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [31 <./immagini/web_xml.png>]
-<immagini/jsp_compile.png, id=463, 1060.96375pt x 512.91624pt>
+<immagini/jsp_compile.png, id=468, 1060.96375pt x 512.91624pt>
 File: immagini/jsp_compile.png Graphic file (type png)
 
 <use immagini/jsp_compile.png>
 Package pdftex.def Info: immagini/jsp_compile.png used on input line 106.
 (pdftex.def)             Requested size: 355.65947pt x 171.93953pt.
 
-<immagini/jsp_comunications.png, id=464, 933.4875pt x 510.90875pt>
+<immagini/jsp_comunications.png, id=469, 933.4875pt x 510.90875pt>
 File: immagini/jsp_comunications.png Graphic file (type png)
 
 <use immagini/jsp_comunications.png>
@@ -2239,7 +2255,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
-<immagini/MVC_struts.png, id=471, 1126.2075pt x 633.36626pt>
+<immagini/MVC_struts.png, id=476, 1126.2075pt x 633.36626pt>
 File: immagini/MVC_struts.png Graphic file (type png)
 
 <use immagini/MVC_struts.png>
@@ -2270,7 +2286,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
-<immagini/JNDI.png, id=478, 1136.245pt x 532.99126pt>
+<immagini/JNDI.png, id=483, 1136.245pt x 532.99126pt>
 File: immagini/JNDI.png Graphic file (type png)
  <use immagini/JNDI.png>
 Package pdftex.def Info: immagini/JNDI.png used on input line 142.
@@ -2300,7 +2316,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
-<immagini/log_levels.png, id=485, 390.70969pt x 319.1925pt>
+<immagini/log_levels.png, id=490, 390.70969pt x 319.1925pt>
 File: immagini/log_levels.png Graphic file (type png)
 
 <use immagini/log_levels.png>
@@ -2321,7 +2337,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
-<immagini/itext.png, id=491, 783.92876pt x 512.91624pt>
+<immagini/itext.png, id=496, 783.92876pt x 512.91624pt>
 File: immagini/itext.png Graphic file (type png)
 
 <use immagini/itext.png>
@@ -2421,7 +2437,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
-<immagini/suddivisione_requisiti2.png, id=517, 1036.87375pt x 509.905pt>
+<immagini/suddivisione_requisiti2.png, id=522, 1036.87375pt x 509.905pt>
 File: immagini/suddivisione_requisiti2.png Graphic file (type png)
 
 <use immagini/suddivisione_requisiti2.png>
@@ -2436,7 +2452,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40 <./immagini/suddivisione_requisiti2.png>]
-<immagini/suddivisione_requisiti.png, id=523, 784.9325pt x 427.5975pt>
+<immagini/suddivisione_requisiti.png, id=528, 784.9325pt x 427.5975pt>
 File: immagini/suddivisione_requisiti.png Graphic file (type png)
 
 <use immagini/suddivisione_requisiti.png>
@@ -2478,7 +2494,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
  []
 
-<immagini/diagramma_MVC.png, id=529, 700.11563pt x 378.66469pt>
+<immagini/diagramma_MVC.png, id=534, 700.11563pt x 378.66469pt>
 File: immagini/diagramma_MVC.png Graphic file (type png)
 
 <use immagini/diagramma_MVC.png>
@@ -2495,7 +2511,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [42 <./immagini/diagramma_MVC.png>]
-<immagini/struts_config.png, id=536, 368.87813pt x 252.945pt>
+<immagini/struts_config.png, id=541, 368.87813pt x 252.945pt>
 File: immagini/struts_config.png Graphic file (type png)
 
 <use immagini/struts_config.png>
@@ -2523,7 +2539,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [43 <./immagini/struts_config.png>]
-<immagini/diagramma_stampe.png, id=543, 317.988pt x 187.902pt>
+<immagini/diagramma_stampe.png, id=548, 317.988pt x 187.902pt>
 File: immagini/diagramma_stampe.png Graphic file (type png)
 
 <use immagini/diagramma_stampe.png>
@@ -2551,7 +2567,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [44 <./immagini/diagramma_stampe.png>]
-<immagini/decorator_pattern.png, id=549, 450.9648pt x 227.6505pt>
+<immagini/decorator_pattern.png, id=554, 450.9648pt x 227.6505pt>
 File: immagini/decorator_pattern.png Graphic file (type png)
 
 <use immagini/decorator_pattern.png>
@@ -2580,7 +2596,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [45 <./immagini/decorator_pattern.png>]
-<immagini/codice_scriptlet.png, id=555, 387.69844pt x 98.61844pt>
+<immagini/codice_scriptlet.png, id=560, 387.69844pt x 98.61844pt>
 File: immagini/codice_scriptlet.png Graphic file (type png)
 
 <use immagini/codice_scriptlet.png>
@@ -2591,7 +2607,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 385--386
 
  []
 
-<immagini/display_tag.png, id=556, 444.15938pt x 125.71968pt>
+<immagini/display_tag.png, id=561, 444.15938pt x 125.71968pt>
 File: immagini/display_tag.png Graphic file (type png)
 
 <use immagini/display_tag.png>
@@ -2613,7 +2629,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 397--398
 
  []
 
-<immagini/codice_AJAX.png, id=561, 420.06938pt x 134.75343pt>
+<immagini/codice_AJAX.png, id=566, 420.06938pt x 134.75343pt>
 File: immagini/codice_AJAX.png Graphic file (type png)
 
 <use immagini/codice_AJAX.png>
@@ -2649,14 +2665,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 419--420
 
  []
 
-<immagini/warning_eclipse.png, id=566, 400.49625pt x 76.03406pt>
+<immagini/warning_eclipse.png, id=571, 400.49625pt x 76.03406pt>
 File: immagini/warning_eclipse.png Graphic file (type png)
 
 <use immagini/warning_eclipse.png>
 Package pdftex.def Info: immagini/warning_eclipse.png used on input line 423.
 (pdftex.def)             Requested size: 355.65947pt x 67.52621pt.
 
-<immagini/error_eclipse.png, id=567, 293.59688pt x 91.84312pt>
+<immagini/error_eclipse.png, id=572, 293.59688pt x 91.84312pt>
 File: immagini/error_eclipse.png Graphic file (type png)
 
 <use immagini/error_eclipse.png>
@@ -2687,7 +2703,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 450--451
 
  []
 
-<immagini/deliver_RTC.png, id=572, 488.82625pt x 245.91875pt>
+<immagini/deliver_RTC.png, id=577, 488.82625pt x 245.91875pt>
 File: immagini/deliver_RTC.png Graphic file (type png)
 
 <use immagini/deliver_RTC.png>
@@ -2703,7 +2719,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49] <immagini/build_RTC.png, id=580, 269.50688pt x 266.49562pt>
+[49] <immagini/build_RTC.png, id=585, 269.50688pt x 266.49562pt>
 File: immagini/build_RTC.png Graphic file (type png)
 
 <use immagini/build_RTC.png>
@@ -2877,10 +2893,10 @@ Package logreq Info: Writing requests to 'tesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26853 strings out of 493333
- 447865 string characters out of 3139183
- 1036525 words of memory out of 3000000
- 29424 multiletter control sequences out of 15000+200000
+ 26859 strings out of 493333
+ 448117 string characters out of 3139183
+ 1036503 words of memory out of 3000000
+ 29428 multiletter control sequences out of 15000+200000
  38108 words of font info for 156 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  61i,15n,122p,1920b,1487s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2906,9 +2922,9 @@ ts/type1/public/cm-super/sfti1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/cm-super/sfti1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm
 -super/sftt1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on tesi.pdf (77 pages, 2417650 bytes).
+Output written on tesi.pdf (77 pages, 2436505 bytes).
 PDF statistics:
- 891 PDF objects out of 1000 (max. 8388607)
- 196 named destinations out of 1000 (max. 500000)
- 36403 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 896 PDF objects out of 1000 (max. 8388607)
+ 197 named destinations out of 1000 (max. 500000)
+ 36408 words of extra memory for PDF output out of 42996 (max. 10000000)
 

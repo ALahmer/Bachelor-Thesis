@@ -8,72 +8,74 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Logo di Sopra Steria Group S.p.A. - Fonte: sito internet dell'azienda\relax }}{1}{figure.caption.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Suddivisione dell'azienda nei vari mercati\relax }}{4}{figure.caption.9}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Informazioni generali di Sopra Steria Group S.p.A. - Fonte: sito internet dell'azienda\relax }}{2}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Diagramma del modello di sviluppo incrementale\relax }}{5}{figure.caption.10}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Suddivisione dell'azienda nei vari mercati\relax }}{5}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Utilizzi della piattaforma Java nelle sue versioni - Fonte: RebelLabs\relax }}{8}{figure.caption.12}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Diagramma del modello di sviluppo incrementale\relax }}{6}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Architettura di un'applicazione web che adotta il framework Struts\relax }}{8}{figure.caption.14}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Utilizzi della piattaforma Java nelle sue versioni - Fonte: RebelLabs\relax }}{9}{figure.caption.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.6}{\ignorespaces La pagina iniziale di Face2Face - Fonte: portale interno dell'azienda\relax }}{10}{figure.caption.17}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Architettura di un'applicazione web che adotta il framework Struts\relax }}{9}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.7}{\ignorespaces I vantaggi dell'uso di Eclipse in collaborazione con RTC\relax }}{12}{figure.caption.21}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces La pagina iniziale di Face2Face - Fonte: portale interno dell'azienda\relax }}{11}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Le fasi principali del progetto di stage\relax }}{16}{figure.caption.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Architettura dei sistemi di comunicazione tra ELISE e l'ambiente CICS, implementata mediante Enterprise JavaBeans\textsubscript {\textit {G}}\ e le tecnologie CTG\textsubscript {\textit {G}}\ e JCA\textsubscript {\textit {G}}\ \relax }}{17}{figure.caption.24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Interfaccia dell'applicazione ELISE - Fonte: Ambiente di sviluppo dell'applicazione\relax }}{18}{figure.caption.25}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Suddivisione degli obiettivi dello stage\relax }}{24}{figure.caption.31}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces I vantaggi dell'uso di Eclipse in collaborazione con RTC\relax }}{13}{figure.caption.22}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Pianificazione delle attivit\IeC {\`a} di stage\relax }}{28}{figure.caption.32}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Le fasi principali del progetto di stage\relax }}{16}{figure.caption.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Architettura di un'applicazione sviluppata in Java EE\relax }}{30}{figure.caption.34}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Architettura dei sistemi di comunicazione tra ELISE e l'ambiente CICS, implementata mediante Enterprise JavaBeans\textsubscript {\textit {G}}\ e le tecnologie CTG\textsubscript {\textit {G}}\ e JCA\textsubscript {\textit {G}}\ \relax }}{17}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Un esempio di configurazione imposta tramite il file web.xml - Fonte: ambiente di sviluppo in Eclipse\relax }}{31}{figure.caption.35}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Interfaccia dell'applicazione ELISE - Fonte: Ambiente di sviluppo dell'applicazione\relax }}{18}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Flusso di compilazione di una JSP\relax }}{32}{figure.caption.37}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Suddivisione degli obiettivi dello stage\relax }}{24}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Rappresentazione della cominicazione client-server in ambito JSP\relax }}{32}{figure.caption.38}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Struttura di un'applicazione sviluppata mediante il design pattern imposto da Struts\relax }}{33}{figure.caption.40}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Pianificazione delle attivit\IeC {\`a} di stage\relax }}{28}{figure.caption.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Sistema di vocabolario generato dall'uso di JNDI\relax }}{34}{figure.caption.42}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Architettura di un'applicazione sviluppata in Java EE\relax }}{30}{figure.caption.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces I diversi livelli di log selezionabili con la libreria Log4J - Fonte: tutorial online sull'uso della libreria\relax }}{35}{figure.caption.44}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Un esempio di configurazione imposta tramite il file web.xml - Fonte: ambiente di sviluppo in Eclipse\relax }}{31}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Illustrazione del processo di creazione dei documenti PDF mediante la libreria iText\relax }}{36}{figure.caption.46}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Flusso di compilazione di una JSP\relax }}{32}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Suddivisione dei requisiti in base alla tipologia\relax }}{40}{figure.caption.51}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Rappresentazione della cominicazione client-server in ambito JSP\relax }}{32}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Suddivisione dei requisiti in base alla tipologia\relax }}{41}{figure.caption.52}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Struttura di un'applicazione sviluppata mediante il design pattern imposto da Struts\relax }}{33}{figure.caption.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Diagramma delle classi per l'implementazione del \textit {design pattern} architetturale MVC - Fonte: slides del corso di Ingegneria del Software mod. B\relax }}{42}{figure.caption.54}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sistema di vocabolario generato dall'uso di JNDI\relax }}{34}{figure.caption.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Esempio di configurazione delle componenti di Struts mediante file XML\relax }}{43}{figure.caption.55}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces I diversi livelli di log selezionabili con la libreria Log4J - Fonte: tutorial online sull'uso della libreria\relax }}{35}{figure.caption.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Diagramma delle classi semplificato della gerarchia per le stampe\relax }}{44}{figure.caption.57}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Illustrazione del processo di creazione dei documenti PDF mediante la libreria iText\relax }}{36}{figure.caption.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Diagramma delle classi del \textit {decorator pattern}\relax }}{45}{figure.caption.58}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Suddivisione dei requisiti in base alla tipologia\relax }}{40}{figure.caption.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Esempio di codice Java incluso in una pagina JSP mediante \textit {scriptlet}\relax }}{46}{figure.caption.59}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Suddivisione dei requisiti in base alla tipologia\relax }}{41}{figure.caption.53}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Esempio di codice JSP per la creazione di una tabella implementando il \textit {decorator pattern}\relax }}{46}{figure.caption.60}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Diagramma delle classi per l'implementazione del \textit {design pattern} architetturale MVC - Fonte: slides del corso di Ingegneria del Software mod. B\relax }}{42}{figure.caption.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Esempio di codice JavaScript per implementare la tecnica AJAX\relax }}{47}{figure.caption.61}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Esempio di configurazione delle componenti di Struts mediante file XML\relax }}{43}{figure.caption.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Interfaccia di Eclipse per la segnalazione di \textit {warning}\relax }}{48}{figure.caption.62}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Diagramma delle classi semplificato della gerarchia per le stampe\relax }}{44}{figure.caption.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Interfaccia di Eclipse per la segnalazione degli \textit {error}\relax }}{48}{figure.caption.63}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Diagramma delle classi del \textit {decorator pattern}\relax }}{45}{figure.caption.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Interfaccia per eseguire il rilascio delle attivit\IeC {\`a} mediante Eclipse e il sistema di versionamento RTC - Fonte: il sito internet di IBM\relax }}{50}{figure.caption.66}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Esempio di codice Java incluso in una pagina JSP mediante \textit {scriptlet}\relax }}{46}{figure.caption.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Interfaccia per eseguire la compilazione del software in un determinato ambiente mediante Eclipse e il sistema di versionamento RTC - Fonte: il sito di RTC jazz.net\relax }}{50}{figure.caption.67}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Esempio di codice JSP per la creazione di una tabella implementando il \textit {decorator pattern}\relax }}{46}{figure.caption.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Esempio di codice JavaScript per implementare la tecnica AJAX\relax }}{47}{figure.caption.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Interfaccia di Eclipse per la segnalazione di \textit {warning}\relax }}{48}{figure.caption.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Interfaccia di Eclipse per la segnalazione degli \textit {error}\relax }}{48}{figure.caption.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Interfaccia per eseguire il rilascio delle attivit\IeC {\`a} mediante Eclipse e il sistema di versionamento RTC - Fonte: il sito internet di IBM\relax }}{50}{figure.caption.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Interfaccia per eseguire la compilazione del software in un determinato ambiente mediante Eclipse e il sistema di versionamento RTC - Fonte: il sito di RTC jazz.net\relax }}{50}{figure.caption.68}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
