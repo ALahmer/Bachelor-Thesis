@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>tesi.bcf</file>
+      <file>Lahmer_Abdelilah_tesi.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>tesi.bbl</file>
+      <file>Lahmer_Abdelilah_tesi.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -66,19 +66,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>tesi</infile>
+      <infile>Lahmer_Abdelilah_tesi</infile>
     </cmdline>
     <input>
-      <file>tesi.bcf</file>
+      <file>Lahmer_Abdelilah_tesi.bcf</file>
     </input>
     <output>
-      <file>tesi.bbl</file>
+      <file>Lahmer_Abdelilah_tesi.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>tesi.bbl</file>
+      <file>Lahmer_Abdelilah_tesi.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>tesi.bcf</file>
+      <file>Lahmer_Abdelilah_tesi.bcf</file>
     </requires>
     <requires type="editable">
       <file>bibliografia.bib</file>
