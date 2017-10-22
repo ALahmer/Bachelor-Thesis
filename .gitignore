@@ -1,17 +1,1 @@
-*.aux
-*.bbl
-*.bcf
-*.blg
-*.dvi
-*.glg
-*.glo
-*.gls
-*.ist
-*.lof
-*.log
-*.lot
-*.ps
-*.xml
-*.gz
-*.toc
-*.tpc
+*.aux *.bbl *.bcf *.blg *.dvi *.glg *.glo *.gls *.ist *.lof *.log *.lot *.ps *.xml *.gz *.toc *.tpc
