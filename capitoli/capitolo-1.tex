@@ -94,24 +94,7 @@ Più nello specifico sono stato affiancato dal mio collega Stefano Gori e dal mi
 		\item Manutenzione dei contenuti proposti al cliente in un'ottica a lungo termine;
 		\item Formazione del personale utilizzatore del prodotto, in particolare in seguito al rilascio di nuove funzionalità;
 		\item Assistenza degli istituti bancari in caso si verifichi qualsiasi tipo di problema inerente al prodotto fornito.
-	\end{itemize}
-\newpage
-	\subsection{Principali clienti e progetti}
-	
-	Visto il successo conquistato con il passare degli anni Sopra Steria Group si è sempre fatta strada tra i brand più importanti in vari settori, tra i quali i seguenti, classificati per aree di mercato.
-	\begin{figure}[H]
-	\centering
-   	\includegraphics[width=1\textwidth]{immagini/principali_referenze}
-   	\caption{Principali clienti di Sopra Steria Group S.p.A. - Fonte: documento interno aziendale}
-	\end{figure}
-\newpage
-	I progetti di maggior impatto, invece, per cui Sopra Steria è riuscita ad ottenere il privilegio di approvvigionamento e conseguente implementazione sono stati molteplici, tra questi citiamo i seguenti.
-	\begin{figure}[H]
-	\centering
-   	\includegraphics[width=1\textwidth]{immagini/Progetti_Importanti}
-   	\caption{Principali progetti di Sopra Steria Group S.p.A. - Fonte: documento interno aziendale}
-	\end{figure}
-	 
+	\end{itemize}	 
 
 %**************************************************************
 \section{Processi aziendali}
@@ -148,14 +131,15 @@ Più nello specifico sono stato affiancato dal mio collega Stefano Gori e dal mi
 %	\newpage
 	\subsection{Modello Incrementale}
 	
-	Il ciclo di sviluppo software adottato da Sopra Steria nella divisione dei Servizi Finanziari è un'implementazione del modello incrementale, questa scelta è dovuta al fatto che l'azienda tratta per la maggior parte progetti già avviati, che richiedono aggiunte sulla base delle funzionalità essenziali già sviluppate. \\
+	Il ciclo di sviluppo software adottato da Sopra Steria nella divisione "793 - Servizi Finanziari e Assicurazioni" dove sono stato inserito è un'implementazione del modello incrementale, questa scelta è dovuta al fatto che l'azienda tratta per la maggior parte dei casi progetti di grandi dimensioni, il più delle volte progetti già avviati, che richiedono aggiunte sulla base delle funzionalità essenziali già sviluppate. Questo modello si caratterizza inoltre per la capacità di adattamento a molteplici tipologie di problemi.\\
 	
 	I punti di forza del procedimento incrementale sono i seguenti:
 	\begin{itemize}
 		\item L'integrazione delle parti del sistema è distribuita nel tempo e non collassata nelle fasi finali;
+		\item La suddivisione in sottoinsiemi della realizzazione del problema comporta una migliore conoscenza di esso e una sua gestione più semplificata;
 		\item Ogni incremento porta valore aggiunto, con lo sviluppo di nuove funzionalità e il soddisfacimento di alcuni requisiti;
 		\item Ad ogni incremento si guadagnano esperienza e affidabilità, riducendo i rischi di fallimento;
-		\item Le funzionalità essenziali sono sviluppate nei primi incrementi e attraversano più fasi di verifica, diventano quindi più stabili con ciascuna iterazione;
+		\item Le funzionalità essenziali sono sviluppate nei primi incrementi e attraversano più fasi di verifica, diventano quindi più stabili con ciascuna iterazione; questo sistema di \textit{rilasci multipli e successivi} permette anche al proponente di seguire in maniera attiva la prosecuzione del progetto avendo un'idea concreta del prodotto in corso di sviluppo.
 	\end{itemize}
 	
 	Questo modello si presta bene alle necessità dell'azienda perché i clienti richiedono che vengano effettuati lavori di manutenzione e amplificazione definibili in attività distinte, assimilabili facilmente tramite un ciclo di sviluppo ad incrementi. In figura vengono rappresentate le fasi del modello.\\
@@ -163,17 +147,15 @@ Più nello specifico sono stato affiancato dal mio collega Stefano Gori e dal mi
 	\begin{figure}[H]
 		\centering
 	   	\includegraphics[width=1\textwidth]{immagini/modello_incrementale}
-	   	\caption{Diagramma del modello di sviluppo incrementale}
+	   	\caption{Modello di sviluppo incrementale}
 	\end{figure}
-	\newpage
+	%\newpage
 	
 	Il modello incrementale è un ciclo di sviluppo definito dallo standard ISO 12207 che combina la logica del modello a cascata, dove ogni fase è rigidamente sequenziale, e la filosofia iterativa della prototipazione.\\
 	
 	È prevista una prima fase di analisi dei requisiti fondamentali e di progettazione architetturale intesa a stabilire le fondamenta del software. Tale fase è essenziale per definire i successivi incrementi e non si ripete.\\
 	
-	Le fasi successive di realizzazione incrementale vera e propria, possono ripetersi più volte e mirano ad attività di progettazione di dettaglio,
-	codifica e prove, in cui vengono trattati prima i requisiti essenziali e poi quelli desiderabili. Le implementazioni subiscono i trattamenti di 
-	integrazione e collaudo, successivamente avviene un eventuale rilascio.\\
+	Le fasi successive di realizzazione incrementale vera e propria, possono ripetersi più volte e mirano ad attività di progettazione di dettaglio, codifica e test, in cui vengono trattati prima i requisiti obbligatori, poi quelli facoltativi passando per i desiderabili. Le implementazioni subiscono i trattamenti di integrazione e collaudo, successivamente avviene un eventuale rilascio.\\
 
 	È prevista la prototipazione delle nuove funzionalità che si vanno ad implementare per la validazione complessiva del sistema, reiterando 
 	alle fasi di progettazione e realizzazione in caso di errori o problematiche. In questo modo è possibile di volta in volta acquisire maggiore competenza riguardo al problema, riducendo i rischi successivi e le tempistiche globali di produzione software.
@@ -182,14 +164,19 @@ Più nello specifico sono stato affiancato dal mio collega Stefano Gori e dal mi
 	
 	Ogni ciclo di incremento inizia con la raccolta e l'analisi dei requisiti presso il cliente, che espone le sue necessità tramite riunioni oppure mediante opportuna documentazione.\\
 	
-	Gli analisti a questo punto si occupano di raggruppare i requisiti in macro attività, calcolare le tempistiche necessarie per il loro completamento e stilare i documenti di analisi funzionale e specifica tecnica per ognuna di esse, dov'è compresa la progettazione di dettaglio. Tale documentazione risulta necessaria ai vari team di sviluppo per la comprensione e l'applicazione delle implementazioni richieste.\\
+	Questo procedimento di raccolta dei requisiti e stesura dei documenti di analisi avviene generalmente dalle figure di \textit{Analisti Funzionali}. Questi si occupano di raggruppare i requisiti in macro attività, calcolare le tempistiche necessarie per il loro completamento e stilare i documenti di \textit{Analisi Funzionale}. Dopo la stesura di tale documento, questo viene esposto al proponente al fine di approvazione. In caso il cliente ritenga che questo documento non sia adatto alle richieste o che ci siano delle mancanze viene notificato e gli analisti provvedono alle dovute correzioni. Questo procedimento di correzione della documentazione e attesa di approvazione può ripetersi sino alla giunta dell'accettazione da parte del proponente.\\
+	
+	Una volta approvato il documento entra in gioco la figura del \textit{Commerciale} che presenta ai clienti un preventivo per l'implementazione delle funzionalità richieste.\\ %Pure questo preventivo passa all'approvazione del proponente e solo
+	
+	Una volta ottenuta l'accettazione dell'offerta commerciale si da il via alla stesura dei documenti di \textit{Analisi Tecnica} in cui si evince la progettazione di dettaglio. Tale documentazione risulta necessaria ai vari team di sviluppo per la comprensione e l'applicazione delle implementazioni richieste.\\
 	
 	Gli analisti rimangono a disposizione degli sviluppatori anche nelle fasi successive per eventuali chiarimenti e specificazioni, in modo da non rallentare o interrompere le fasi successive. I documenti vengono inviati ai team competenti a cui sono state attribuite le macro attività e da quel momento inizia la realizzazione. Tali gruppi di lavoro possono risultare distribuiti nelle varie sedi del territorio italiano, perciò sono previste molte comunicazioni telefoniche o tramite posta elettronica e occasionali trasferte; al fine di allineare le procedure di sviluppo o rendere noto quando è possibile procedere con determinate modifiche. \\
 	
-	L'evoluzione degli incrementi software attraversa ambienti distinti in base alle mansioni svolte su di essi. Esistono in particolare i seguenti ambienti:
+	L'evoluzione degli incrementi software attraversa ambienti distinti.% in base alle mansioni svolte su di essi. 
+	Esistono in particolare i seguenti ambienti:
 	\begin{itemize}
 		\item \textbf{Sviluppo}: ambiente di programmazione locale, qui avviene l'implementazione delle modifiche software;
-		\item \textbf{Integrazione}: in questo ambiente vengono raccolte le implementazioni delle attività e si verifica che non generino conflitti, garantendo la stabilità del sistema;
+		\item \textbf{Integrazione}: in questo ambiente vengono raccolte le implementazioni delle attività e si verifica che non generino conflitti, mediante test di non regressione\footnote{Con test di \textbf{non regressione} si intendono i test tali per cui si prova che, in eseguito alla modifica di una parte P del sistema S, la modifica di P non abbia introdotto errori né in P né nelle altre parti di S che hanno relazione con P.}, garantendo la stabilità del sistema;
 		\item \textbf{Collaudo}: ambiente di validazione delle funzionalità complessive del software, utilizzato anche per dimostrare al cliente la loro consistenza;
 		\item \textbf{Produzione}: questo ambiente varia per ogni cliente o applicazione sviluppata e rappresenta lo stato finale del prodotto in cui viene effettivamente utilizzato dal cliente.
 	\end{itemize}	
@@ -296,6 +283,23 @@ Più nello specifico sono stato affiancato dal mio collega Stefano Gori e dal mi
 	I target di Sopra Steria, per quanto riguarda la divisione dei Servizi Finanziari e Assicurazioni, sono principalmente gruppi bancari e assicurativi. Essi necessitano una qualche forma di innovazione o evoluzione che le garantisca continuità di produzione ma anche i corretti adeguamenti previsti dai cambiamenti legislativi.\\
 	
 	 Per permettere questo, gli analisti si incaricano di entrare in contatto con i responsabili ICT\glossario\ della società cliente, dai quali poi si ricavano diverse richieste implementative; dalla variazione di	qualche caratteristica alla creazione di funzionalità completamente nuove interne o meno all'applicativo che essi adottano. 
+
+	\subsection{Principali clienti e progetti}
+	
+	Visto il successo conquistato con il passare degli anni Sopra Steria Group si è sempre fatta strada tra i brand più importanti in vari settori, tra i quali i seguenti, classificati per aree di mercato.
+	\begin{figure}[H]
+	\centering
+   	\includegraphics[width=1\textwidth]{immagini/principali_referenze}
+   	\caption{Principali clienti di Sopra Steria Group S.p.A. - Fonte: documento interno aziendale}
+	\end{figure}
+\newpage
+	I progetti di maggior impatto, invece, per cui Sopra Steria è riuscita ad ottenere il privilegio di approvvigionamento e conseguente implementazione sono stati molteplici, tra questi citiamo i seguenti.
+	\begin{figure}[H]
+	\centering
+   	\includegraphics[width=1\textwidth]{immagini/Progetti_Importanti}
+   	\caption{Principali progetti di Sopra Steria Group S.p.A. - Fonte: documento interno aziendale}
+	\end{figure}
+
 	
 	\subsection{Innovazione}
 	
