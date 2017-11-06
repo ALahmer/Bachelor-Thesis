@@ -1,0 +1,12 @@
+1 DB2					->	chiedere che tipo di DB ha l'azienda
+						{
+						Edizioni
+							DB2 Express: è il livello base di RDBMS, l'ideale per il piccolo medio mercato d'affari.
+							DB2 Express-C: è la versione gratuita dell'IBM, l'ideale per piccole aziende, compagnie multi-branch, sviluppatori e partner di affari.
+							DB2 Workgroup Server Edition: è il software ideale per le piccole e medie aziende.
+							DB2 Enterprise Server Edition: comprende moltissime librerie capaci di gestire i carichi di lavoro più esigenti.
+						}
+			
+Errori in ambiente HOST	-> chiedere che tipo di strumento si utilizza per l'analisi statica e dinamica.
+
+fare screenshot DBEAVER, QuickSecure, Endevor, Face2Face schermata applicativi disponibili.
