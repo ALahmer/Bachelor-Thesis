@@ -10,3 +10,7 @@
 Errori in ambiente HOST	-> chiedere che tipo di strumento si utilizza per l'analisi statica e dinamica.
 
 fare screenshot DBEAVER, QuickSecure, Endevor, Face2Face schermata applicativi disponibili.
+
+versione di HTML utilizzata
+
+versione di CSS utilizzata

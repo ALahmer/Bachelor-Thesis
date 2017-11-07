@@ -26,19 +26,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Linguaggi}{11}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Framework}{11}{section*.17}
+\contentsline {subsubsection}{Linguaggi lato Web}{11}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Database e applicazioni host}{12}{section*.19}
+\contentsline {subsubsection}{Linguaggi lato Host}{11}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Gestione di progetto}{12}{section*.20}
+\contentsline {subsubsection}{Framework}{12}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Documentazione}{13}{section*.22}
+\contentsline {subsubsection}{Database e applicazioni host}{12}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sistemi di versionamento}{14}{section*.23}
+\contentsline {subsubsection}{Gestione di progetto}{13}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Ambienti di sviluppo}{14}{section*.24}
+\contentsline {subsubsection}{Documentazione}{14}{section*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sistemi operativi}{15}{section*.26}
+\contentsline {subsubsection}{Sistemi di versionamento}{14}{section*.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Ambienti di sviluppo}{14}{section*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Sistemi operativi}{15}{section*.28}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Clientela e trasformazione digitale}{15}{section.1.4}
 \defcounter {refsection}{0}\relax 
