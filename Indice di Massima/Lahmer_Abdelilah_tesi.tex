@@ -1,0 +1,156 @@
+% I seguenti commenti speciali impostano:
+% 1. 
+% 2. PDFLaTeX come motore di composizione;
+% 3. tesi.tex come documento principale;
+% 4. il controllo ortografico italiano per l'editor.
+
+% !TEX encoding = UTF-8
+% !TEX TS-program = pdflatex
+% !TEX root = Lahmer_Abdelilah_tesi.tex
+% !TEX spellcheck = it-IT
+
+\documentclass[11pt,                    % corpo del font principale
+               a4paper,                 % carta A4
+               twoside,                 % impagina per fronte-retro
+               openright,               % inizio capitoli a destra
+               english,                 
+               italian,                 
+               ]{book}    
+
+\usepackage[utf8]{inputenc}             % codifica di input; anche [latin1] va bene
+                                        % NOTA BENE! va accordata con le preferenze dell'editor
+
+%**************************************************************
+% Importazione package
+%************************************************************** 
+
+%\usepackage{amsmath,amssymb,amsthm}    % matematica
+
+\usepackage[english, italian]{babel}    % per scrivere in italiano e in inglese;
+                                        % l'ultima lingua (l'italiano) risulta predefinita
+
+\usepackage{bookmark}                   % segnalibri
+
+\usepackage{caption}                    % didascalie
+
+\usepackage{chngpage,calc}              % centra il frontespizio
+
+\usepackage{csquotes}                   % gestisce automaticamente i caratteri (")
+
+\usepackage{emptypage}                  % pagine vuote senza testatina e piede di pagina
+
+\usepackage{epigraph}					% per epigrafi
+
+\usepackage{eurosym}                    % simbolo dell'euro
+
+\usepackage[T1]{fontenc}                % codifica dei font:
+                                        % NOTA BENE! richiede una distribuzione *completa* di LaTeX
+
+%\usepackage{indentfirst}               % rientra il primo paragrafo di ogni sezione
+
+\usepackage{graphicx}                   % immagini
+
+\usepackage{float} 						% per il floated delle immagini
+
+\usepackage{hyperref}                   % collegamenti ipertestuali
+
+\usepackage[binding=5mm]{layaureo}      % margini ottimizzati per l'A4; rilegatura di 5 mm
+
+\usepackage{listings}                   % codici
+
+\usepackage{microtype}                  % microtipografia
+
+\usepackage{mparhack,fixltx2e,relsize}  % finezze tipografiche
+
+\usepackage{nameref}                    % visualizza nome dei riferimenti                                      
+
+\usepackage[font=small]{quoting}        % citazioni
+
+%\usepackage{subfig}                     % sottofigure, sottotabelle
+
+\usepackage{subfigure}                     % sottofigure, sottotabelle
+
+\usepackage{floatflt}
+
+\usepackage[italian]{varioref}          % riferimenti completi della pagina
+
+\usepackage[dvipsnames, table]{xcolor}         % colori
+
+\usepackage{booktabs}                   % tabelle                                       
+\usepackage{tabularx}                   % tabelle di larghezza prefissata                                    
+\usepackage{longtable}                  % tabelle su più pagine                                        
+\usepackage{ltxtable}                   % tabelle su più pagine e adattabili in larghezza
+
+\usepackage[toc,section=chapter,numberedsection=autolabel,nonumberlist]{glossaries}   			% glossario
+                                        % per includerlo nel documento bisogna:
+                                        % 1. compilare una prima volta tesi.tex;
+                                        % 2. eseguire: makeindex -s tesi.ist -t tesi.glg -o tesi.gls tesi.glo
+                                        % 3. eseguire: makeindex -s tesi.ist -t tesi.alg -o tesi.acr tesi.acn
+                                        % 4. compilare due volte tesi.tex.
+
+\usepackage[backend=biber,style=verbose-ibid,hyperref,backref]{biblatex}
+                                        % eccellente pacchetto per la bibliografia; 
+                                        % produce uno stile di citazione autore-anno; 
+                                        % lo stile "numeric-comp" produce riferimenti numerici
+                                        % per includerlo nel documento bisogna:
+                                        % 1. compilare una prima volta tesi.tex;
+                                        % 2. eseguire: biber tesi
+                                        % 3. compilare ancora tesi.tex.
+                                        
+\usepackage[Lenny]{fncychap}            % intestazione capitoli
+
+\usepackage{fancyhdr}					% modifica header e footer
+
+\usepackage{geometry}
+										% modifica i bordi della pagina
+
+\input{tesi-config}                     % file con le impostazioni personali
+
+\begin{document}
+
+%**************************************************************
+% Materiale iniziale
+%**************************************************************
+
+\frontmatter
+\pagenumbering{Roman}
+\input{inizio-fine/frontespizio}
+%\input{inizio-fine/colophon}
+%\input{inizio-fine/dedica}
+%\input{inizio-fine/sommario}
+%\input{inizio-fine/ringraziamenti}
+\input{inizio-fine/indici}
+%\input{inizio-fine/convenzioni-tipografiche}
+\cleardoublepage
+
+%**************************************************************
+% Materiale principale
+%**************************************************************
+\mainmatter
+\input{capitoli/capitolo-1}             % L'Azienda
+%\input{capitoli/capitolo-2}             % Lo Stage
+%\input{capitoli/capitolo-3}             % Il Progetto
+%\input{capitoli/capitolo-4}             % La Valutazione
+
+%**************************************************************
+% Materiale finale
+%**************************************************************
+\appendix 
+%aggiunto per fix glossario                              
+%\glsaddall
+%\printglossaries
+\backmatter
+%\input{inizio-fine/ringraziamenti}
+\end{document}
+
+$
+The book class has some advantages over the report class since it defines three
+commands (\frontmatter, \mainmatter, and \backmatter) that control the page
+number and chapter numbering formats. In the frontmatter, pages are numbered
+with lower case Roman numbers (i, ii, iii, etc.) and the chapters are not numbered
+(as if the asterisk version /chapter*{} was used). In the mainmatter, pages are
+numbered with Arabic numbers (the numbers start from 1) and the chapters
+are numbered with Arabic numbers as well. In the backmatter, the pages are
+numbered as in the mainmatter (numbering continues) but the chapters are not
+numbered.
+$
