@@ -18,38 +18,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.1}Organizzazione interna}{4}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Modello Incrementale}{6}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.2}Ciclo di sviluppo}{6}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Il modello incrementale in Sopra Steria}{8}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}Tecnologie e strumenti a supporto di processi e servizi}{9}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}Strumenti a supporto di processi e servizi}{9}{subsection.1.3.4}
+\contentsline {subsubsection}{\numberline {1.3.3.1}Linguaggi}{11}{subsubsection.1.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Linguaggi}{11}{section*.15}
+\contentsline {subsubsection}{\numberline {1.3.3.2}Linguaggi lato Host}{11}{subsubsection.1.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Linguaggi lato Web}{11}{section*.16}
+\contentsline {subsubsection}{\numberline {1.3.3.3}Linguaggi lato Web}{11}{subsubsection.1.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Linguaggi lato Host}{12}{section*.18}
+\contentsline {subsubsection}{\numberline {1.3.3.4}Database}{12}{subsubsection.1.3.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Framework}{12}{section*.19}
+\contentsline {subsubsection}{\numberline {1.3.3.5}Ambienti di sviluppo ed emulatori}{12}{subsubsection.1.3.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Database e applicazioni host}{12}{section*.21}
+\contentsline {subsubsection}{\numberline {1.3.3.6}Gestione di progetto}{13}{subsubsection.1.3.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Gestione di progetto}{13}{section*.22}
+\contentsline {subsubsection}{\numberline {1.3.3.7}Documentazione}{14}{subsubsection.1.3.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Documentazione}{14}{section*.24}
+\contentsline {subsubsection}{\numberline {1.3.3.8}Sistemi di versionamento}{15}{subsubsection.1.3.3.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sistemi di versionamento}{14}{section*.25}
+\contentsline {subsubsection}{\numberline {1.3.3.9}Sistemi operativi}{15}{subsubsection.1.3.3.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Ambienti di sviluppo}{15}{section*.26}
+\contentsline {section}{\numberline {1.4}Clientela ed innovazione}{15}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sistemi operativi}{15}{section*.28}
+\contentsline {subsection}{\numberline {1.4.1}Clientela target}{15}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Clientela e trasformazione digitale}{15}{section.1.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Target}{15}{subsection.1.4.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Principali clienti e progetti}{16}{subsection.1.4.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}Innovazione}{18}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.2}Innovazione}{18}{subsection.1.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Glossario}{21}{chapter.1}

@@ -104,6 +104,11 @@
 \usepackage{geometry}
 										% modifica i bordi della pagina
 
+%imposta livelli di dettaglio indice
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+
 \input{tesi-config}                     % file con le impostazioni personali
 
 \begin{document}
@@ -116,9 +121,9 @@
 \pagenumbering{Roman}
 \input{inizio-fine/frontespizio}
 \input{inizio-fine/colophon}
-\input{inizio-fine/dedica}
+%\input{inizio-fine/dedica}
 \input{inizio-fine/sommario}
-\input{inizio-fine/ringraziamenti}
+%\input{inizio-fine/ringraziamenti}
 \input{inizio-fine/indici}
 \input{inizio-fine/convenzioni-tipografiche}
 \cleardoublepage

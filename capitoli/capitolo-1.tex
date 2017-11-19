@@ -129,7 +129,9 @@ Più nello specifico sono stato affiancato dal mio collega Stefano Gori e dal mi
 	
 %	Sopra Steria si fa carico inoltre delle responsabilità d'impresa negli ambiti di uno sviluppo sostenibile, cura dell'ambiente, diritti umani e del lavoro e nel favorire le uguali opportunità. La pubblicazione del rapporto di tali attività fa parte di un processo di trasparenza, correttezza e dialogo con gli \textit{stakeholder}: collaboratori, clienti, azionisti, fornitori, partner e attori della società civile.
 %	\newpage
-	\subsection{Modello Incrementale}
+
+	%\subsection{Modello Incrementale}
+	\subsection{Ciclo di sviluppo}
 	
 	Il ciclo di sviluppo software adottato da Sopra Steria nella divisione "793 - Servizi Finanziari e Assicurazioni" dove sono stato inserito è un'implementazione del modello incrementale, questa scelta è dovuta al fatto che l'azienda tratta per la maggior parte dei casi progetti di grandi dimensioni, il più delle volte progetti già avviati, che richiedono aggiunte sulla base delle funzionalità essenziali già sviluppate. Questo modello si caratterizza inoltre per la capacità di adattamento a molteplici tipologie di problemi.\\
 	
@@ -160,7 +162,7 @@ Più nello specifico sono stato affiancato dal mio collega Stefano Gori e dal mi
 	È prevista la prototipazione delle nuove funzionalità che si vanno ad implementare per la validazione complessiva del sistema, reiterando 
 	alle fasi di progettazione e realizzazione in caso di errori o problematiche. In questo modo è possibile di volta in volta acquisire maggiore competenza riguardo al problema, riducendo i rischi successivi e le tempistiche globali di produzione software.
 	
-	\subsection{Il modello incrementale in Sopra Steria}
+	%\subsection{Il modello incrementale in Sopra Steria}
 	
 	Ogni ciclo di incremento inizia con la raccolta e l'analisi dei requisiti presso il cliente, che espone le sue necessità tramite riunioni oppure mediante opportuna documentazione.\\
 	
@@ -183,7 +185,8 @@ Più nello specifico sono stato affiancato dal mio collega Stefano Gori e dal mi
 	
 	È responsabilità del programmatore che prende in carico lo sviluppo delle funzionalità dichiarare il loro completamento, almeno a livello di prototipo, per rilasciarlo in integrazione. Determinati team si occupano poi di testare l'applicazione nelle sue nuove funzioni, accertando il soddisfacimento dei requisiti ed eventualmente contattando gli analisti per eventuali modifiche progettuali. In caso di problematiche le modifiche vengono respinte in ambito di sviluppo altrimenti vengono approvate per il collaudo. In collaudo è possibile utilizzare le funzioni sviluppate da altri team e validare il lavoro svolto per presentarlo poi al cliente, rilasciando in produzione la nuova versione del software.
 	
-	\subsection{Strumenti a supporto di processi e servizi}
+	%\subsection{Strumenti a supporto di processi e servizi}
+	\subsection{Tecnologie e strumenti a supporto di processi e servizi}
 
 	Nel corso dello stage sono stati utilizzati numerosi strumenti di supporto per facilitare lo svolgimento delle diverse attività, dai tool di gestione delle basi di dati all'analisi del codice scritto passando per la gestione di progetto. Al fine di fornire ai suoi collaboratori tutti gli strumenti utili a rendere al meglio Sopra Steria Group fornisce un portale da cui chiunque può scaricare o richiedere uno strumento, debitamente giustificato; tutto ciò affinchè persista un alto livello di soddisfacimento e di motivazione dei dipendenti, che come abbiamo detto parlando di organizzazione interna è un punto sul quale l'azienda conta molto. Il portale porta il nome di IT CORP che abbinato al portale principale aziendale denominato Face2Face e il servizio sottostante di IT Request permettono di ottenere in qualsiasi momento applicativi o qualsivoglia strumento necessario nell'ambiente lavorativo.
 
@@ -201,6 +204,14 @@ Più nello specifico sono stato affiancato dal mio collega Stefano Gori e dal mi
 	
 	I linguaggi di programmazione utilizzati dagli sviluppatori facenti parte della divisione dove sono stato inserito sono molteplici, elencherò quindi solo le tecnologie utilizzate all'interno del progetto su cui lavora il team di cui ho fatto parte durante lo stage.
 		
+	\subsubsection{Linguaggi lato Host}
+	%COBOL è troppo bello \tab wo.\\
+	Durante il periodo di stage gran parte delle attività di formazione si sono concentrate sui linguaggi da usare lato Host, ovvero i linguaggi COBOL e JCL.
+	
+	Il linguaggio COBOL è un linguaggio che risale agli ultimi anni '50 ed è un acronimo che sta per \textbf{CO}mmon \textbf{B}usiness-\textbf{O}riented \textbf{L}anguage. Come si capisce dal nome esteso questo linguaggio è prettamente orientato al business, la traduezione del nome esteso è infatti "\textit{linguaggio comune orientato alle applicazioni commerciali}".\\
+
+	Il linguaggio JCL è un linguaggio che anch'esso risale alla seconda metà del XX secolo ed è un acronimo che sta per \textbf{J}ob \textbf{C}ontrol \textbf{L}anguage. Il JCL è un linguaggio di \textit{scripting} generalmente utilizzato nei sistemi operativi IBM per eseguire (in gergo lanciare) una procedura batch su un sistema generalmente mainframe.
+
 	\subsubsection{Linguaggi lato Web}
 
 	Dovendo sviluppare anche l'applicativo web gli sviluppatori web su questo
@@ -239,22 +250,8 @@ fronte hanno scelto di adottare la piattaforma Java per il web (Java EE) e ovvia
 	La versione di HTML utilizzata invece è la HTML5, che è l'ultima \textit{release} di HTML, risponde alle esigenze moderne ed alle aspettative dei siti web. Una delle caratteristiche principali di questa ultima edizione è il concetto di markup semantico, ovvero la capacità di fornire informazioni sul contenuto che descrive un dato tag. Oltre a questa particolarità, un'altra qualità che spicca è la capicità di adattarsi perfettamente, ovvero ad avere il medesimo comportamento sia su desktop che su mobile. Per tutti questi aspetti HTML5 è diventando un nuovo standard per gli sviluppatori web, tant'è che è diventato \textit{W3C Recommendation} dall'ottobre 2014.\\
 
 	Per quanto riguarda il comportamento delle pagine web invece si è optato per l'uso della versione CSS3 per la gestione della formattazione delle pagine e di JavaScript per le validazioni e controlli \textit{client-side}.
-	
-	\subsubsection{Linguaggi lato Host}
-	COBOL è troppo bello \tab wo.\\
-
-	\subsubsection{Framework}
-	Per definire la spina dorsale delle applicazioni web, invece, l'azienda utilizza diversi framework tra cui Struts, Maven e Hibernate. Apache Struts è un framework \textit{open source}, usato nel progetto di stage, per lo sviluppo di applicazioni web su piattaforma Java EE, gestisce le richieste client e smista il flusso applicativo in base alla logica configurata mediante file XML, dove vengono definite le associazioni tra i vari elementi che compongono il sistema, sotto forma di \textit{action}.\\
-	
-	\begin{figure}[H]
-		\centering
-	   	\includegraphics[width=1\textwidth]{immagini/architettura_struts}
-	   	\caption{Architettura di un'applicazione web che adotta il framework Struts}
-	\end{figure}	
-	
-	L'utilizzo di Struts permette lo sviluppo di applicazioni web di notevoli dimensioni, inoltre agevola la suddivisione dello sviluppo del progetto fra i vari dipendenti. I programmatori web e i vari gruppi di sviluppatori possono quindi gestire in parallelo e autonomamente la loro parte del progetto.
-	
-	\subsubsection{Database e applicazioni host}
+		
+	\subsubsection{Database}
 	Il salvataggio dei dati per le applicazioni in ambito bancario e assicurativo avviene solitamente tramite DBMS\glossario\ relazionali come DB2 dell'IBM, Microsoft SQL Server e MySQL di Oracle. DB2 è nato nel 1983 ma tutt'oggi è uno tra i DBMS più usati, specie in questo settore. In origine era nato come DBMS per i mainframe CICS\glossario\, poi si è diffuso su qualsiasi tipo di server. Per questo banche e assicurazioni, enti che esistono da molto prima, inizialmente hanno adottato questa tecnologia mediante sistemi EIS\glossario\ implementati in linguaggio COBOL\glossario\ che tutt'oggi gli forniscono le funzionalità necessarie senza il bisogno di adottare tecnologie più recenti e sviluppate secondo le esigenze dei moderni paradigmi di programmazione.\\
 	
 	%Esso supporta il modello relazionale, ma negli ultimi anni è stato esteso il supporto a funzionalità ad oggetti e non relazionali come JSON e XML.\\
@@ -262,6 +259,20 @@ fronte hanno scelto di adottare la piattaforma Java per il web (Java EE) e ovvia
 	Microsoft SQL Server e MySQL di Oracle sono utilizzati come soluzioni secondarie per la gestione di dati in sola lettura di natura statica.
 	%MySQL è un DBMS open source nato nel 1995 che mette a disposizione delle interfacce grafiche.
 		
+	\subsubsection{Ambienti di sviluppo ed emulatori}
+	Gli Ambienti di sviluppo ed emulatori sono troppo belli \tab wo.\\
+	Il principale ambiente di sviluppo adottato per le applicazioni web è Eclipse. Esso racchiude la globalità delle caratteristiche necessarie ad uno sviluppatore in questo ambito.\\	
+	
+	Rappresenta un'ottima soluzione e agevolazione per il processo di sviluppo, in quanto offre funzionalità di collegamento ai sistemi di versionamento, \textit{debugging} del codice \textit{runtime} e avvio del software mediante gli \textit{application server} che si desidera installare, oltre alle molteplici caratteristiche offerte dai comuni editor di testo orientati allo sviluppo dei sorgenti software.
+	
+	\begin{figure}[H]
+		\centering
+	   	\includegraphics[width=1\textwidth]{immagini/ambienti_sviluppo}
+	   	\caption{I vantaggi dell'uso di Eclipse in collaborazione con RTC}
+	\end{figure}
+	
+	Altri programmi di supporto sono invece i diversi browser in cui bisogna testare il funzionamento delle pagine web tra cui Internet Explorer, Firefox e Chrome e gli editor di testo utili in situazioni dov'è richiesta più praticità come Notepad++.
+
 	\subsubsection{Gestione di progetto}
 	A supporto della gestione delle attività progettuali e dell'organizzazione delle comunità aziendali, Sopra Steria mette a disposizione dei suoi dipendenti un portale comune dove poter ottenere informazioni sulla vita aziendale e la gestione dei gruppi di lavoro. \\
 	
@@ -295,25 +306,15 @@ fronte hanno scelto di adottare la piattaforma Java per il web (Java EE) e ovvia
 	
 	
 	\subsubsection{Sistemi di versionamento}
-	\label{sistemi-versionamento}
+
 	Nei diversi prodotti software che la Business Unit ha sotto la propria responsabilità vengono utilizzati principalmente due sistemi di versionamento del software: 
 	\begin{itemize}
 		\item \textbf{SVN (Subversion, Apache)}: è un software di versionamento del codice distribuito gratuitamente sotto licenza Apache. E' ampiamente usato e sviluppato da una comuinità	globale di collaboratori. Offre alcune funzionalità chiave per chi lo sceglie come \textit{commit} visti come operazioni atomiche, operazioni di \textit{branch}, \textit{changelists} e design client-server;
 		\item \textbf{RTC (Rational Team Concert, IBM)}: è costruito su IBM Jazz, una piattaforma estensibile che aiuta i team a integrare i task attraverso il ciclo di vita del software.	Ha un'architettura client-server e permette ai team di sviluppo di tenere traccia del loro lavoro tramite \textit{work items}, \textit{source control}, \textit{reporting} e \textit{build management} in un singolo ambiente.
 	\end{itemize}
 	
-	\subsubsection{Ambienti di sviluppo}
-	Il principale ambiente di sviluppo adottato per le applicazioni web è Eclipse. Esso racchiude la globalità delle caratteristiche necessarie ad uno sviluppatore in questo ambito.\\	
-	
-	Rappresenta un'ottima soluzione e agevolazione per il processo di sviluppo, in quanto offre funzionalità di collegamento ai sistemi di versionamento, \textit{debugging} del codice \textit{runtime} e avvio del software mediante gli \textit{application server} che si desidera installare, oltre alle molteplici caratteristiche offerte dai comuni editor di testo orientati allo sviluppo dei sorgenti software.
-	
-	\begin{figure}[H]
-		\centering
-	   	\includegraphics[width=1\textwidth]{immagini/ambienti_sviluppo}
-	   	\caption{I vantaggi dell'uso di Eclipse in collaborazione con RTC}
-	\end{figure}
-	
-	Altri programmi di supporto sono invece i diversi browser in cui bisogna testare il funzionamento delle pagine web tra cui Internet Explorer, Firefox e Chrome e gli editor di testo utili in situazioni dov'è richiesta più praticità come Notepad++.
+	%\subsubsection{Ambienti di sviluppo}
+
 	
 	\subsubsection{Sistemi operativi}
 	Per le postazioni di sviluppo è previsto un sistema centralizzato di utenze a cui è attribuito un proprio ambiente di lavoro ed uno spazio assegnato a cui accedere da qualsiasi computer aziendale.\\
@@ -321,15 +322,16 @@ fronte hanno scelto di adottare la piattaforma Java per il web (Java EE) e ovvia
 	Nelle macchine aziendali è consueto l'utilizzo di Windows 7 come sistema operativo primario per ovviare a discrepanze nelle postazioni dei diversi dipendenti e per omogenizzare ulteriormente il processo di sviluppo. Questo comporta una buona soluzione per concentrarsi unicamente sul proprio lavoro e avere al contempo una garanzia nell'utilizzo quotidiano.
 	
 %**************************************************************
-\section{Clientela e trasformazione digitale}
+%\section{Clientela e trasformazione digitale}
+\section{Clientela ed innovazione}
 
-	\subsection{Target}
+	\subsection{Clientela target}
 	
 	I target di Sopra Steria, per quanto riguarda la divisione dei Servizi Finanziari e Assicurazioni, sono principalmente gruppi bancari e assicurativi. Essi necessitano una qualche forma di innovazione o evoluzione che le garantisca continuità di produzione ma anche i corretti adeguamenti previsti dai cambiamenti legislativi.\\
 	
 	 Per permettere questo, gli analisti si incaricano di entrare in contatto con i responsabili ICT\glossario\ della società cliente, dai quali poi si ricavano diverse richieste implementative; dalla variazione di	qualche caratteristica alla creazione di funzionalità completamente nuove interne o meno all'applicativo che essi adottano. 
 
-	\subsection{Principali clienti e progetti}
+	%\subsection{Principali clienti e progetti}
 	
 	Visto il successo conquistato con il passare degli anni Sopra Steria Group si è sempre fatta strada tra i brand più importanti in vari settori, tra i quali i seguenti, classificati per aree di mercato.
 	\begin{figure}[H]

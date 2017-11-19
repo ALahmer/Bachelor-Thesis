@@ -16,3 +16,7 @@ versione di HTML utilizzata
 versione di CSS utilizzata
 
 Per Footnote indentation:	https://tex.stackexchange.com/questions/289108/how-to-remove-indentation-in-footnote
+
+Per immagine HTML5, CSS3, JavaScript:	https://codentech.com/technology
+
+Per immagine JavaEE:	http://www.jdk.it/java-ee
