@@ -20,3 +20,7 @@ Per Footnote indentation:	https://tex.stackexchange.com/questions/289108/how-to-
 Per immagine HTML5, CSS3, JavaScript:	https://codentech.com/technology
 
 Per immagine JavaEE:	http://www.jdk.it/java-ee
+
+Per informazioni relative al cobol e alla sua storia: 	http://www.fastweb.it/internet/la-storia-di-cobol/
+														https://www.infoworld.com/article/2625263/java/micro-focus-extends-cobol-to-java-and-the-cloud.html
+														https://www.computerworld.com/article/2504568/data-center/the-cobol-brain-drain.html
