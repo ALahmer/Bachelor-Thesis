@@ -24,3 +24,6 @@ Per immagine JavaEE:	http://www.jdk.it/java-ee
 Per informazioni relative al cobol e alla sua storia: 	http://www.fastweb.it/internet/la-storia-di-cobol/
 														https://www.infoworld.com/article/2625263/java/micro-focus-extends-cobol-to-java-and-the-cloud.html
 														https://www.computerworld.com/article/2504568/data-center/the-cobol-brain-drain.html
+														
+
+Per i diversi DBMS:										https://db-engines.com/en/system/DB2%3BMicrosoft+SQL+Server%3BMySQL

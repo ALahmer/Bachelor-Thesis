@@ -203,12 +203,18 @@ Più nello specifico sono stato affiancato dal mio collega Stefano Gori e dal mi
 	
 	\subsubsection{Linguaggi}
 	
-	I linguaggi di programmazione utilizzati dagli sviluppatori facenti parte della divisione dove sono stato inserito, ovvero la "793 - Servizi Finanziari e Assicurazioni", sono molteplici, essendo che quest'ultima lavora su vari progetti in distente sedi italiane. Elencherò quindi solo le tecnologie utilizzate all'interno del progetto su cui lavora il team di cui ho fatto parte durante lo stage.
+	I linguaggi di programmazione utilizzati dagli sviluppatori facenti parte della divisione dove sono stato inserito sono molteplici, essendo che quest'ultima lavora su vari progetti in distente sedi italiane. Discuterò quindi solo le tecnologie utilizzate all'interno del progetto su cui lavora il team di cui ho fatto parte durante lo stage.
 		
 	\subsubsection{Linguaggi lato Host}
 	Durante il periodo di stage gran parte delle attività di formazione si sono concentrate sui linguaggi da usare lato Host, ovvero i linguaggi COBOL e JCL.\\
 	
-	Il linguaggio COBOL è un linguaggio che risale agli ultimi anni '50, il suo nome è un acronimo che sta per \textbf{CO}mmon \textbf{B}usiness-\textbf{O}riented \textbf{L}anguage. Come si capisce dal nome esteso questo linguaggio è prettamente orientato al business, la traduzione del nome esteso è infatti "\textit{linguaggio comune orientato alle applicazioni commerciali}", e questo è infatti l'uso che se ne fa generalmente, ovvero programmi di gestione di sistemi bancari e assicurativi. I principali vantaggi di cui godeva il COBOL rispetto ai linguaggi che gli facevano concorrenza al tempo sono: 
+	Il linguaggio COBOL è un linguaggio che risale agli ultimi anni '50, il suo nome è un acronimo che sta per \textbf{CO}mmon \textbf{B}usiness-\textbf{O}riented \textbf{L}anguage. Come si capisce dal nome esteso questo linguaggio è prettamente orientato al business, la traduzione del nome esteso è infatti "\textit{linguaggio comune orientato alle applicazioni commerciali}", e questo è infatti l'uso che se ne fa generalmente, ovvero programmi di gestione di sistemi bancari e assicurativi.
+%	\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=1\textwidth]{immagini/VignettaCobol}
+%	\caption{Vignetta che sdrammatizza sull'uso del COBOL - Fonte: \url{https://devops.com/cobol-completely-obsolete-omnipresent-language/}}
+%	\end{figure}
+	I principali vantaggi di cui godeva il COBOL rispetto ai linguaggi che gli facevano concorrenza al tempo sono: 
 	\begin{itemize}
 		\item L'aritmetica con il punto decimale fisso, fattore molto utile nei programmi con funzioni di contabilità, che troviamo molto nel dominio bancario e in quello delle assicurazioni;
 		\item Una maggiore velocità di input/output;
@@ -223,11 +229,6 @@ Più nello specifico sono stato affiancato dal mio collega Stefano Gori e dal mi
 	\subsubsection{Linguaggi lato Web}
 
 	Dovendo sviluppare anche l'applicativo web gli sviluppatori web su questo
-%		\begin{floatingfigure}[p]{.50\textwidth}
-%		\centering
-%		\includegraphics[width=0.25\textwidth]{immagini/HTML5_CSS_JavaScript}
-%		\caption{Tecnologie utilizzate dagli sviluppatori Web}
-%		\end{floatingfigure}
 fronte hanno scelto di adottare la piattaforma Java per il web (Java EE) e ovviamente le tecnologie standard relative alla presentazione e al comportamento delle pagine, ovvero HTML, CSS e JavaScript.\\
 
 \begin{figure}[htbp]
@@ -245,33 +246,29 @@ fronte hanno scelto di adottare la piattaforma Java per il web (Java EE) e ovvia
 \end{minipage}
 \caption{Tecnologie utilizzate dagli sviluppatori Web}
 \end{figure}
-
-
-%	\begin{figure}[H]
-%  	 \centering
-%	   	\includegraphics[width=0.5\textwidth]{immagini/HTML5_CSS_JavaScript}
-%	   	\caption{Tecnologie utilizzate dagli sviluppatori Web}
-%	\end{figure}
-			
-	L'edizione di Java che utilizzano gli sviluppatori Web è Java Platform Enterprise Edition, comunemente chiamata Java EE, che è un'estensione di Java SE (Standard Edition) e rappresenta una piattaforma di sviluppo software molto usata per applicazioni d'impresa.\\%Java EE è mantenuto mediante il Java Community Process ovvero un processo che permette ad una comunità di esperti industriali, organizzazioni e ad un incredibile numero di individui di dare il loro contributo seguendo determinati standard. Esso fornisce gli strumenti utili per la programmazione Web, tra cui un ambiente \textit{runtime} e librerie utili allo sviluppo di applicazioni distribuite, scalabili, affidabili e sicure che prevedono Java come linguaggio di programmazione primario.
-
+		
+	L'edizione di Java che utilizzano gli sviluppatori Web è Java Platform Enterprise Edition, comunemente chiamata Java EE, che è un'estensione di Java SE (Standard Edition) e rappresenta una piattaforma di sviluppo software molto usata per applicazioni d'impresa.\\
+	
 	La versione di HTML utilizzata invece è la HTML5, che è l'ultima \textit{release} di HTML, risponde alle esigenze moderne ed alle aspettative dei siti web. Una delle caratteristiche principali di questa ultima edizione è il concetto di markup semantico, ovvero la capacità di fornire informazioni sul contenuto che descrive un dato tag. Oltre a questa particolarità, un'altra qualità che spicca è la capicità di adattarsi perfettamente, ovvero ad avere il medesimo comportamento sia su desktop che su mobile. Per tutti questi aspetti HTML5 è diventando un nuovo standard per gli sviluppatori web, tant'è che è diventato \textit{W3C Recommendation} dall'ottobre 2014.\\
 
 	Per quanto riguarda il comportamento delle pagine web invece si è optato per l'uso della versione CSS3 per la gestione della formattazione delle pagine e di JavaScript per le validazioni e controlli \textit{client-side}.
 		
 	\subsubsection{Database}
-	Il salvataggio dei dati per le applicazioni in ambito bancario e assicurativo avviene solitamente tramite DBMS\glossario\ relazionali come DB2 dell'IBM, Microsoft SQL Server e MySQL di Oracle. DB2 è nato nel 1983 ma tutt'oggi è uno tra i DBMS più usati, specie in questo settore. In origine era nato come DBMS per i mainframe CICS\glossario\, poi si è diffuso su qualsiasi tipo di server. Per questo banche e assicurazioni, enti che esistono da molto prima, inizialmente hanno adottato questa tecnologia mediante sistemi EIS\glossario\ implementati in linguaggio COBOL\glossario\ che tutt'oggi gli forniscono le funzionalità necessarie senza il bisogno di adottare tecnologie più recenti e sviluppate secondo le esigenze dei moderni paradigmi di programmazione.\\
+	Il salvataggio dei dati per le applicazioni in ambito bancario e assicurativo avviene generalmente tramite DBMS\glossario\ relazionali come \textit{DB2} di IBM, \textit{Microsoft SQL Server} e \textit{MySQL} di Oracle. Il team di sviluppo in base anche ai calcolatori a disposizione della banca, anch'essi della IBM, ha scelto di utilizzare il DB2, che è nato nel 1983 ma tutt'oggi è uno tra gli RDBMS\glossario\ più usati, specie in questo settore. In origine era nato come DBMS per i mainframe CICS\glossario\, poi si è diffuso su diversi tipi di server. Per questo banche e assicurazioni, enti che esistono da molto prima della nascita del DB2, inizialmente hanno adottato questa tecnologia mediante sistemi EIS\glossario\ implementati in linguaggio COBOL che tutt'oggi gli forniscono le funzionalità necessarie senza il bisogno di adottare tecnologie più moderne e sviluppate secondo le esigenze dei più recenti paradigmi di programmazione.\\
 	
-	%Esso supporta il modello relazionale, ma negli ultimi anni è stato esteso il supporto a funzionalità ad oggetti e non relazionali come JSON e XML.\\
-	
-	Microsoft SQL Server e MySQL di Oracle sono utilizzati come soluzioni secondarie per la gestione di dati in sola lettura di natura statica.
-	%MySQL è un DBMS open source nato nel 1995 che mette a disposizione delle interfacce grafiche.
-		
+	L'amministrazione delle basi di dati avviene tramite uno strumento denominato DBeaver, che è un applicazione gratuita multipiattaforma per sviluppatori, programmatori, amministratori di dabases e e analisti. Supporta tutti i tipi database più diffusi come MySQL, PostgreSQL, MariaDB, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Derby e molti altri.
+
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{immagini/DBeaver_ss}
+	\caption{Schermata dello strumento di amministrazione dei databases DBeaver - Fonte: \url{https://github.com/serge-rider/dbeaver}}
+	\end{figure}
+
 	\subsubsection{Ambienti di sviluppo ed emulatori}
-	Gli Ambienti di sviluppo ed emulatori sono troppo belli \tab wo.\\
-	Il principale ambiente di sviluppo adottato per le applicazioni web è Eclipse. Esso racchiude la globalità delle caratteristiche necessarie ad uno sviluppatore in questo ambito.\\	
-	
-	Rappresenta un'ottima soluzione e agevolazione per il processo di sviluppo, in quanto offre funzionalità di collegamento ai sistemi di versionamento, \textit{debugging} del codice \textit{runtime} e avvio del software mediante gli \textit{application server} che si desidera installare, oltre alle molteplici caratteristiche offerte dai comuni editor di testo orientati allo sviluppo dei sorgenti software.
+
+	Anche parlando di ambienti di sviluppo è importante distinguere quelli usati lato sviluppatori web e quelli usati lato sviluppatori host.\\
+		
+	Il principale ambiente di sviluppo adottato per le applicazioni web è Eclipse. Esso racchiude la globalità delle caratteristiche necessarie ad uno sviluppatore in questo ambito. Rappresenta un'ottima soluzione e agevolazione per il processo di sviluppo, in quanto offre funzionalità di collegamento ai sistemi di versionamento, \textit{debugging} del codice \textit{runtime}, oltre alle molteplici caratteristiche offerte dai comuni editor di testo orientati allo sviluppo dei sorgenti software.
 	
 	\begin{figure}[H]
 		\centering
@@ -279,7 +276,9 @@ fronte hanno scelto di adottare la piattaforma Java per il web (Java EE) e ovvia
 	   	\caption{I vantaggi dell'uso di Eclipse in collaborazione con RTC}
 	\end{figure}
 	
-	Altri programmi di supporto sono invece i diversi browser in cui bisogna testare il funzionamento delle pagine web tra cui Internet Explorer, Firefox e Chrome e gli editor di testo utili in situazioni dov'è richiesta più praticità come Notepad++.
+	Altri programmi di supporto sono invece i diversi browser in cui bisogna testare il funzionamento delle pagine web tra cui Internet Explorer, Firefox e Chrome e gli editor di testo utili in situazioni dov'è richiesta più praticità come Notepad++.\\
+
+	Il principale ambiente di sviluppo adottato lato host invece è Endevor...
 
 	\subsubsection{Gestione di progetto}
 	A supporto della gestione delle attività progettuali e dell'organizzazione delle comunità aziendali, Sopra Steria mette a disposizione dei suoi dipendenti un portale comune dove poter ottenere informazioni sulla vita aziendale e la gestione dei gruppi di lavoro. \\
