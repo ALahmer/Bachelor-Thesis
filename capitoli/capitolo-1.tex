@@ -265,99 +265,128 @@ fronte hanno scelto di adottare la piattaforma Java per il web (Java EE) e ovvia
 	\end{figure}
 
 	\subsubsection{Ambienti di sviluppo ed emulatori}
+	\label{Ambienti di sviluppo ed emulatori}
 
 	Anche parlando di ambienti di sviluppo è importante distinguere quelli usati lato sviluppatori web e quelli usati lato sviluppatori host.\\
 		
-	Il principale ambiente di sviluppo adottato per le applicazioni web è Eclipse. Esso racchiude la globalità delle caratteristiche necessarie ad uno sviluppatore in questo ambito. Rappresenta un'ottima soluzione e agevolazione per il processo di sviluppo, in quanto offre funzionalità di collegamento ai sistemi di versionamento, \textit{debugging} del codice \textit{runtime}, oltre alle molteplici caratteristiche offerte dai comuni editor di testo orientati allo sviluppo dei sorgenti software.
+	Il principale ambiente di sviluppo adottato per le applicazioni web è \textbf{Eclipse}. Esso racchiude la globalità delle caratteristiche necessarie ad uno sviluppatore in questo ambito. Rappresenta un'ottima soluzione e agevolazione per il processo di sviluppo, in quanto offre funzionalità di collegamento ai sistemi di versionamento, \textit{debugging} del codice \textit{runtime}, oltre alle molteplici caratteristiche offerte dai comuni editor di testo orientati allo sviluppo dei sorgenti software.\\
 	
-	\begin{figure}[H]
-		\centering
-	   	\includegraphics[width=1\textwidth]{immagini/ambienti_sviluppo}
-	   	\caption{I vantaggi dell'uso di Eclipse in collaborazione con RTC}
-	\end{figure}
+%	\begin{figure}[H]
+%		\centering
+%	   	\includegraphics[width=0.7\textwidth]{immagini/ambienti_sviluppo}
+%	   	\caption{I vantaggi dell'uso di Eclipse in collaborazione con RTC}
+%	\end{figure}
 	
 	Altri programmi di supporto sono invece i diversi browser in cui bisogna testare il funzionamento delle pagine web tra cui Internet Explorer, Firefox e Chrome e gli editor di testo utili in situazioni dov'è richiesta più praticità come Notepad++.\\
 
-	Il principale ambiente di sviluppo adottato lato host invece è Endevor...
-
-	\subsubsection{Gestione di progetto}
-	A supporto della gestione delle attività progettuali e dell'organizzazione delle comunità aziendali, Sopra Steria mette a disposizione dei suoi dipendenti un portale comune dove poter ottenere informazioni sulla vita aziendale e la gestione dei gruppi di lavoro. \\
-	
-	Il portale aziendale, Face2Face, gestisce molteplici attività e problematiche. Tramite esso i dipendenti sono tenuti a riportare settimanalmente le proprie attività di lavoro e gli ambiti di progetto al fine di inviare i dati alla direzione, permettendole di coordinare le risorse a disposizione. Il sito consente inoltre di consultare le news aziendali e gli eventi organizzati, come ad esempio i corsi di formazione interna a cui gli sviluppatori sono invitati a partecipare.
+	Il principale ambiente di sviluppo adottato lato host invece è \textbf{ISPF}\glossario. Esso include vari tool e funzionalità per la gestione dell'intero processo di sviluppo dei programmi host; dalla creazione dei programmi al versionamento degli stessi, dall'analisi statica del software in fase di compilazione alla gestione della base di dati tramite lo strumento QMF\glossario.
 
 	\begin{figure}[H]
 		\centering
-	   	\includegraphics[width=0.9\textwidth]{immagini/face2face}
-	   	\caption{La pagina iniziale di Face2Face - Fonte: portale interno dell'azienda}
+	   	\includegraphics[width=1\textwidth]{immagini/ISPF}
+	   	\caption{Schermata iniziale ambiente di sviluppo ISPF}
+	\end{figure}
+
+	Durante il periodo di stage ho avuto modo di imparare ad usare gran parte dei tool che mette a disposizione ISPF, assistendo anche all'utilizzo di alcune funzionalità a cui sono abilitate solo un determinato tipo di utenze, ovvero le cosidette \textit{utenze di produzione}, che sono quelle con il totale accesso anche ai database e ai sistemi collocati dai cliente, e non solo a quelli di test su cui lavorano il resto degli sviluppatori.\\
+	
+	La struttura del menu di questo ambiente di sviluppo è indicativamente come illustrato nel seguente schema:
+	
+	\begin{figure}[H]
+		\centering
+	   	\includegraphics[width=1\textwidth]{immagini/ISPF_menu_structure}
+	   	\caption{Struttura menu ambiente di sviluppo ISPF - Fonte: \url{https://www.ibm.com/support/knowledgecenter/zosbasics/com.ibm.zos.zconcepts/zconc_whatisispf.htm}}
+	\end{figure}
+
+	Per utilizzare ISPF in azienda ho utilizzato l'emulatore \textbf{Quick3270 Secure} che è un potente ed affidabile emulatore di terminali IBM 3270 e IBM 5250, utilizzabile su sistemi operativi Windows permette infatti di connettere il proprio computer ai sistemi IBM zSeries (S/390) e iSeries (AS/400).
+
+	\subsubsection{Gestione di progetto}
+
+	A supporto della gestione delle attività progettuali Sopra Steria mette a disposizione dei suoi dipendenti un portale comune che permette la gestione dei gruppi di lavoro. Oltre alle funzionalità di gestione di progetto questo portale permette anche l'organizzazione della comunità aziendale e favorisce il dialogo organizzato dipendente-azienda, seppur virtuale.\\
+	
+	Il portale aziendale, Face2Face, gestisce molteplici attività e problematiche. Tramite esso i dipendenti sono tenuti a riportare settimanalmente le proprie attività di lavoro e gli ambiti di progetto al fine di inviare i dati alla direzione, permettendole di coordinare le risorse a disposizione. Lo strumento consente inoltre di consultare le news aziendali e gli eventi organizzati.
+
+	\begin{figure}[H]
+		\centering
+	   	\includegraphics[width=1\textwidth]{immagini/Face2Face}
+	   	\caption{La Home Page di Face2Face - Fonte: portale interno dell'azienda}
 	\end{figure}
 		
-	Face2Face è accedibile anche da rete remota come anche il sistema di posta elettronica, facilitando il lavoro in trasferta, e consente anche di inviare ai tecnici informatici segnalazioni riguardo i propri strumenti di lavoro per ricevere assistenza.\\
-	
-	Oltre a questo, i vari team di progetto comunicano molto spesso via email utilizzando Microsoft Outlook e telefonicamente per coordinarsi nei lavori. I capi progetto inoltre mantengono l'organizzazione delle attività, confrontandosi con gli analisti, utilizzando Microsoft Excel come strumento di supporto e stesura dei piani di lavoro.
+	Face2Face è accessibile anche dall'esterno della rete aziendale tramite un portale online predisposto dall'azienda. In questo modo viene facilitato il lavoro in trasferta dei dipendenti.\\
 	
 	\subsubsection{Documentazione}
-	Per ogni attività risultante dall'analisi dei requisiti vengono redatti due documenti: l'Analisi Funzionale e la Specifica Tecnica.
-	Il primo affronta i requisiti ad alto livello, enunciando le principali funzionalità ed i cambiamenti rispetto alla versione attualmente in produzione dell'applicativo. \\
 	
-%	//Le sezioni principali di questo documento sono:
-%	//- Matrice dei requisiti: enunciato discorsivo per introdurre il problema proposto;
-%	//- Descrizione funzionale: per spiegare il comportamento dell'applicativo lato web, presentatando anche un'anteprima delle pagine che verranno aggiunte;
-%	//- Casi oggetti di collaudo: qui vengono indicate le componenti che saranno analizzate in fase di testing per verificarne il corretto comportamento;
-%	//- Dettaglio tecnico: qui vengono segnalate solo alcune particolarità e vengono enunciate le componenti software che saranno modificate o aggiunte.	
+	Nell'arco della mia permanenza in azienda per lo stage ho avuto modo di vedere quella che è la documentazione che la prassi aziendale vuole che venga redatta. Per ogni attività risultante dall'analisi dei requisiti, infatti, vengono stilati due documenti: l'\textit{Analisi Funzionale} e l'\textit{Analisi Tecnica}. In fase di rilascio delle funzionalità richieste durante la fase di analisi vengono redatti invece i documenti di \textit{Collaudo} e quello di \textit{Rilascio}.\\
 	
-	Il secondo documento affronta nel dettaglio gli aspetti tecnici che vanno modificati o aggiunti trattando principalmente i programmi COBOL\glossario\ lato \textit{host}, dai quali poi anche i programmatori web possono individuare i parametri da utilizzare nelle richieste via rete per recuperare i dati e quindi allinearsi. Si può quindi dire che per la programmazione delle interfacce risulta di primaria importanza il primo documento. \\
+	Il primo documento, ovvero quello di Analisi Funzionale, affronta i requisiti ad alto livello, enunciando le principali funzionalità ed i cambiamenti rispetto alla versione attualmente in produzione dell'applicativo.\\
 	
-	Al termine dello sviluppo dei requisiti, ad avvenuta validazione, viene inoltre redatto un documento di collaudo da consegnare al cliente per accertare i lavori eseguiti. \\
+	Le sezioni principali di questo documento sono:
+\begin{itemize}
+	\item Matrice dei requisiti: enunciato discorsivo per introdurre il problema proposto;
+	\item Descrizione funzionale: per spiegare il comportamento dell'applicativo lato web, presentatando possibilmente anche un'anteprima delle pagine che verranno aggiunte;
+	\item Casi oggetto di collaudo: qui vengono indicate le componenti che saranno analizzate in fase di testing per verificarne il corretto comportamento;
+	\item Dettaglio tecnico: qui vengono enunciate le componenti software che saranno modificate o aggiunte, senza entrare nel dettaglio di come tali modifiche andranno apportate.
+\end{itemize}
+
+	Il secondo documento invece, ovvero quello di Analisi Tecnica, affronta nel dettaglio gli aspetti tecnici che vanno modificati o aggiunti trattando principalmente i programmi COBOL lato host, dai quali poi anche i programmatori web possono individuare i parametri da utilizzare nelle richieste via rete per recuperare i dati e quindi allinearsi.\\
 	
-	Il software utilizzato per la produzione dei documenti è Microsoft Word, i cui formati sono standard sia per l'azienda che per i clienti.
+	Il documento di Analisi Tecnica, diversamente da quello di Analisi Funzionale non sempre viene steso visto che questo non ha obbligo di approvazione da parte del cliente e quindi, in particolari casi, gli sviluppatori con più esperienza sono in grado di progettare e sviluppare la parte tecnica in autonomia.\\
+	
+	Al termine dello sviluppo dei requisiti, ad avvenuta validazione, vengono inoltre redatti i documenti di Collaudo e di Rilascio, da consegnare al cliente per accertare i lavori eseguiti e il rilascio delle nuove funzionalità.\\
+			
+	Il software utilizzato per la produzione dei documenti è \textbf{Microsoft Word}, i cui formati sono standard sia per l'azienda che per i clienti.
 	
 	
 	\subsubsection{Sistemi di versionamento}
 
-	Nei diversi prodotti software che la Business Unit ha sotto la propria responsabilità vengono utilizzati principalmente due sistemi di versionamento del software: 
-	\begin{itemize}
-		\item \textbf{SVN (Subversion, Apache)}: è un software di versionamento del codice distribuito gratuitamente sotto licenza Apache. E' ampiamente usato e sviluppato da una comuinità	globale di collaboratori. Offre alcune funzionalità chiave per chi lo sceglie come \textit{commit} visti come operazioni atomiche, operazioni di \textit{branch}, \textit{changelists} e design client-server;
-		\item \textbf{RTC (Rational Team Concert, IBM)}: è costruito su IBM Jazz, una piattaforma estensibile che aiuta i team a integrare i task attraverso il ciclo di vita del software.	Ha un'architettura client-server e permette ai team di sviluppo di tenere traccia del loro lavoro tramite \textit{work items}, \textit{source control}, \textit{reporting} e \textit{build management} in un singolo ambiente.
-	\end{itemize}
+	Come precedentemente accennato nella sezione riguardante gli ambienti di sviluppo [\ref{Ambienti di sviluppo ed emulatori}], lo strumento \textbf{ISPF} permette, in un certo qual modo, il versionamento dei programmi sorgenti lato host. Questo infatti tiene traccia di ogni modifica apportata ai programmi e consente quindi di ripristinare una versione di un dato modulo utilizzando un progressivo numerico, identificativo di una certa versione del software, che si incrementa ogni qualvolta questo viene modificato e compilato.\\
 	
-	%\subsubsection{Ambienti di sviluppo}
-
+	Per quanto riguarda il lato web, invece, nel progetto su cui lavora il team in cui sono stato inserito il sistema di versionamento del software utilizzato è \textbf{RTC} (Rational Team Concert, IBM), che è costruito su IBM Jazz, una piattaforma estensibile che aiuta i team ad integrare i task attraverso il ciclo di vita del software. RTC dispone di un'architettura client-server e permette ai team di sviluppo di tenere traccia del loro lavoro in modo intuitivo.
 	
 	\subsubsection{Sistemi operativi}
+	
 	Per le postazioni di sviluppo è previsto un sistema centralizzato di utenze a cui è attribuito un proprio ambiente di lavoro ed uno spazio assegnato a cui accedere da qualsiasi computer aziendale.\\
 	
-	Nelle macchine aziendali è consueto l'utilizzo di Windows 7 come sistema operativo primario per ovviare a discrepanze nelle postazioni dei diversi dipendenti e per omogenizzare ulteriormente il processo di sviluppo. Questo comporta una buona soluzione per concentrarsi unicamente sul proprio lavoro e avere al contempo una garanzia nell'utilizzo quotidiano.
+	Nelle macchine aziendali è consueto l'utilizzo di Microsoft Windows 7 come sistema operativo primario per ovviare a discrepanze nelle postazioni dei diversi dipendenti e per omogenizzare ulteriormente il processo di sviluppo. Questo comporta una buona soluzione per concentrarsi unicamente sul proprio lavoro e avere al contempo una garanzia nell'utilizzo quotidiano.
 	
 %**************************************************************
+
 %\section{Clientela e trasformazione digitale}
 \section{Clientela ed innovazione}
 
 	\subsection{Clientela target}
 	
-	I target di Sopra Steria, per quanto riguarda la divisione dei Servizi Finanziari e Assicurazioni, sono principalmente gruppi bancari e assicurativi. Essi necessitano una qualche forma di innovazione o evoluzione che le garantisca continuità di produzione ma anche i corretti adeguamenti previsti dai cambiamenti legislativi.\\
+	La clientela target della Business Unit "793 - Servizi Finanziari e Assicurazioni" di Sopra Steria sono principalmente gruppi bancari e assicurativi. Essi solitamente necessitano una qualche forma di innovazione o evoluzione che le garantisca continuità di produzione ma anche i corretti adeguamenti previsti dai cambiamenti legislativi.\\
 	
-	 Per permettere questo, gli analisti si incaricano di entrare in contatto con i responsabili ICT\glossario\ della società cliente, dai quali poi si ricavano diverse richieste implementative; dalla variazione di	qualche caratteristica alla creazione di funzionalità completamente nuove interne o meno all'applicativo che essi adottano. 
+	 Per permettere questo, gli analisti si incaricano di entrare in contatto con i responsabili ICT\glossario\ della società cliente, dai quali poi si ricavano le diverse richieste implementative;  che possono andare dalla variazione di qualche caratteristica alla creazione di funzionalità completamente nuove.\\
 
 	%\subsection{Principali clienti e progetti}
 	
 	Visto il successo conquistato con il passare degli anni Sopra Steria Group si è sempre fatta strada tra i brand più importanti in vari settori, tra i quali i seguenti, classificati per aree di mercato.
 	\begin{figure}[H]
 	\centering
-   	\includegraphics[width=1\textwidth]{immagini/principali_referenze}
+   	\includegraphics[width=0.7\textwidth]{immagini/principali_referenze}
    	\caption{Principali clienti di Sopra Steria Group S.p.A. - Fonte: documento interno aziendale}
 	\end{figure}
-\newpage
+
 	I progetti di maggior impatto, invece, per cui Sopra Steria è riuscita ad ottenere il privilegio di approvvigionamento e conseguente implementazione sono stati molteplici, tra questi citiamo i seguenti.
 	\begin{figure}[H]
 	\centering
-   	\includegraphics[width=1\textwidth]{immagini/Progetti_Importanti}
+   	\includegraphics[width=0.76\textwidth]{immagini/Progetti_Importanti}
    	\caption{Principali progetti di Sopra Steria Group S.p.A. - Fonte: documento interno aziendale}
 	\end{figure}
 
 	
 	\subsection{Innovazione}
 	
-	L'innovazione in ambito bancario e assicurativo rappresenta uno scoglio non indifferente, in quanto questi enti sono da sempre legati a tecnologie primordiali come il linguaggio COBOL\glossario\ e la relativa implementazione in mainframe CICS\glossario : si è preferito infatti non migrare da essi o evolvere in altra tecnologia software.\\
+	L'innovazione e le soluzioni software richieste dalle banche e assicurazione non sono mai stati termini accostabili, soprattutto negli utimi anni. Se da un lato le tecnologie stanno subendo una rivoluzione importante dall'altro lato gli istituti di credito preferiscono avere sistemi funzionanti e garantiti anche se il mantenimento degli stessi richiede somme non da poco. Se da un lato si parla di migrazione sul cloud dei sistemi informativi delle aziende all'avanguardia dal lato delle banche si parla al più di cambio di versione dei framework utilizzati lato front-end.\\
+
+	\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{immagini/VignettaCobol}
+	\caption{Vignetta che sdrammatizza sull'uso del COBOL - Fonte: \url{https://devops.com/cobol-completely-obsolete-omnipresent-language/}}
+	\end{figure}
+	
+	L'innovazione in ambito bancario e assicurativo rappresenta uno scoglio non indifferente, in quanto questi enti sono da sempre legati a tecnologie primordiali come il linguaggio COBOL e la relativa implementazione in mainframe CICS: si è preferito infatti non migrare da essi o evolvere in altra tecnologia software.\\
 	
 	Per l'azienda, che fa della trasformazione digitale la sua bandiera, questo rappresenta una sfida e desidera mettersi in gioco offrendo le soluzioni adeguate, tenendo conto delle priorità del cliente e delle sue possibilità. Queste caratteristiche sono molto ricercate dalle aziende che vogliono rinnovarsi, trasformando i loro processi e servizi nel mondo digitale, adeguandosi ai moderni canoni di utilizzo e facendosi avanti nei mercati, con la possibilità di offrire prodotti di maggiore qualità e raggiungere molti più clienti.\\
 	
