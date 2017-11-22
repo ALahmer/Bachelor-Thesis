@@ -4,6 +4,10 @@
 \defcounter {refsection}{0}\relax 
 \select@language {italian}
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Sommario}{III}{chapter*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Convenzioni tipografiche}{III}{chapter*.6}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}L'azienda}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Profilo aziendale}{1}{section.1.1}
@@ -20,7 +24,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.2}Ciclo di sviluppo}{6}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Il modello incrementale in Sopra Steria}{8}{section*.12}
+\contentsline {paragraph}{Il modello incrementale in Sopra Steria}{8}{section*.14}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.3}Tecnologie e strumenti a supporto di processi e servizi}{10}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 

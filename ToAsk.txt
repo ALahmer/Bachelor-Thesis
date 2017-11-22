@@ -17,6 +17,8 @@ versione di CSS utilizzata
 
 Per Footnote indentation:	https://tex.stackexchange.com/questions/289108/how-to-remove-indentation-in-footnote
 
+Per sommario e convenzioni tipografiche guardare comando \captionsetup[chapter]{list=no}
+
 Per immagine HTML5, CSS3, JavaScript:	https://codentech.com/technology
 
 Per immagine JavaEE:	http://www.jdk.it/java-ee
@@ -29,3 +31,9 @@ Per informazioni relative al cobol e alla sua storia: 	http://www.fastweb.it/int
 Per i diversi DBMS:										https://db-engines.com/en/system/DB2%3BMicrosoft+SQL+Server%3BMySQL
 
 Per immagine  DBEAVER:									https://github.com/serge-rider/dbeaver
+
+Risolvere:
+			{
+			In §1.1 spiegherai (ciò che ora non fai) cosa significa -- nella struttura aziendale -- il ruolo in cui sei stato inserito.
+			Ridurrai la spaziatura verticale in §1, che a tratti è spropositata.
+			}
