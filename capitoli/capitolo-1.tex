@@ -188,7 +188,7 @@ In particolare il mio ruolo è stato quello del sviluppatore \textit{host} e Ana
 	\subsubsection{Linguaggi lato Host}
 	Durante il periodo di stage gran parte delle attività di formazione si sono concentrate sui linguaggi da usare lato Host, ovvero i linguaggi COBOL e JCL.\\
 	
-	Il linguaggio COBOL è un linguaggio che risale agli ultimi anni '50, il suo nome è un acronimo che sta per \textbf{CO}mmon \textbf{B}usiness-\textbf{O}riented \textbf{L}anguage. Come si capisce dal nome esteso questo linguaggio è prettamente orientato al business, la traduzione del nome esteso infatti è "\textit{linguaggio comune orientato alle applicazioni commerciali}", e questo è infatti l'uso che se ne fa generalmente, ovvero programmi di gestione di sistemi bancari e assicurativi.
+	Il linguaggio \textbf{COBOL} è un linguaggio che risale agli ultimi anni '50, il suo nome è un acronimo che sta per COmmon Business-Oriented Language. Come si capisce dal nome esteso questo linguaggio è prettamente orientato al business, la traduzione del nome esteso infatti è "\textit{linguaggio comune orientato alle applicazioni commerciali}", e questo è infatti l'uso che se ne fa generalmente, ovvero programmi di gestione di sistemi bancari e assicurativi.\\
 
 	I principali vantaggi di cui godeva il COBOL rispetto ai linguaggi che gli facevano concorrenza al tempo sono stati: 
 	\begin{itemize}
@@ -200,50 +200,54 @@ In particolare il mio ruolo è stato quello del sviluppatore \textit{host} e Ana
 
 	Con lo sviluppo e il perfezionarsi di questo linguaggio versione per versione, si è giunti a quella del 2002 con la quale il COBOL subiva una svolta significativa, ovvero il supporto della programmazione orientata agli oggetti.\\
 	 
-	Il linguaggio JCL, invece, è un linguaggio che anch'esso risale alla seconda metà del XX secolo ed è un acronimo che sta per \textbf{J}ob \textbf{C}ontrol \textbf{L}anguage. Il JCL è un linguaggio di \textit{scripting} generalmente utilizzato nei sistemi operativi IBM per eseguire (in gergo lanciare) una procedura batch\glossario\ su un sistema generalmente mainframe. Nello specifico, lo scopo del JCL è quello di dire quali programmi eseguire, usando quali file di input e quali generare in output. L'uso che se ne fa nel contesto aziendale in cui sono stato inserito è principalmente quello di programmare e regolare l'esecuzione di programmi che generalmente vengono eseguiti periodicamente.
+	Il linguaggio \textbf{JCL}, invece, è un linguaggio che anch'esso risale alla seconda metà del XX secolo ed è un acronimo che sta per Job Control Language. Il JCL è un linguaggio di \textit{scripting} generalmente utilizzato nei sistemi operativi IBM per eseguire (in gergo lanciare) una procedura batch\glossario\ su un sistema in genere mainframe. Nello specifico, lo scopo del JCL è quello di dire quali programmi eseguire, usando quali file di input e quali generare in output. L'uso che se ne fa nel contesto aziendale in cui sono stato inserito è principalmente quello di programmare e regolare l'esecuzione di programmi che generalmente vengono eseguiti periodicamente.
 
 	\subsubsection{Linguaggi lato Web}
 
 	Dovendo sviluppare anche l'applicativo web gli sviluppatori web su questo
-fronte hanno scelto di adottare la piattaforma Java per il web (Java EE) e ovviamente le tecnologie standard relative alla presentazione e al comportamento delle pagine, ovvero HTML, CSS e JavaScript.\\
+fronte hanno scelto di adottare la piattaforma Java per il web (\textbf{Java EE}) e ovviamente le tecnologie standard relative alla presentazione e al comportamento delle pagine, ovvero \textbf{HTML}, \textbf{CSS} e \textbf{JavaScript}.\\
 
 \begin{figure}[htbp]
 \centering
 \begin{minipage}[c]{.40\textwidth}
 \centering\setlength{\captionmargin}{0pt}%
-\includegraphics[width=0.5\textwidth]{immagini/JavaEE}
-\caption{Logo Java EE}
+\captionsetup{width=1.2\linewidth}
+\includegraphics[width=0.7\textwidth]{immagini/JavaEE}
+\caption{Logo Java EE - Fonte: \url{https://goo.gl/wckR1M}}
 \end{minipage}%
-%\hspace{10mm}%
+\hspace{15mm}%
 \begin{minipage}[c]{.40\textwidth}
 \centering\setlength{\captionmargin}{0pt}%
+\captionsetup{width=1.25\linewidth}
 \includegraphics[width=1\textwidth]{immagini/HTML5_CSS_JavaScript}
-\caption{Logo HTML5,\\CSS3 e JavaScript}
+\caption{Logo HTML5, CSS3 e \\JavaScript - Fonte:\\ \url{https://goo.gl/A72tDP}}
 \end{minipage}
 \caption{Tecnologie utilizzate dagli sviluppatori Web}
 \end{figure}
 		
 	L'edizione di Java che utilizzano gli sviluppatori Web è Java Platform Enterprise Edition, comunemente chiamata Java EE, che è un'estensione di Java SE (Standard Edition) e rappresenta una piattaforma di sviluppo software molto usata per applicazioni d'impresa.\\
 	
-	La versione di HTML utilizzata invece è la HTML5, che è l'ultima \textit{release} di HTML, risponde alle esigenze moderne ed alle aspettative dei siti web. Una delle caratteristiche principali di questa ultima edizione è il concetto di markup semantico, ovvero la capacità di fornire informazioni sul contenuto che descrive un dato tag. Oltre a questa particolarità, un'altra qualità che spicca è la capicità di adattarsi perfettamente, ovvero ad avere il medesimo comportamento sia su desktop che su mobile. Per tutti questi aspetti HTML5 è diventando un nuovo standard per gli sviluppatori web, tant'è che è diventato \textit{W3C Recommendation} dall'ottobre 2014.\\
+	La versione di HTML utilizzata invece è la HTML5, che è l'ultima \textit{release} di HTML, risponde alle esigenze moderne ed alle aspettative dei siti web. Una delle caratteristiche principali di questa ultima edizione è il concetto di markup semantico, ovvero la capacità di fornire informazioni sul contenuto che descrive un dato tag. Oltre a questa particolarità, un'altra qualità che spicca è la capicità di adattarsi perfettamente, ovvero ad avere il medesimo comportamento sia su desktop che su mobile. \\
+	
+	Per tutti questi aspetti HTML5 è diventando un nuovo standard per gli sviluppatori web, tant'è che è diventato \textit{W3C Recommendation} dall'ottobre 2014.\\
 
 	Per quanto riguarda il comportamento delle pagine web invece si è optato per l'uso della versione CSS3 per la gestione della formattazione delle pagine e di JavaScript per le validazioni e controlli \textit{client-side}.
 		
 	\subsubsection{Database}
-	Il salvataggio dei dati per le applicazioni in ambito bancario e assicurativo avviene generalmente tramite DBMS\glossario\ relazionali come \textit{DB2} di IBM, \textit{Microsoft SQL Server} e \textit{MySQL} di Oracle. Il team di sviluppo in base anche ai calcolatori a disposizione della banca, anch'essi della IBM, ha scelto di utilizzare il DB2, che è nato nel 1983 ma tutt'oggi è uno tra gli RDBMS\glossario\ più usati, specie in questo settore. In origine era nato come DBMS per i mainframe CICS\glossario\, poi si è diffuso su diversi tipi di server. Per questo banche e assicurazioni, enti che esistono da molto prima della nascita del DB2, inizialmente hanno adottato questa tecnologia mediante sistemi EIS\glossario\ implementati in linguaggio COBOL che tutt'oggi gli forniscono le funzionalità necessarie senza il bisogno di adottare tecnologie più moderne e sviluppate secondo le esigenze dei più recenti paradigmi di programmazione.\\
+	Il salvataggio dei dati per le applicazioni in ambito bancario e assicurativo avviene generalmente tramite DBMS\glossario\ relazionali come DB2 di IBM, Microsoft SQL Server e MySQL di Oracle. Il team di sviluppo in base anche ai calcolatori a disposizione della banca, anch'essi della IBM, ha scelto di utilizzare il \textbf{DB2}, che è nato nel 1983 ma tutt'oggi è uno tra gli RDBMS\glossario\ più usati, specie in questo settore. In origine era nato come DBMS per i mainframe CICS\glossario\, poi si è diffuso su diversi tipi di server. Per questo banche e assicurazioni, enti che esistono da molto prima della nascita del DB2, inizialmente hanno adottato questa tecnologia mediante sistemi EIS\glossario\ implementati in linguaggio COBOL che tutt'oggi gli forniscono le funzionalità necessarie senza il bisogno di adottare tecnologie più moderne e sviluppate secondo le esigenze dei più recenti paradigmi di programmazione.\\
 	
-	L'amministrazione delle basi di dati avviene tramite uno strumento denominato DBeaver, che è un applicazione gratuita multipiattaforma per sviluppatori, programmatori, amministratori di dabases e e analisti. Supporta tutti i tipi database più diffusi come MySQL, PostgreSQL, MariaDB, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Derby e molti altri.
+	L'amministrazione delle basi di dati avviene tramite uno strumento denominato \textbf{DBeaver}, che è un applicazione gratuita multipiattaforma per sviluppatori, programmatori, amministratori di dabases e analisti.%Supporta più tipologie di database come MySQL, PostgreSQL, Oracle, DB2, SQL Server, MS Access e molti altri.% Teradata, SQLite, Sybase, Firebird, MariaDB, Derby 
 
 	\begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{immagini/DBeaver_ss}
+	\includegraphics[width=0.85\textwidth]{immagini/DBeaver_ss}
 	\caption{Schermata dello strumento di amministrazione dei databases DBeaver - Fonte: \url{https://github.com/serge-rider/dbeaver}}
 	\end{figure}
 
 	\subsubsection{Ambienti di sviluppo ed emulatori}
 	\label{Ambienti di sviluppo ed emulatori}
 
-	Anche parlando di ambienti di sviluppo è importante distinguere quelli usati lato sviluppatori web e quelli usati lato sviluppatori host.\\
+	Anche parlando di ambienti di sviluppo è importante distinguere quelli usati lato sviluppatori \textit{web} e quelli usati lato sviluppatori \textit{host}.\\
 		
 	Il principale ambiente di sviluppo adottato per le applicazioni web è \textbf{Eclipse}. Esso racchiude la globalità delle caratteristiche necessarie ad uno sviluppatore in questo ambito. Rappresenta un'ottima soluzione e agevolazione per il processo di sviluppo, in quanto offre funzionalità di collegamento ai sistemi di versionamento, \textit{debugging} del codice \textit{runtime}, oltre alle molteplici caratteristiche offerte dai comuni editor di testo orientati allo sviluppo dei sorgenti software.\\
 	
@@ -259,27 +263,28 @@ fronte hanno scelto di adottare la piattaforma Java per il web (Java EE) e ovvia
 
 	\begin{figure}[H]
 		\centering
-	   	\includegraphics[width=1\textwidth]{immagini/ISPF}
+	   	\includegraphics[width=0.80\textwidth]{immagini/ISPF}
 	   	\caption{Schermata iniziale ambiente di sviluppo ISPF}
 	\end{figure}
 
-	Durante il periodo di stage ho avuto modo di imparare ad usare gran parte dei tool che mette a disposizione ISPF, assistendo anche all'utilizzo di alcune funzionalità a cui sono abilitate solo un determinato tipo di utenze, ovvero le cosidette \textit{utenze di produzione}, che sono quelle con il totale accesso anche ai database e ai sistemi collocati dai cliente, e non solo a quelli di test su cui lavorano il resto degli sviluppatori.\\
+	Durante il periodo di stage ho avuto modo di imparare ad usare gran parte dei \textit{tool} che mette a disposizione ISPF, assistendo anche all'utilizzo di alcune funzionalità a cui sono abilitate solo un determinato tipo di utenze, ovvero le cosidette \textit{utenze di produzione}, che sono quelle con il totale accesso anche ai database e ai sistemi collocati dal cliente, e non solo a quelli di test su cui lavorano il resto degli sviluppatori.\\
 	
 	La struttura del menu di questo ambiente di sviluppo è indicativamente come illustrato nel seguente schema:
 	
 	\begin{figure}[H]
 		\centering
-	   	\includegraphics[width=1\textwidth]{immagini/ISPF_menu_structure}
-	   	\caption{Struttura menu ambiente di sviluppo ISPF - Fonte: \url{https://www.ibm.com/support/knowledgecenter/zosbasics/com.ibm.zos.zconcepts/zconc_whatisispf.htm}}
+		\captionsetup{width=0.70\linewidth}
+	   	\includegraphics[width=0.80\textwidth]{immagini/ISPF_menu_structure}
+	   	\caption{Struttura menu ambiente di sviluppo ISPF - Fonte: \url{https://goo.gl/GX6P9V}}
 	\end{figure}
 
-	Per utilizzare ISPF in azienda ho utilizzato l'emulatore \textbf{Quick3270 Secure} che è un potente ed affidabile emulatore di terminali IBM 3270 e IBM 5250, utilizzabile su sistemi operativi Windows permette infatti di connettere il proprio computer ai sistemi IBM zSeries (S/390) e iSeries (AS/400).
+	Per utilizzare ISPF in azienda ho utilizzato l'emulatore \textbf{Quick3270 Secure} che è un potente ed affidabile emulatore di terminali IBM 3270 e IBM 5250. Utilizzabile su sistemi operativi Windows questo programma permette infatti di connettere il proprio computer ai sistemi IBM zSeries (S/390) e iSeries (AS/400).
 
 	\subsubsection{Gestione di progetto}
 
 	A supporto della gestione delle attività progettuali Sopra Steria mette a disposizione dei suoi dipendenti un portale comune che permette la gestione dei gruppi di lavoro. Oltre alle funzionalità di gestione di progetto questo portale permette anche l'organizzazione della comunità aziendale e favorisce il dialogo organizzato dipendente-azienda, seppur virtuale.\\
 	
-	Il portale aziendale, Face2Face, gestisce molteplici attività e problematiche. Tramite esso i dipendenti sono tenuti a riportare settimanalmente le proprie attività di lavoro e gli ambiti di progetto al fine di inviare i dati alla direzione, permettendole di coordinare le risorse a disposizione. Lo strumento consente inoltre di consultare le news aziendali e gli eventi organizzati.
+	Il portale aziendale, \textbf{Face2Face}, gestisce molteplici attività e problematiche. Tramite esso i dipendenti sono tenuti a riportare settimanalmente le proprie attività di lavoro e gli ambiti di progetto al fine di inviare i dati alla direzione, permettendole di coordinare le risorse a disposizione. Lo strumento consente inoltre di consultare le news aziendali e gli eventi organizzati.
 
 	\begin{figure}[H]
 		\centering
@@ -295,17 +300,19 @@ fronte hanno scelto di adottare la piattaforma Java per il web (Java EE) e ovvia
 	
 	Il primo documento, ovvero quello di Analisi Funzionale, affronta i requisiti ad alto livello, enunciando le principali funzionalità ed i cambiamenti rispetto alla versione attualmente in produzione dell'applicativo.\\
 	
+	\leavevmode	\newline
+
 	Le sezioni principali di questo documento sono:
 \begin{itemize}
 	\item Matrice dei requisiti: enunciato discorsivo per introdurre il problema proposto;
-	\item Descrizione funzionale: per spiegare il comportamento dell'applicativo lato web, presentatando possibilmente anche un'anteprima delle pagine che verranno aggiunte;
-	\item Casi oggetto di collaudo: qui vengono indicate le componenti che saranno analizzate in fase di testing per verificarne il corretto comportamento;
+	\item Descrizione funzionale: per spiegare il comportamento dell'applicativo lato web, presentando possibilmente anche un'anteprima delle pagine che verranno aggiunte;
+	\item Casi oggetto di collaudo: qui vengono indicate le componenti che saranno analizzate in fase di  \textit{testing} per verificarne il corretto comportamento;
 	\item Dettaglio tecnico: qui vengono enunciate le componenti software che saranno modificate o aggiunte, senza entrare nel dettaglio di come tali modifiche andranno apportate.
 \end{itemize}
 
 	Il secondo documento invece, ovvero quello di Analisi Tecnica, affronta nel dettaglio gli aspetti tecnici che vanno modificati o aggiunti trattando principalmente i programmi COBOL lato host, dai quali poi anche i programmatori web possono individuare i parametri da utilizzare nelle richieste via rete per recuperare i dati e quindi allinearsi.\\
 	
-	Il documento di Analisi Tecnica, diversamente da quello di Analisi Funzionale non sempre viene steso visto che questo non ha obbligo di approvazione da parte del cliente e quindi, in particolari casi, gli sviluppatori con più esperienza sono in grado di progettare e sviluppare la parte tecnica in autonomia.\\
+	Il documento di Analisi Tecnica, diversamente da quello di Analisi Funzionale non sempre viene steso visto che questo non ha obbligo di approvazione da parte del cliente e quindi, in particolari casi, gli sviluppatori con più esperienza sono in grado di progettare e sviluppare la parte tecnica in autonomia senza l'aiuto di quest'ultimo.\\
 	
 	Al termine dello sviluppo dei requisiti, ad avvenuta validazione, vengono inoltre redatti i documenti di Collaudo e di Rilascio, da consegnare al cliente per accertare i lavori eseguiti e il rilascio delle nuove funzionalità.\\
 			
@@ -331,7 +338,7 @@ fronte hanno scelto di adottare la piattaforma Java per il web (Java EE) e ovvia
 
 	\subsection{Clientela target}
 	
-	La clientela target della Business Unit "793 - Servizi Finanziari e Assicurazioni" di Sopra Steria sono principalmente gruppi bancari e assicurativi. Essi solitamente necessitano una qualche forma di innovazione o evoluzione che le garantisca continuità di produzione ma anche i corretti adeguamenti previsti dai cambiamenti legislativi.\\
+	La clientela target della \textit{Business Unit} "793 - Servizi Finanziari e Assicurazioni" di Sopra Steria sono principalmente gruppi bancari e assicurativi. Essi solitamente necessitano una qualche forma di innovazione o evoluzione che gli garantisca continuità di produzione ma anche i corretti adeguamenti previsti dai cambiamenti legislativi.\\
 	
 	 Per permettere questo, gli analisti si incaricano di entrare in contatto con i responsabili ICT\glossario\ della società cliente, dai quali poi si ricavano le diverse richieste implementative;  che possono andare dalla variazione di qualche caratteristica alla creazione di funzionalità completamente nuove.\\
 
@@ -341,29 +348,30 @@ fronte hanno scelto di adottare la piattaforma Java per il web (Java EE) e ovvia
 	\begin{figure}[H]
 	\centering
    	\includegraphics[width=0.7\textwidth]{immagini/principali_referenze}
-   	\caption{Principali clienti di Sopra Steria Group S.p.A. - Fonte: documento interno aziendale}
+   	\caption{Principali clienti di Sopra Steria Group S.p.A. - \\Fonte: documento interno aziendale}
 	\end{figure}
 
 	I progetti di maggior impatto, invece, per cui Sopra Steria è riuscita ad ottenere il privilegio di approvvigionamento e conseguente implementazione sono stati molteplici, tra questi citiamo i seguenti.
 	\begin{figure}[H]
 	\centering
    	\includegraphics[width=0.76\textwidth]{immagini/Progetti_Importanti}
-   	\caption{Principali progetti di Sopra Steria Group S.p.A. - Fonte: documento interno aziendale}
+   	\caption{Principali progetti di Sopra Steria Group S.p.A. - \\Fonte: documento interno aziendale}
 	\end{figure}
 
 	
 	\subsection{Innovazione}
 	
-	L'innovazione e le soluzioni software richieste dalle banche e assicurazione non sono mai stati termini accostabili, soprattutto negli ultimi anni. Se da un lato le tecnologie stanno subendo una rivoluzione importante dall'altro lato gli istituti di credito preferiscono avere sistemi funzionanti e garantiti anche se il mantenimento degli stessi richiede somme non da poco. Se da un lato si parla di migrazione sul cloud dei sistemi informativi delle aziende all'avanguardia dal lato delle banche si parla al più di cambio di versione dei framework utilizzati lato front-end\glossario.\\
+	L'innovazione e le soluzioni software richieste dalle banche e assicurazione non sono mai stati termini accostabili. %, soprattutto negli ultimi anni.
+	Se da un lato le tecnologie stanno subendo una rivoluzione importante dall'altro lato gli istituti di credito preferiscono avere sistemi funzionanti e garantiti anche se il mantenimento degli stessi richiede somme non da poco. Se da un lato si parla di migrazione sul  \textit{Cloud} dei sistemi informativi delle aziende all'avanguardia dal lato degli istituti di credito si parla al più di cambio di versione dei  \textit{Framework} utilizzati lato  \textit{front-end}\glossario.\\
 
 	\begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{immagini/VignettaCobol}
-	\caption{Vignetta che sdrammatizza sull'uso del COBOL -\\ Fonte: \url{https://goo.gl/dVnwEg}}
+	\includegraphics[width=0.85\textwidth]{immagini/VignettaCobol}
+	\caption{Vignetta sull'uso del COBOL - Fonte: \url{https://goo.gl/dVnwEg}}
 	\end{figure}
 	
 	L'innovazione in ambito bancario e assicurativo rappresenta infatti un'ostacolo non indifferente, questo tipo di enti sono da sempre legati a tecnologie primordiali come il linguaggio COBOL e la relativa implementazione in mainframe CICS.\\
 	
 	Per Sopra Steria, che fa della trasformazione digitale e innovazione un suo punto di forza, questo rappresenta una sfida, l'azienda infatti desidera mettersi in gioco offrendo le soluzioni adeguate, tenendo conto però delle priorità del cliente e delle sue possibilità. Queste caratteristiche sono molto ricercate dalle aziende che vogliono rinnovarsi, trasformando i loro processi e servizi nel mondo digitale, adeguandosi ai moderni canoni di utilizzo e facendosi avanti nei mercati, con la possibilità di offrire prodotti di maggiore qualità e raggiungere molti più clienti.\\
 	
-	Per quanto riguarda il progetto su cui lavora il team in cui sono stato inserito l'unico fattore di innovazione riguarda il lato front-end dell'applicazione, l'evoluzione infatti da questo lato si fa vedere mediante l'utilizzo di tecnologie moderne adatte alla presentazione dei contenuti	nel web, tecnologie che sono maggiormente soggette a spinte evolutive dovute alla modernizzazione degli standard.
+	Per quanto riguarda il progetto su cui lavora il team in cui sono stato inserito l'unico fattore di innovazione riguarda il lato  \textit{front-end} dell'applicazione, l'evoluzione infatti da questo lato si fa vedere mediante l'utilizzo di tecnologie moderne adatte alla presentazione dei contenuti	nel web, tecnologie che sono maggiormente soggette a spinte evolutive dovute alla modernizzazione degli standard.
