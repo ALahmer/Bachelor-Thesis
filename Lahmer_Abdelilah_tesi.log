@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.2)  22 NOV 2017 02:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.2)  22 NOV 2017 18:54
 entering extended mode
 **./Lahmer_Abdelilah_tesi.tex
 (Lahmer_Abdelilah_tesi.tex
@@ -1553,12 +1553,8 @@ l.21 \blankpage
 
 
 ] (Lahmer_Abdelilah_tesi.lof
-Overfull \hbox (8.2198pt too wide) in paragraph at lines 9--9
- [][] [][]\T1/cmr/m/n/10.95 (-20) Logo di So-pra Ste-ria Group S.p.A. - Fon-te:
- https://goo.gl/vbAJ6D[] [][]  
- []
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 9.
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 31.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1577,7 +1573,7 @@ om . ibm .
 \openout8 = `Lahmer_Abdelilah_tesi.lof'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5345) has occurred while \output is active []
 
  [7]
 
@@ -1626,7 +1622,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<immagini/logo_azienda.png, id=157, 431.6125pt x 59.22125pt>
+<immagini/logo_azienda.png, id=163, 431.6125pt x 59.22125pt>
 File: immagini/logo_azienda.png Graphic file (type png)
 
 <use immagini/logo_azienda.png>
@@ -1648,23 +1644,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 
-<immagini/dipendenti_paesi_fatturato_mondo.png, id=159, 220.825pt x 577.15625pt
+<immagini/dipendenti_paesi_fatturato_mondo.png, id=167, 220.825pt x 577.15625pt
 >
 File: immagini/dipendenti_paesi_fatturato_mondo.png Graphic file (type png)
  <use immagini/dipendenti_paesi_fatturato_mondo.png>
 Package pdftex.def Info: immagini/dipendenti_paesi_fatturato_mondo.png used on 
-input line 43.
+input line 31.
 (pdftex.def)             Requested size: 85.35783pt x 223.09091pt.
 
-<immagini/mappa_italia_fatturato.png, id=160, 416.55624pt x 643.40375pt>
+<immagini/mappa_italia_fatturato.png, id=168, 416.55624pt x 643.40375pt>
 File: immagini/mappa_italia_fatturato.png Graphic file (type png)
 
 <use immagini/mappa_italia_fatturato.png>
 Package pdftex.def Info: immagini/mappa_italia_fatturato.png used on input line
- 49.
+ 37.
 (pdftex.def)             Requested size: 170.71349pt x 263.67943pt.
 
-Overfull \hbox (28.45187pt too wide) in paragraph at lines 49--50
+Overfull \hbox (28.45187pt too wide) in paragraph at lines 37--38
  [][] 
  []
 
@@ -1672,7 +1668,7 @@ Overfull \hbox (28.45187pt too wide) in paragraph at lines 49--50
 
 
  <./immagini/logo_azienda.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
@@ -1684,18 +1680,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2 <./immagini/dipendenti_paesi_fatturato_mondo.png> <./immagini/mappa_italia_f
 atturato.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-<immagini/ISO9001.png, id=177, 1113.15875pt x 653.44125pt>
+<immagini/ISO9001.png, id=192, 1113.15875pt x 653.44125pt>
 File: immagini/ISO9001.png Graphic file (type png)
 
 <use immagini/ISO9001.png>
-Package pdftex.def Info: immagini/ISO9001.png used on input line 83.
+Package pdftex.def Info: immagini/ISO9001.png used on input line 71.
 (pdftex.def)             Requested size: 355.65947pt x 208.77643pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7631) has occurred while \output is active []
 
 
 
@@ -1705,10 +1701,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1716,23 +1708,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4 <./immagini/ISO9001.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1740,18 +1728,41 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5] <immagini/Mercati_Principali.png, id=198, 433.62pt x 252.945pt>
+[5] <immagini/Mercati_Principali.png, id=210, 433.62pt x 252.945pt>
 File: immagini/Mercati_Principali.png Graphic file (type png)
 
 <use immagini/Mercati_Principali.png>
-Package pdftex.def Info: immagini/Mercati_Principali.png used on input line 117
+Package pdftex.def Info: immagini/Mercati_Principali.png used on input line 106
 .
 (pdftex.def)             Requested size: 284.52866pt x 165.98317pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <./immagini/Mercati_Principali.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+<immagini/ModelloIncrementale.png, id=215, 593.96906pt x 298.86656pt>
+File: immagini/ModelloIncrementale.png Graphic file (type png)
+
+<use immagini/ModelloIncrementale.png>
+Package pdftex.def Info: immagini/ModelloIncrementale.png used on input line 13
+1.
+(pdftex.def)             Requested size: 355.65947pt x 178.9656pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
@@ -1763,67 +1774,40 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6 <./immagini/Mercati_Principali.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-
- []
-
-<immagini/modello_incrementale.png, id=203, 1216.545pt x 568.1225pt>
-File: immagini/modello_incrementale.png Graphic file (type png)
-
-<use immagini/modello_incrementale.png>
-Package pdftex.def Info: immagini/modello_incrementale.png used on input line 1
-52.
-(pdftex.def)             Requested size: 355.65947pt x 166.0863pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+[7 <./immagini/ModelloIncrementale.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7 <./immagini/modello_incrementale.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1832,26 +1816,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8]
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9] <immagini/ITCorp.png, id=220, 1028.34187pt x 578.16pt>
+[9] <immagini/ITCorp.png, id=233, 1028.34187pt x 578.16pt>
 File: immagini/ITCorp.png Graphic file (type png)
 
 <use immagini/ITCorp.png>
-Package pdftex.def Info: immagini/ITCorp.png used on input line 196.
+Package pdftex.def Info: immagini/ITCorp.png used on input line 176.
 (pdftex.def)             Requested size: 355.65947pt x 199.95944pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1860,17 +1844,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10 <./immagini/ITCorp.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--233
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
@@ -1880,32 +1859,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11] <immagini/JavaEE.png, id=232, 217.81375pt x 225.84375pt>
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
+
+ []
+
+<immagini/JavaEE.png, id=245, 217.81375pt x 225.84375pt>
 File: immagini/JavaEE.png Graphic file (type png)
 
 <use immagini/JavaEE.png>
-Package pdftex.def Info: immagini/JavaEE.png used on input line 238.
+Package pdftex.def Info: immagini/JavaEE.png used on input line 214.
 (pdftex.def)             Requested size: 71.1308pt x 73.75328pt.
 
-<immagini/HTML5_CSS_JavaScript.png, id=233, 1027.84pt x 602.25pt>
+<immagini/HTML5_CSS_JavaScript.png, id=246, 1027.84pt x 602.25pt>
 File: immagini/HTML5_CSS_JavaScript.png Graphic file (type png)
 
 <use immagini/HTML5_CSS_JavaScript.png>
 Package pdftex.def Info: immagini/HTML5_CSS_JavaScript.png used on input line 2
-44.
+20.
 (pdftex.def)             Requested size: 142.26161pt x 83.34952pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--251
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
 
@@ -1916,21 +1895,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [12 <./immagini/JavaEE.png> <./immagini/HTML5_CSS_JavaScript.png>]
-<immagini/DBeaver_ss.png, id=242, 1163.84813pt x 732.48656pt>
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+<immagini/DBeaver_ss.png, id=254, 1163.84813pt x 732.48656pt>
 File: immagini/DBeaver_ss.png Graphic file (type png)
 
 <use immagini/DBeaver_ss.png>
-Package pdftex.def Info: immagini/DBeaver_ss.png used on input line 263.
+Package pdftex.def Info: immagini/DBeaver_ss.png used on input line 239.
 (pdftex.def)             Requested size: 355.65947pt x 223.83838pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-
- []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1938,20 +1915,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <./immagini/DBeaver_ss.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
-<immagini/ISPF.png, id=251, 651.18282pt x 542.77782pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+<immagini/ISPF.png, id=262, 651.18282pt x 542.77782pt>
 File: immagini/ISPF.png Graphic file (type png)
  <use immagini/ISPF.png>
-Package pdftex.def Info: immagini/ISPF.png used on input line 286.
+Package pdftex.def Info: immagini/ISPF.png used on input line 262.
 (pdftex.def)             Requested size: 355.65947pt x 296.45819pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
-
- []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1959,30 +1942,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <./immagini/ISPF.png>]
-<immagini/ISPF_menu_structure.png, id=256, 622.325pt x 423.5825pt>
+[14 <./immagini/DBeaver_ss.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+ []
+
+<immagini/ISPF_menu_structure.png, id=268, 622.325pt x 423.5825pt>
 File: immagini/ISPF_menu_structure.png Graphic file (type png)
 
 <use immagini/ISPF_menu_structure.png>
-Package pdftex.def Info: immagini/ISPF_menu_structure.png used on input line 29
-6.
+Package pdftex.def Info: immagini/ISPF_menu_structure.png used on input line 27
+2.
 (pdftex.def)             Requested size: 355.65947pt x 242.07794pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
 [][]|\T1/cmr/m/n/10 (+20) Strut-tu-ra me-nu am-bien-te di svi-lup-po ISPF - Fon
 -te:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
 []$\T1/cmtt/m/n/10 https : / / www . ibm . com / support / knowledgecenter / zo
 sbasics /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1990,25 +1976,39 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15 <./immagini/ISPF_menu_structure.png>]
-<immagini/Face2Face.png, id=266, 898.10532pt x 583.42969pt>
+[15 <./immagini/ISPF.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
+
+ []
+
+<immagini/Face2Face.png, id=275, 898.10532pt x 583.42969pt>
 File: immagini/Face2Face.png Graphic file (type png)
 
 <use immagini/Face2Face.png>
-Package pdftex.def Info: immagini/Face2Face.png used on input line 310.
+Package pdftex.def Info: immagini/Face2Face.png used on input line 286.
 (pdftex.def)             Requested size: 355.65947pt x 231.0442pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16 <./immagini/ISPF_menu_structure.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
@@ -2018,53 +2018,53 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16 <./immagini/Face2Face.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+[17 <./immagini/Face2Face.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 334--335
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 360--361
-
- []
-
-<immagini/principali_referenze.png, id=279, 969.6225pt x 1159.33125pt>
+<immagini/principali_referenze.png, id=295, 969.6225pt x 1159.33125pt>
 File: immagini/principali_referenze.png Graphic file (type png)
 
 <use immagini/principali_referenze.png>
 Package pdftex.def Info: immagini/principali_referenze.png used on input line 3
-67.
+43.
 (pdftex.def)             Requested size: 248.96054pt x 297.66875pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2076,15 +2076,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18] <immagini/Progetti_Importanti.png, id=285, 673.76718pt x 393.72093pt>
+[19] <immagini/Progetti_Importanti.png, id=301, 673.76718pt x 393.72093pt>
 File: immagini/Progetti_Importanti.png Graphic file (type png)
 
 <use immagini/Progetti_Importanti.png>
-Package pdftex.def Info: immagini/Progetti_Importanti.png used on input line 37
-4.
+Package pdftex.def Info: immagini/Progetti_Importanti.png used on input line 35
+0.
 (pdftex.def)             Requested size: 270.29924pt x 157.95418pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
@@ -2094,20 +2094,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19 <./immagini/principali_referenze.png> <./immagini/Progetti_Importanti.png>]
-<immagini/VignettaCobol.jpg, id=292, 772.8875pt x 336.25626pt>
+[20 <./immagini/principali_referenze.png> <./immagini/Progetti_Importanti.png>]
+<immagini/VignettaCobol.jpg, id=308, 772.8875pt x 336.25626pt>
 File: immagini/VignettaCobol.jpg Graphic file (type jpg)
 
 <use immagini/VignettaCobol.jpg>
-Package pdftex.def Info: immagini/VignettaCobol.jpg used on input line 385.
+Package pdftex.def Info: immagini/VignettaCobol.jpg used on input line 361.
 (pdftex.def)             Requested size: 355.65947pt x 154.73619pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--390
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 391--392
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
 
  []
 
@@ -2118,23 +2118,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20 <./immagini/VignettaCobol.jpg>] (Lahmer_Abdelilah_tesi.gls
+[21 <./immagini/VignettaCobol.jpg>] (Lahmer_Abdelilah_tesi.gls
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21] [22
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) 
-has been already used, duplicate ignored
+[22]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1
+}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 ...ysection[\glossarytoctitle]{\glossarytitle}
                                                   \glossarypreamble
 Appendice A.
 [23
+
 
 ]
 
@@ -2167,39 +2166,39 @@ Package logreq Info: Writing requests to 'Lahmer_Abdelilah_tesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26789 strings out of 493333
- 446386 string characters out of 3139183
+ 26797 strings out of 493333
+ 446461 string characters out of 3139183
  1035045 words of memory out of 3000000
  29510 multiletter control sequences out of 15000+200000
- 35776 words of font info for 139 fonts, out of 3000000 for 9000
+ 36106 words of font info for 142 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 61i,12n,122p,1937b,1420s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 61i,11n,122p,1937b,1420s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Pro
 gram Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/cm-super/sfbx0900.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/cm-super/sfbx1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-supe
-r/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx144
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx1728.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfcc1200.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfcc1440.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/cm-super/sfrm0800.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/cm-super/sfrm0900.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-cm-super/sfrm1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/
-sfrm1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm2488.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsl1095.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/cm-super/sfsl1200.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/cm-super/sfti0800.pfb><C:/Program Files/MiKTeX 2.9/fon
+pe1/public/cm-super/sfbx1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-supe
+r/sfbx1440.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfbx172
+8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfcc1200.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfcc1440.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/cm-super/sfrm0900.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/cm-super/sfrm1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+cm-super/sfrm1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/
+sfrm1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm2488.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsl1095.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfsl1200.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/cm-super/sfti0800.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/cm-super/sfti0900.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/cm-super/sfti1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/cm-super/sfti1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm
 -super/sftt1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sf
 tt1095.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Lahmer_Abdelilah_tesi.pdf (40 pages, 3250779 bytes).
+Output written on Lahmer_Abdelilah_tesi.pdf (40 pages, 3326360 bytes).
 PDF statistics:
- 500 PDF objects out of 1000 (max. 8388607)
- 107 named destinations out of 1000 (max. 500000)
- 37606 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 514 PDF objects out of 1000 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
+ 39142 words of extra memory for PDF output out of 42996 (max. 10000000)
 
