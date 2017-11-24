@@ -48,4 +48,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.4.2}Innovazione}{20}{subsection.1.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Glossario}{23}{chapter.1}
+\contentsline {chapter}{\numberline {2}La scelta del progetto}{21}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Interesse aziendale negli stage}{21}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Il progetto all'interno dell'azienda}{22}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}ELISE: Extended Loans Integrated System}{22}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Il mio stage}{22}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Proposte di stage}{22}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Motivo della scelta}{23}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Obiettivi del progetto}{23}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}Vincoli del progetto}{23}{subsection.2.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.5}Obiettivi personali}{23}{subsection.2.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Glossario}{25}{chapter.1}
