@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.2)  24 NOV 2017 18:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.2)  25 NOV 2017 00:16
 entering extended mode
 **./Lahmer_Abdelilah_tesi.tex
 (Lahmer_Abdelilah_tesi.tex
@@ -1656,7 +1656,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<immagini/logo_azienda.png, id=176, 431.6125pt x 59.22125pt>
+<immagini/logo_azienda.png, id=179, 431.6125pt x 59.22125pt>
 File: immagini/logo_azienda.png Graphic file (type png)
 
 <use immagini/logo_azienda.png>
@@ -1678,7 +1678,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 
-<immagini/dipendenti_paesi_fatturato_mondo.png, id=180, 220.825pt x 577.15625pt
+<immagini/dipendenti_paesi_fatturato_mondo.png, id=183, 220.825pt x 577.15625pt
 >
 File: immagini/dipendenti_paesi_fatturato_mondo.png Graphic file (type png)
  <use immagini/dipendenti_paesi_fatturato_mondo.png>
@@ -1686,7 +1686,7 @@ Package pdftex.def Info: immagini/dipendenti_paesi_fatturato_mondo.png used on
 input line 31.
 (pdftex.def)             Requested size: 85.35783pt x 223.09091pt.
 
-<immagini/mappa_italia_fatturato.png, id=181, 416.55624pt x 643.40375pt>
+<immagini/mappa_italia_fatturato.png, id=184, 416.55624pt x 643.40375pt>
 File: immagini/mappa_italia_fatturato.png Graphic file (type png)
 
 <use immagini/mappa_italia_fatturato.png>
@@ -1731,7 +1731,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-<immagini/ISO9001.png, id=213, 1113.15875pt x 653.44125pt>
+<immagini/ISO9001.png, id=216, 1113.15875pt x 653.44125pt>
 File: immagini/ISO9001.png Graphic file (type png)
 
 <use immagini/ISO9001.png>
@@ -1764,7 +1764,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5] <immagini/Mercati_Principali.png, id=223, 433.62pt x 252.945pt>
+[5] <immagini/Mercati_Principali.png, id=226, 433.62pt x 252.945pt>
 File: immagini/Mercati_Principali.png Graphic file (type png)
 
 <use immagini/Mercati_Principali.png>
@@ -1792,7 +1792,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-<immagini/ModelloIncrementale.png, id=228, 593.96906pt x 298.86656pt>
+<immagini/ModelloIncrementale.png, id=231, 593.96906pt x 298.86656pt>
 File: immagini/ModelloIncrementale.png Graphic file (type png)
 
 <use immagini/ModelloIncrementale.png>
@@ -1862,7 +1862,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9] <immagini/ITCorp.png, id=247, 1028.34187pt x 578.16pt>
+[9] <immagini/ITCorp.png, id=250, 1028.34187pt x 578.16pt>
 File: immagini/ITCorp.png Graphic file (type png)
 
 <use immagini/ITCorp.png>
@@ -1905,7 +1905,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
-<immagini/JavaEE.png, id=258, 217.81375pt x 225.84375pt>
+<immagini/JavaEE.png, id=261, 217.81375pt x 225.84375pt>
 File: immagini/JavaEE.png Graphic file (type png)
 
 <use immagini/JavaEE.png>
@@ -1921,7 +1921,7 @@ Overfull \hbox (14.22594pt too wide) in paragraph at lines 217--217
 [] [] 
  []
 
-<immagini/HTML5_CSS_JavaScript.png, id=261, 1027.84pt x 602.25pt>
+<immagini/HTML5_CSS_JavaScript.png, id=264, 1027.84pt x 602.25pt>
 File: immagini/HTML5_CSS_JavaScript.png Graphic file (type png)
 
 <use immagini/HTML5_CSS_JavaScript.png>
@@ -1959,7 +1959,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
-<immagini/DBeaver_ss.png, id=271, 1163.84813pt x 732.48656pt>
+<immagini/DBeaver_ss.png, id=274, 1163.84813pt x 732.48656pt>
 File: immagini/DBeaver_ss.png Graphic file (type png)
 
 <use immagini/DBeaver_ss.png>
@@ -1986,7 +1986,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
-<immagini/ISPF.png, id=280, 651.18282pt x 542.77782pt>
+<immagini/ISPF.png, id=283, 651.18282pt x 542.77782pt>
 File: immagini/ISPF.png Graphic file (type png)
  <use immagini/ISPF.png>
 Package pdftex.def Info: immagini/ISPF.png used on input line 267.
@@ -2007,7 +2007,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14 <./immagini/ISPF.png>]
-<immagini/ISPF_menu_structure.png, id=286, 622.325pt x 423.5825pt>
+<immagini/ISPF_menu_structure.png, id=289, 622.325pt x 423.5825pt>
 File: immagini/ISPF_menu_structure.png Graphic file (type png)
 
 <use immagini/ISPF_menu_structure.png>
@@ -2026,7 +2026,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [15 <./immagini/ISPF_menu_structure.png>]
-<immagini/Face2Face.png, id=295, 898.10532pt x 583.42969pt>
+<immagini/Face2Face.png, id=298, 898.10532pt x 583.42969pt>
 File: immagini/Face2Face.png Graphic file (type png)
 
 <use immagini/Face2Face.png>
@@ -2099,7 +2099,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
-<immagini/principali_referenze.png, id=307, 969.6225pt x 1159.33125pt>
+<immagini/principali_referenze.png, id=310, 969.6225pt x 1159.33125pt>
 File: immagini/principali_referenze.png Graphic file (type png)
 
 <use immagini/principali_referenze.png>
@@ -2116,7 +2116,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18] <immagini/Progetti_Importanti.png, id=313, 673.76718pt x 393.72093pt>
+[18] <immagini/Progetti_Importanti.png, id=316, 673.76718pt x 393.72093pt>
 File: immagini/Progetti_Importanti.png Graphic file (type png)
 
 <use immagini/Progetti_Importanti.png>
@@ -2135,7 +2135,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19 <./immagini/principali_referenze.png> <./immagini/Progetti_Importanti.png>]
-<immagini/VignettaCobol.jpg, id=321, 772.8875pt x 336.25626pt>
+<immagini/VignettaCobol.jpg, id=324, 772.8875pt x 336.25626pt>
 File: immagini/VignettaCobol.jpg Graphic file (type jpg)
 
 <use immagini/VignettaCobol.jpg>
@@ -2175,15 +2175,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
+<immagini/StageIT.png, id=335, 833.73984pt x 394.47375pt>
+File: immagini/StageIT.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+<use immagini/StageIT.png>
+Package pdftex.def Info: immagini/StageIT.png used on input line 21.
+(pdftex.def)             Requested size: 177.82973pt x 84.13605pt.
 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[21
+ [21
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
@@ -2193,23 +2207,42 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22]) (Lahmer_Abdelilah_tesi.gls
+[22 <./immagini/StageIT.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23] [24
+[23]) (Lahmer_Abdelilah_tesi.gls
 
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) 
-has been already used, duplicate ignored
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1
+}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 ...ysection[\glossarytoctitle]{\glossarytitle}
                                                   \glossarypreamble
 Appendice A.
 [25
+
 
 ])
 
@@ -2233,13 +2266,13 @@ Package logreq Info: Writing requests to 'Lahmer_Abdelilah_tesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26464 strings out of 493333
- 440796 string characters out of 3139183
- 1028435 words of memory out of 3000000
- 29161 multiletter control sequences out of 15000+200000
- 37082 words of font info for 148 fonts, out of 3000000 for 9000
+ 26534 strings out of 493333
+ 442031 string characters out of 3139183
+ 1029443 words of memory out of 3000000
+ 29225 multiletter control sequences out of 15000+200000
+ 37324 words of font info for 150 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 61i,11n,122p,1937b,1337s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 61i,11n,122p,1937b,1331s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Pro
 gram Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
@@ -2264,9 +2297,9 @@ public/cm-super/sfti1200.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm
 tt1000.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1095.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Lahmer_Abdelilah_tesi.pdf (38 pages, 3369340 bytes).
+Output written on Lahmer_Abdelilah_tesi.pdf (38 pages, 3458618 bytes).
 PDF statistics:
- 563 PDF objects out of 1000 (max. 8388607)
- 111 named destinations out of 1000 (max. 500000)
- 39734 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 570 PDF objects out of 1000 (max. 8388607)
+ 112 named destinations out of 1000 (max. 500000)
+ 39739 words of extra memory for PDF output out of 42996 (max. 10000000)
 
