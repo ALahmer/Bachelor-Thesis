@@ -37,3 +37,5 @@ Risolvere:
 			In §1.1 spiegherai (ciò che ora non fai) cosa significa -- nella struttura aziendale -- il ruolo in cui sei stato inserito.
 			Ridurrai la spaziatura verticale in §1, che a tratti è spropositata.
 			}
+			
+Per la presentazione:									http://www.math.unipd.it/~burattin/other/tema-latex-beamer-padova/
