@@ -33,6 +33,9 @@
 \contentsline {subsection}{\numberline {2.3.1}Proposte di stage}{25}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Motivo della scelta}{27}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Obiettivi del progetto}{27}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Vincoli del progetto}{27}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Obiettivi personali}{27}{subsection.2.3.5}
-\contentsline {chapter}{\numberline {A}Glossario}{29}{chapter.1}
+\contentsline {paragraph}{Obbligatori}{27}{section*.27}
+\contentsline {paragraph}{Desiderabili}{28}{section*.28}
+\contentsline {paragraph}{Facoltativi}{29}{section*.29}
+\contentsline {subsection}{\numberline {2.3.4}Vincoli del progetto}{29}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Obiettivi personali}{29}{subsection.2.3.5}
+\contentsline {chapter}{\numberline {A}Glossario}{31}{chapter.1}
