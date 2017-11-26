@@ -37,5 +37,7 @@
 \contentsline {paragraph}{Desiderabili}{28}{section*.28}
 \contentsline {paragraph}{Facoltativi}{29}{section*.29}
 \contentsline {subsection}{\numberline {2.3.4}Vincoli del progetto}{29}{subsection.2.3.4}
-\contentsline {subsection}{\numberline {2.3.5}Obiettivi personali}{29}{subsection.2.3.5}
-\contentsline {chapter}{\numberline {A}Glossario}{31}{chapter.1}
+\contentsline {paragraph}{Imposti dal cliente}{29}{section*.31}
+\contentsline {paragraph}{Imposti dall'azienda}{30}{section*.32}
+\contentsline {subsection}{\numberline {2.3.5}Obiettivi personali}{30}{subsection.2.3.5}
+\contentsline {chapter}{\numberline {A}Glossario}{33}{chapter.1}
