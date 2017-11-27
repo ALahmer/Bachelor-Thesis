@@ -43,21 +43,26 @@
 \contentsline {chapter}{\numberline {3}Il progetto di Stage}{31}{chapter.3}
 \contentsline {section}{\numberline {3.1}Pianificazione del lavoro}{31}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Definizione del piano di lavoro}{31}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Livello di autonomia}{32}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Formazione}{32}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Conoscenze economiche acquisite}{32}{subsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.1.1}ELISE}{33}{subsubsection.3.2.1.1}
-\contentsline {subsection}{\numberline {3.2.2}Tecnologie utilizzate}{33}{subsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.1}Piattaforma host}{33}{subsubsection.3.2.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2.2}COBOL}{33}{subsubsection.3.2.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.3}JCL}{33}{subsubsection.3.2.2.3}
-\contentsline {section}{\numberline {3.3}Processo di sviluppo}{33}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Analisi dei requisiti}{33}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Progettazione}{33}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Codifica}{34}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Verifica e validazione}{34}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Analisi statica}{34}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Analisi dinamica}{34}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Collaudo}{34}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Valutazione del prodotto}{34}{section.3.5}
-\contentsline {chapter}{\numberline {A}Glossario}{35}{chapter.1}
+\contentsline {subsection}{\numberline {3.1.2}Livello di autonomia}{33}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Formazione}{34}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Conoscenze economiche acquisite}{34}{subsection.3.2.1}
+\contentsline {paragraph}{Finanziamento}{34}{section*.31}
+\contentsline {paragraph}{Fido}{34}{section*.32}
+\contentsline {paragraph}{Tasso}{34}{section*.33}
+\contentsline {paragraph}{Piano di ammortamento}{35}{section*.34}
+\contentsline {paragraph}{Finanziamento in Pool}{35}{section*.35}
+\contentsline {subsubsection}{\numberline {3.2.1.1}ELISE}{35}{subsubsection.3.2.1.1}
+\contentsline {subsection}{\numberline {3.2.2}Tecnologie utilizzate}{35}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Piattaforma host}{35}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}COBOL}{35}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}JCL}{35}{subsubsection.3.2.2.3}
+\contentsline {section}{\numberline {3.3}Processo di sviluppo}{35}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Analisi dei requisiti}{35}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Progettazione}{36}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Codifica}{36}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Verifica e validazione}{36}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Analisi statica}{36}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Analisi dinamica}{36}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Collaudo}{36}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Valutazione del prodotto}{36}{section.3.5}
+\contentsline {chapter}{\numberline {A}Glossario}{37}{chapter.1}
