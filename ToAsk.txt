@@ -39,3 +39,6 @@ Risolvere:
 			}
 			
 Per la presentazione:									http://www.math.unipd.it/~burattin/other/tema-latex-beamer-padova/
+
+Per immagine architettura:								http://www.unife.it/ing/lm.infoauto/sistemi-informativi/allegati/i-sistemi-informativi-bancari.pdf
+														http://www.dea.univr.it/documenti/Avviso/all/all929327.pdf

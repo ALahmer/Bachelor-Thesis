@@ -54,15 +54,15 @@
 \contentsline {subsubsection}{\numberline {3.2.1.1}ELISE}{36}{subsubsection.3.2.1.1}
 \contentsline {subsection}{\numberline {3.2.2}Tecnologie utilizzate}{37}{subsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.2.1}Piattaforma host}{37}{subsubsection.3.2.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2.2}COBOL}{37}{subsubsection.3.2.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.3}JCL}{37}{subsubsection.3.2.2.3}
-\contentsline {section}{\numberline {3.3}Processo di sviluppo}{37}{section.3.3}
+\contentsline {subsubsection}{\numberline {3.2.2.2}COBOL}{38}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}JCL}{38}{subsubsection.3.2.2.3}
+\contentsline {section}{\numberline {3.3}Processo di sviluppo}{38}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Analisi dei requisiti}{38}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Progettazione}{38}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Codifica}{38}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Verifica e validazione}{38}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Analisi statica}{38}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Analisi dinamica}{38}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Collaudo}{38}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Valutazione del prodotto}{38}{section.3.5}
-\contentsline {chapter}{\numberline {A}Glossario}{39}{chapter.1}
+\contentsline {subsection}{\numberline {3.3.3}Codifica}{39}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Verifica e validazione}{39}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Analisi statica}{39}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Analisi dinamica}{39}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Collaudo}{39}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Valutazione del prodotto}{39}{section.3.5}
+\contentsline {chapter}{\numberline {A}Glossario}{41}{chapter.1}
