@@ -58,11 +58,11 @@
 \contentsline {subsubsection}{\numberline {3.2.2.3}JCL}{41}{subsubsection.3.2.2.3}
 \contentsline {section}{\numberline {3.3}Processo di sviluppo}{42}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Analisi dei requisiti}{42}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Progettazione}{42}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Codifica}{42}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Verifica e validazione}{42}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Analisi statica}{42}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Analisi dinamica}{42}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Collaudo}{42}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Valutazione del prodotto}{43}{section.3.5}
+\contentsline {subsection}{\numberline {3.3.2}Progettazione}{43}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Codifica}{43}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Verifica e validazione}{44}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Analisi statica}{44}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Analisi dinamica}{44}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Collaudo}{44}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Valutazione del prodotto}{44}{section.3.5}
 \contentsline {chapter}{\numberline {A}Glossario}{45}{chapter.1}
