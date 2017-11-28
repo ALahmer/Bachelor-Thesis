@@ -42,3 +42,5 @@ Per la presentazione:									http://www.math.unipd.it/~burattin/other/tema-late
 
 Per immagine architettura:								http://www.unife.it/ing/lm.infoauto/sistemi-informativi/allegati/i-sistemi-informativi-bancari.pdf
 														http://www.dea.univr.it/documenti/Avviso/all/all929327.pdf
+														
+Per manuale COBOL:										http://a2.pluto.it/a2/manuale_cobol.pdf
