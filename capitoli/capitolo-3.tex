@@ -101,7 +101,7 @@ Settimanalmente inoltre aggiornavo il mio tutor interno sulla mia situazione in 
 
 	Il livello di autonomia che ho raggiunto alla fine del percorso infatti non era sufficiente da poter portare a termine un'attività di sviluppo o analisi in completa indipendenza, necessitavo infatti di saltuarie delucidazioni.\\
 	
-	La difficoltà di lavoro in modalità autonoma è secondariamente dovuta al fatto che l'ambiente di sviluppo mainframe era a me sconosciuto prima di iniziare l'esperienza di stage, durante il percorso di studi infatti non è mai stato possibile trattatare praticamente questo tipo di contesto. La mancanza di basi di natura economica inoltre hanno sfavorito parzialmente l'autonomia sotto l'aspetto funzionale.
+	La difficoltà di lavoro in modalità autonoma è secondariamente dovuta al fatto che l'ambiente di sviluppo mainframe era a me sconosciuto prima di iniziare l'esperienza di stage, durante il percorso di studi infatti non è mai stato possibile trattare praticamente questo tipo di contesto. La mancanza di basi di natura economica inoltre hanno sfavorito parzialmente l'autonomia sotto l'aspetto funzionale.
 
 \section{Formazione}
 %In questo inizio di sezione farò una panoramica sulla formazione che ho ricevuto, sia quella in ambito teorico-economico sia quella in ambito tecnico.
@@ -135,7 +135,7 @@ Un fido bancario, o affidamento, è definito come l'impegno assunto da una banca
 In economia, il tasso di interesse effettivo rappresenta la percentuale dell'interesse su un prestito e l'importo della remunerazione spettante al prestatore. Viene espresso come una percentuale per un dato periodo di tempo e indica quanta parte della somma prestata debba essere corrisposta come interesse al termine del tempo considerato o, da un altro punto di vista, indica il costo del denaro. Il debitore, infatti, ricevendo una somma di denaro, si impegna a pagare una somma superiore a quella ricevuta. La differenza costituisce l'interesse, che viene solitamente calcolato in percentuale sulla somma prestata. Tale percentuale costituisce il tasso di interesse. Il tasso d'interesse è variabile anche in funzione della moneta di riferimento, del rischio connesso alla solvibilità del debitore e della lunghezza del periodo di riferimento.\footnote{Wikipedia - Tasso d'interesse. URL: \url{https://goo.gl/AHpfia}}
 
 \paragraph{Piano di ammortamento}
-Il piano di ammortamento è un programma di estinzione di debito o di abbassamento o estinzione del capitale di credito. Esistono diversi piani di ammortamento:
+Il piano di ammortamento è un programma di estinzione di debito o di abbassamento o estinzione del capitale di credito. Esistono diversi tipi di piano di ammortamento:
 	\begin{itemize}
 		\item Ammortamento a rate costanti (francese);
 		\item Ammortamento con quote capitali costanti (italiano).	
@@ -151,7 +151,7 @@ Il piano utilizzato nel sistema bancario italiano è quello alla francese, cioè
 I prestiti sindacati, conosciuti anche come "finanziamenti in pool", sono erogati da un consorzio di banche (il pool) a favore di un'impresa. Scopo di tale raggruppamento è la ripartizione del rischio e dello sforzo di finanziamento; il pool si scioglie una volta ultimata l'operazione. I prestiti in pool fanno parte di quella categoria di finanziamenti a medio-lungo termine che concedono le banche. I prestiti in pool fanno parte di quella categoria di finanziamenti a medio-lungo termine che concedono le banche. All'interno di un pool si distingue solitamente:
 	\begin{itemize}
 		\item la banca \textit{arranger} che si assume l'onere dell'organizzazione (in ELISE questa si chiama banca "\textit{rappresentante}");
-		\item la banca capofila, (spesso coincide con la banca \textit{arranger}) che coordina dopo la sindacazione;
+		\item la banca capofila, (spesso coincide con la banca \textit{arranger}) che coordina la sindacazione;
 		\item la banca agente che cura tutti gli aspetti amministrativi dopo l'operatività del prestito;
 		\item la banca partecipante che eroga una quota parte del prestito.\footnote{Wikipedia - Prestiti sindacati. URL: \url{https://goo.gl/nQyvFh}}
 	\end{itemize}
@@ -192,7 +192,7 @@ Nel processo di rilascio di nuove funzionalità il team di sviluppatori segue un
 
 Questo procedimento installa sull'elaboratore centrale il nuovo applicativo, effettuando un trasferimento fisico sulla macchina.\\
 
-Di seguito riporto una raffiguraizione indicativa dell'architettura su cui si basa il progetto ELISE:
+Di seguito riporto una raffigurazione indicativa dell'architettura su cui si basa il progetto ELISE:
 
 	\begin{figure}[H]
 		\centering
@@ -249,11 +249,11 @@ ABDELI STAMPA-FINE.
 ABDELI     DISPLAY 'FINE PROGRAMMA ESCOBOL'.
 ABDELI*--------COMMENTO: FINE PROCEDURE DIVISION--------
 \end{lstlisting}
-Come si nota dal frammento di codice precedente l'area che verrà interpretata dal compilatore va dalla ottava colonna in poi, le prime sei colonne infatti sono adibite al cosidetto "\textit{segnalino}" (accennato nella sezione [\ref{Vincoli del progetto}]) e la settima all'eventuale commento della riga.\\
+Come si nota dal frammento di codice precedente l'area che verrà interpretata dal compilatore va dalla ottava colonna in poi, le prime sei colonne infatti sono adibite al cosiddetto "\textit{segnalino}" (accennato nella sezione [\ref{Vincoli del progetto}]) e la settima all'eventuale commento della riga.\\
 
 %\leavevmode	\newline
 
-L'uso che se ne fa del COBOL nei sorgenti prodotti è principalmente quello di interfacciamento con il database, interrogandolo in lettura, modifica dei dati a seconda delle funzioni richiamate dall'utente che interagisce con l'interfaccia \textit{web} e modifica di tali dati, in caso la funzione richiamata lo richieda.\\
+L'uso che se ne fa del COBOL nei sorgenti prodotti è principalmente quello di interfacciamento con il database, interrogandolo in lettura, modifica dei dati a seconda delle funzioni richiamate dall'utente che interagisce con l'interfaccia \textit{web} e scrittura dei dati, in caso la funzione richiamata lo richieda.\\
 
 %\newpage
 I principali costrutti indispensabili per l'elaborazione dei dati sono:
@@ -292,7 +292,7 @@ ABDELI	    PERFORM ELABORA-ALFANUMERICO
 ABDELI	END-EVALUATE.
 	\end{lstlisting}
 
-	\item \textbf{MOVE}: permette la copia o assegna un valore in una o più variabili di destinazione;
+	\item \textbf{MOVE}: permette la copia o assegnazione di un valore ad una o più variabili di destinazione;
 	\begin{lstlisting}[language=cobol]
 ABDELI*-------ESEMPIO USO  COSTRUTTO MOVE-------
 ABDELI MOVE ZERO		TO VAR-INDICE.
@@ -319,7 +319,7 @@ ABDELI END-PERFORM
 %In questa sotto sottosezione riporterò i concetti fondamentali di quello che è il linguaggio di scripting JCL e riportando qualche esempio dell'uso che se ne fa, ovvero il controllo dell'esecuzione di moduli COBOL.
 Durante la formazione sulla parte tecnica ho avuto modo di operare superficialmente con il linguaggio JCL\glossario. Come accennato nella sezione relativa ai linguaggi utilizzati [\ref{Linguaggi lato Host}] il JCL è un linguaggio usato con lo scopo di dire all'elaboratore quali programmi eseguire, usando quali file di input e quali generare in output. L'uso che se ne fa in azienda consiste nel programmare e regolare l’esecuzione di programmi in modalità batch\glossario. \\
 
-Per il JCL non è stata prevista formazione, come da Piano di Lavoro; una volta apprese modalità di sviluppo però ne ho scoperto l'indispensabilità.\\
+Per il JCL non è stata prevista formazione, come da Piano di Lavoro; una volta apprese le modalità di sviluppo però ne ho scoperto l'indispensabilità.\\
 
 Di seguito riporto un frammento di codice\footnote{JCL - Eseguire programmi COBOL. URL: \url{https://goo.gl/bpaFUC}} in linguaggio JCL che esegue il programma MYCOBB a titolo di esempio:
 
@@ -368,11 +368,11 @@ Visto ciò si è scelto di analizzare un'altra funzionalità, in parte collegata
 
 	Come seconda attività nel processo di sviluppo l'azienda generalmente esegue attività di progettazione di implementazione delle nuove funzionalità.\\
 
-	Tale attività si sviluppa principalmente su due fronti: progettazione architetturale lato \textit{web} e progettazione architetturale lato \textit{host}. Mentre sotto l'aspetto delle tecnologie e metodologie di sviluppo orientate al front-end\glossario\ questa attività segue i più moderni paradigmi di programmazione e \textit{design pattern}, sotto gli aspetti corrispondenti al back-end questo non avviene.\\
+	Tale attività si sviluppa principalmente su due fronti: progettazione architetturale lato \textit{web} e progettazione architetturale lato \textit{host}. Mentre sotto l'aspetto delle tecnologie e metodologie di sviluppo orientate al \textit{front-end}\glossario\ questa attività segue i più moderni paradigmi di programmazione e \textit{design pattern}, sotto gli aspetti corrispondenti al \textit{back-end} questo non avviene.\\
 	
 	Saltuariamente per questa attività viene redatta un'Analisi Tecnica, ma solo in casi particolari. Generalmente, infatti, questa non viene stesa ma viene direttamente affidata l'Analisi Funzionale agli sviluppatori \textit{host} con più esperienza, che quindi hanno una visione completa dell'intera architettura, che provvedono alle implementazioni, eventualmente incaricando gli sviluppatori con meno esperienza fornendo sufficienti indicazioni.\\
 
-	Per il mio progetto di stage questa attività è stata alquanto ardua; nella redazione dell'Analisi Tecnica infatti mi sono limitato al descrivere la maniera procedurale con cui avrei potuto ottenere il calcolo della commissione, non potendo integrare ciò con l'architettura di ELISE, allora a me sconosciuta.
+	Per il mio progetto di stage questa attività è stata alquanto ardua; nella redazione dell'Analisi Tecnica infatti mi sono limitato a descrivere la maniera procedurale con cui avrei potuto ottenere il calcolo della commissione, non potendo integrare ciò con l'architettura di ELISE, allora a me sconosciuta.
 	 	
 \subsection{Codifica}
 %In questa sottosezione descriverò l'attività di codifica delle implementazioni richieste per lo svolgimento del progetto di stage.	
@@ -381,21 +381,54 @@ Visto ciò si è scelto di analizzare un'altra funzionalità, in parte collegata
 		
 	Una volta progettata l'architettura integrando le nuove funzionalità, infatti, si passa all'effettiva implementazione delle modifiche.\\
 
-	Per il mio progetto di stage questa attività è stata, come ci si aspettava dalla progettazione, l'implementazione della funzionalità di calcolo della CMU analizzata in fase di progettazione, senza l'effettivo aggancio all'intera architettura.\\
+	Per il mio progetto di stage questa attività è stata, come ci si aspettava dalla progettazione, l'implementazione della funzionalità di calcolo della CMU\glossario\ analizzata in fase di progettazione, senza l'effettivo aggancio all'intera architettura.\\
 	
 	La formazione sul linguaggio COBOL è stata essenziale per questa attività, in quanto, con l'uso dei costrutti più semplici appresi è stato possibile ottenere il risultato richiesto. Infatti seppur verboso il linguaggio in questione è tale da fornire precisione e velocità di calcolo.
 	
 \section{Verifica e validazione}
-In questa sezione descriverò le attività di Verifica e Validazione delle implementazioni richieste per lo svolgimento del progetto di stage, in particolare descriverò singolarmente l'analisi statica e dinamica effettuata a questo fine.
+%In questa sezione descriverò le attività di Verifica e Validazione delle implementazioni richieste per lo svolgimento del progetto di stage, in particolare descriverò singolarmente l'analisi statica e dinamica effettuata a questo fine.
+
+Durante l'attività di codifica il sorgente prodotto va generalmente testato dai diversi componenti del team di sviluppo.\\
+
+Tali attività vanno compiute durante la codifica mediante delle semplici prove in locale, prima del rilascio delle funzionalità invece, attraverso dei collaudi.\\
+
+In ambiente \textit{host} e precisamente per il progetto ELISE non è prevista l'implementazione di test automatici.\\
 
 \subsection{Analisi statica}
-In questa sottosezione parlerò degli strumenti utilizzati per l'analisi statica del codice prodotto.
-	
-\subsection{Analisi dinamica}
-In questa sottosezione parlerò dei metodi utilizzati per l'analisi dinamica che utilizza la divisione.
+%In questa sottosezione parlerò degli strumenti utilizzati per l'analisi statica del codice prodotto.
 
-\subsection{Collaudo}
-In questa sottosezione parlerò dei metodi utilizzati per il collaudo che utilizza la divisione. Nello specifico parlerò della figura di collaudatore e dei documenti di collaudo che l'azienda proponente richiede ad ogni rilascio.
+L'analisi statica consiste nei test che possono essere eseguiti sui sorgenti senza che questo venga compilato ed eseguito. In questo tipo di test troviamo solitamente l'analisi grammaticale del codice, controlli sulla duplicazione del codice, test su errori tipici, ecc.\\
+
+Avendo utilizzando lo strumento ISPF\glossario\ [\ref{Ambienti di sviluppo ed emulatori}] come ambiente di sviluppo lato \textit{host} posso affermare l'insufficienza di questo per l'analisi di questo tipo; tale strumento infatti non fornisce alcun tipo di \textit{warning} o \textit{error} causati da problemi nel codice o utilizzi poco adatti del linguaggio, tranne per quanto riguarda il posizionamento errato del codice nelle colonne riservate, ovvero quelle adibite al cosiddetto "segnalino", o quando si fuoriesce dalla larghezza massima processabile dall'elaboratore, in questi casi infatti il codice assume una differente colorazione al fine di notificare il possibile errore.\\
+
+In quel che è il complesso sistema ELISE, inoltre, seguendo il paradigma aziendale per quanto riguarda la strutturazione del codice, troviamo l'obbligo dell'uso di uno strumento utile ai fini di \textit{debug}, implementato manualmente ma con un funzionamento ed un'utilità essenziali in quello che è un ambiente povero di questi strumenti, solitamente implementati automaticamente dagli ambienti di sviluppo. Lo sviluppatore, infatti. è tenuto al richiamo del modulo di \textit{debug} passando rispettivamente il nome della funzione e il grado di precisione con cui questo deve operare. Di seguito un frammento di codice a titolo esemplificativo:
+	\begin{lstlisting}[language=cobol]
+ABDELI*---------------ESEMPIO  USO  DEBUG---------------
+ABDELI FUNZIONE-XY.
+ABDELI     MOVE 'FUNZIONE-XY'     TO DEBUG-NOME
+ABDELI     MOVE 3                 TO DEBUG-LIVELLO
+ABDELI     PERFORM TRACCIA-NOME.
+	\end{lstlisting}
+
+\subsection{Analisi dinamica}
+%In questa sottosezione parlerò dei metodi utilizzati per l'analisi dinamica che utilizza la divisione.
 	
+	L'analisi dinamica consiste nelle operazioni di controllo fatte sul codice compilato ed eseguito.\\
+
+	In quello che è il modello di processo di sviluppo aziendale questo tipo di analisi è inizialmente effettuata dagli sviluppatori, prima di passare alla verifica e revisione degli analisti che accertano l'effettiva copertura dei requisiti mediante i collaudi; ogni programmatore infatti è tenuto al \textit{testing} delle funzionalità implementate in base a scenari possibili in ambiente di produzione, al fine di provarne il corretto funzionamento ed evitare iterazioni coinvolgendo il team di analisti.\\
+
+	Per questo tipo di analisi ho effettuato dei test verificando il risultato dell'esecuzione della funzionalità da me trattata. Stabilendo degli scenari di prova e le rispettive pre-condizioni e post-condizioni sono riuscito difatti ad analizzare l'effettivo funzionamento del prodotto. Per raggiungere questo è stata necessaria l'implementazione di un sorgente batch JCL per l'esecuzione automatica utilizzando in input dati relativi ai vari scenari possibili.
+		
+\subsection{Collaudo}
+%In questa sottosezione parlerò dei metodi utilizzati per il collaudo che utilizza la divisione. Nello specifico parlerò della figura di collaudatore e dei documenti di collaudo che l'azienda proponente richiede ad ogni rilascio.
+
+	Prima dell'effettivo rilascio delle funzionalità implementate il team di analisti effettua generalmente le attività di collaudo, coinvolgendo anche il cliente, a cui il prodotto di questa attività è indirizzato.\\
+	
+	Con questa attività, infatti, il team di analisti si impegna a testare le possibili dinamiche di esecuzione delle funzionalità implementate e produce quello che è il Documento di Collaudo, validando così i requisiti funzionali.\\
+
 \section{Valutazione del prodotto}
-In questa sezione parlerò della valutazione dei documenti e del prodotto dopo i vari test e collaudi.
+%In questa sezione parlerò della valutazione dei documenti e del prodotto dopo i vari test e collaudi.
+
+	Il prodotto di questo processo di sviluppo è stato parzialmente positivo, con una formazione più approfondita avrei potuto integrare la funzionalità di calcolo della CMU all'interno di ELISE. I documenti di Analisi Funzionale e Tecnica sono stati utili ma solo per l'uso interno che ne ho fatto io, tali documenti infatti non sarebbero stati sufficienti nel caso reale di interazione con il cliente e ai fini implementativi per gli sviluppatori.\\
+	
+	D'altra parte, però, il modulo messo in piedi da me ha ottenuto i risultati attesi nella fase di verifica, tale modulo infatti potrà essere usato integrandolo all'interno dell'architettura e richiamandolo correttamente.
