@@ -11,7 +11,7 @@
 \contentsline {section}{\numberline {1.3}Processi aziendali}{5}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Organizzazione interna}{5}{subsection.1.3.1}
 \contentsline {subsection}{\numberline {1.3.2}Ciclo di sviluppo}{6}{subsection.1.3.2}
-\contentsline {paragraph}{Il modello incrementale in Sopra Steria}{8}{section*.12}
+\contentsline {paragraph}{Il modello incrementale in Sopra Steria}{8}{section*.14}
 \contentsline {subsection}{\numberline {1.3.3}Tecnologie e strumenti a supporto di processi e servizi}{10}{subsection.1.3.3}
 \contentsline {subsubsection}{\numberline {1.3.3.1}Linguaggi}{11}{subsubsection.1.3.3.1}
 \contentsline {subsubsection}{\numberline {1.3.3.2}Linguaggi lato Host}{11}{subsubsection.1.3.3.2}
@@ -33,12 +33,12 @@
 \contentsline {subsection}{\numberline {2.3.1}Proposte di stage}{25}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Motivo della scelta}{26}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Obiettivi del progetto}{26}{subsection.2.3.3}
-\contentsline {paragraph}{Obbligatori}{27}{section*.24}
-\contentsline {paragraph}{Facoltativi}{27}{section*.25}
-\contentsline {paragraph}{Desiderabili}{28}{section*.26}
+\contentsline {paragraph}{Obbligatori}{27}{section*.26}
+\contentsline {paragraph}{Facoltativi}{27}{section*.27}
+\contentsline {paragraph}{Desiderabili}{28}{section*.28}
 \contentsline {subsection}{\numberline {2.3.4}Vincoli del progetto}{29}{subsection.2.3.4}
-\contentsline {paragraph}{Imposti dal cliente}{29}{section*.28}
-\contentsline {paragraph}{Imposti dall'azienda}{29}{section*.29}
+\contentsline {paragraph}{Imposti dal cliente}{29}{section*.30}
+\contentsline {paragraph}{Imposti dall'azienda}{29}{section*.31}
 \contentsline {subsection}{\numberline {2.3.5}Obiettivi personali}{30}{subsection.2.3.5}
 \contentsline {chapter}{\numberline {3}Il progetto di Stage}{31}{chapter.3}
 \contentsline {section}{\numberline {3.1}Pianificazione del lavoro}{31}{section.3.1}
@@ -46,11 +46,11 @@
 \contentsline {subsection}{\numberline {3.1.2}Livello di autonomia}{33}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Formazione}{34}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Conoscenze economiche acquisite}{34}{subsection.3.2.1}
-\contentsline {paragraph}{Finanziamento}{34}{section*.30}
-\contentsline {paragraph}{Fido}{35}{section*.31}
-\contentsline {paragraph}{Tasso}{35}{section*.32}
-\contentsline {paragraph}{Piano di ammortamento}{35}{section*.33}
-\contentsline {paragraph}{Finanziamento in Pool}{36}{section*.34}
+\contentsline {paragraph}{Finanziamento}{34}{section*.32}
+\contentsline {paragraph}{Fido}{35}{section*.33}
+\contentsline {paragraph}{Tasso}{35}{section*.34}
+\contentsline {paragraph}{Piano di ammortamento}{35}{section*.35}
+\contentsline {paragraph}{Finanziamento in Pool}{36}{section*.36}
 \contentsline {subsubsection}{\numberline {3.2.1.1}ELISE}{36}{subsubsection.3.2.1.1}
 \contentsline {subsection}{\numberline {3.2.2}Tecnologie utilizzate}{37}{subsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.2.1}Piattaforma host}{37}{subsubsection.3.2.2.1}

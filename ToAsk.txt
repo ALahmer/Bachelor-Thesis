@@ -32,12 +32,6 @@ Per i diversi DBMS:										https://db-engines.com/en/system/DB2%3BMicrosoft+SQ
 
 Per immagine  DBEAVER:									https://github.com/serge-rider/dbeaver
 
-Risolvere:
-			{
-			In §1.1 spiegherai (ciò che ora non fai) cosa significa -- nella struttura aziendale -- il ruolo in cui sei stato inserito.
-			Ridurrai la spaziatura verticale in §1, che a tratti è spropositata.
-			}
-			
 Per la presentazione:									http://www.math.unipd.it/~burattin/other/tema-latex-beamer-padova/
 
 Per immagine architettura:								http://www.unife.it/ing/lm.infoauto/sistemi-informativi/allegati/i-sistemi-informativi-bancari.pdf
