@@ -65,4 +65,16 @@
 \contentsline {subsection}{\numberline {3.4.2}Analisi dinamica}{45}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Collaudo}{45}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}Valutazione del prodotto}{45}{section.3.5}
-\contentsline {chapter}{\numberline {A}Glossario}{47}{chapter.1}
+\contentsline {chapter}{\numberline {4}Valutazione retrospettiva}{47}{chapter.4}
+\contentsline {section}{\numberline {4.1}Bilancio formativo}{47}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Conoscenze preliminari}{47}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Conoscenze}{48}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Abilit\IeC {\`a}}{48}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Competenze}{48}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Obiettivi raggiunti}{48}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Obbligatori}{48}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Desiderabili}{49}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Facoltativi}{50}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Obiettivi personali}{50}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Gap analysis}{50}{section.4.3}
+\contentsline {chapter}{\numberline {A}Glossario}{51}{chapter.1}
