@@ -106,12 +106,12 @@ Settimanalmente inoltre aggiornavo il mio tutor interno sulla mia situazione in 
 \section{Formazione}
 %In questo inizio di sezione farò una panoramica sulla formazione che ho ricevuto, sia quella in ambito teorico-economico sia quella in ambito tecnico.
 
-Le prime due fasi del percorso di stage sono state adibite alla formazione in due ambiti, quello tecnico e quello funzionale. La formazione tecnica si poneva come obiettivo fornire una sufficiente base sul linguaggio di programmazione COBOL e le modalità di sviluppo, utilizzando quest'ultimo, in ambiente mainframe. La formazione funzionale, invece, si poneva come obiettivo quello di apprendimento d'uso di ELISE e dei concetti economici fondamentali utilizzati in esso.
+Le prime due fasi del percorso di stage le ho dedicate alla formazione in due ambiti, quello tecnico e quello funzionale. La formazione tecnica si poneva come obiettivo fornire una sufficiente base sul linguaggio di programmazione COBOL e le modalità di sviluppo, utilizzando quest'ultimo, in ambiente mainframe. La formazione funzionale, invece, si poneva come obiettivo quello di apprendimento d'uso di ELISE e dei concetti economici fondamentali utilizzati in esso.
 
 \subsection{Conoscenze economiche acquisite}
 %In questa sottosezione parlerò più approfonditamente della formazione in ambito teorico-economico che ho ricevuto e riporterò i macro argomenti trattati, magari con qualche accenno a qualche concetto fondamentale.
 
-Come ho indicato nella sezione dedicata, ELISE è un complesso sistema di gestione di finanziamenti, esso infatti fornisce un ambiente completo che permette il tracciamento di un prestito da quando questo viene istanziato alla sua estinzione. I concetti di natura teorica indispensabili al concepimento degli stati in cui questo può trovarsi e delle funzionalità predisposte dall'applicazione su di esso sono stati oggetto della formazione teorica ricevuta.\\
+Come ho indicato nella sezione dedicata [\ref{ELISE: Extended Loans Integrated System}], ELISE è un complesso sistema di gestione di finanziamenti, esso infatti fornisce un ambiente completo che permette il tracciamento di un prestito da quando questo viene istanziato alla sua estinzione. I concetti di natura teorica indispensabili al concepimento degli stati in cui questo può trovarsi e delle funzionalità predisposte dall'applicazione su di esso sono stati oggetto della formazione teorica ricevuta.\\
 
 Di seguito riporterò le più rilevanti nozioni acquisite.
 
@@ -157,9 +157,10 @@ I prestiti sindacati, conosciuti anche come "finanziamenti in pool", sono erogat
 	\end{itemize}
 
 \subsubsection{ELISE}
+\label{ELISE}
 %In questa sotto sottosezione descriverò ELISE e spiegherò i suoi scopi e funzionalità principali, collegando infine il tutto con le attività formazione teorico-economiche che ho applicato in essa dopo averle acquisite.
 
-Nella formazione sotto l'aspetto funzionale uno dei principali obiettivi era anche quello di apprendere la modalità d'uso dell'applicazione ambito di progetto, ovvero ELISE, ed acquisire capacità di navigazione all'interno di essa. Quest'attività di apprendimento è strettamente legata alla formazione sui concetti teorico-economici discussi nella sezione precedente.\\
+Nella formazione sotto l'aspetto funzionale uno dei principali obiettivi era anche quello di apprendere la modalità d'uso di ELISE, ovvero l'applicazione ambito di progetto aziendale. Durante questa fase di formazione ho cercato di acquisire capacità di navigazione all'interno di essa. Quest'attività di apprendimento è strettamente legata alla formazione sui concetti teorico-economici discussi nella sezione precedente.\\
 
 Nel formarmi su questo complesso sistema ho afferrato un concetto molto importante: ELISE è un applicazione orientata ai "\textit{Prodotti di Finanziamento}", ogni prestito istanziabile infatti fa parte di un prodotto, che è visto come una tipologia di finanziamento offerto dall'istituto di credito. Ogni prodotto ha le proprie condizioni, che possono essere derogabili o meno. Tali condizioni possono variare nel tempo, per questo nel processo di richiesta di un finanziamento il prodotto viene clonato, assieme alle rispettive condizioni, al fine di salvare la versione utilizzata.\\
 
@@ -197,7 +198,7 @@ Di seguito riporto una raffigurazione indicativa dell'architettura su cui si bas
 	\begin{figure}[H]
 		\centering
 	   	\includegraphics[width=1\textwidth]{immagini/Architettura}
-	   	\caption{Architettura piattaforma Host}
+	   	\caption{Architettura piattaforma Host - Fonte schema:\\ \tab \url{https://goo.gl/gZFJRF} }
 	\end{figure}
 
 	
@@ -220,9 +221,9 @@ In un programma scritto in linguaggio COBOL è indispensabile, secondo la prassi
 \item \textbf{PROCEDURE DIVISION}: in questa divisione è definito il corpo elaborativo del programma, all'interno di questo \textit{scope} infatti viene specificato il flusso del modulo.
 \end{itemize}
 
-Di seguito riporto un frammento di codice con la struttura ideale di un programma scritto in linguaggio COBOL:\\
+Di seguito riporto un frammento di codice con la struttura ideale di un programma scritto in linguaggio COBOL:
 
-\begin{lstlisting}[language=cobol]
+\begin{lstlisting}[language=cobol, caption={Struttura ideale di un programma COBOL}]
 ABDELI IDENTIFICATION DIVISION.
 ABDELI PROGRAM-ID.   ESCOBOL.
 ABDELI AUTHOR.       ABDELILAH LAHMER.
@@ -249,6 +250,7 @@ ABDELI STAMPA-FINE.
 ABDELI     DISPLAY 'FINE PROGRAMMA ESCOBOL'.
 ABDELI*--------COMMENTO: FINE PROCEDURE DIVISION--------
 \end{lstlisting}
+
 Come si nota dal frammento di codice precedente l'area che verrà interpretata dal compilatore va dalla ottava colonna in poi, le prime sei colonne infatti sono adibite al cosiddetto "\textit{segnalino}" (accennato nella sezione [\ref{Vincoli del progetto}]) e la settima all'eventuale commento della riga.\\
 
 %\leavevmode	\newline
@@ -260,7 +262,7 @@ I principali costrutti indispensabili per l'elaborazione dei dati sono:
 
 \begin{itemize}
 	\item \textbf{IF}: permette di condizionare l'esecuzione di un gruppo di istruzioni;
-	\begin{lstlisting}[language=cobol]
+	\begin{lstlisting}[language=cobol, caption={Esempio d'uso costrutto IF in COBOL}]
 ABDELI*--------ESEMPIO USO  COSTRUTTO IF--------
 ABDELI 	IF DATO-INPUT IS NUMERIC
 ABDELI 	  PERFORM ELABORA-NUMERICO
@@ -270,7 +272,7 @@ ABDELI	END-IF.
 	\end{lstlisting}
 	
 	\item \textbf{PERFORM}: permette il richiamo di una funzione presente nel programma; consente infatti di eseguire un gruppo di istruzioni contenute all’interno di sezioni o di paragrafi della divisione PROCEDURE DIVISION, riprendendo poi il flusso dall'istruzione successiva;
-	\begin{lstlisting}[language=cobol]
+	\begin{lstlisting}[language=cobol, caption={Esempio d'uso costrutto PERFORM in COBOL}]
 ABDELI*------ESEMPIO USO COSTRUTTO PERFORM------
 ABDELI FUNZIONE-CHIAMANTE.
 ABDELI     DISPLAY 'FUNZIONE-CHIAMANTE'
@@ -282,7 +284,7 @@ ABDELI     DISPLAY 'ESECUZIONE CORPO CHIAMA-FUN2'.
 	\end{lstlisting}
 
 	\item \textbf{EVALUATE}: permette la gestione di più condizioni, specificando il modo di elaborazione di ognuno in caso si verifichi, evitando di utilizzare molteplici costrutti IF innestati;
-	\begin{lstlisting}[language=cobol]
+	\begin{lstlisting}[language=cobol, caption={Esempio d'uso costrutto EVALUATE in COBOL}]
 ABDELI*-----ESEMPIO USO  COSTRUTTO EVALUATE-----
 ABDELI 	EVALUATE DATO-INPUT
 ABDELI	  WHEN 'NUMERICO'
@@ -292,20 +294,25 @@ ABDELI	    PERFORM ELABORA-ALFANUMERICO
 ABDELI	END-EVALUATE.
 	\end{lstlisting}
 
+\newpage
+
 	\item \textbf{MOVE}: permette la copia o assegnazione di un valore ad una o più variabili di destinazione;
-	\begin{lstlisting}[language=cobol]
+	\begin{lstlisting}[language=cobol, caption={Esempio d'uso costrutto MOVE in COBOL}]
 ABDELI*-------ESEMPIO USO  COSTRUTTO MOVE-------
 ABDELI MOVE ZERO		TO VAR-INDICE.
 	\end{lstlisting}
 
+%\newpage
+
+
 	\item \textbf{SET}: in quel che è la prassi aziendale questo costrutto viene utilizzato per settare una variabile booleana;
-	\begin{lstlisting}[language=cobol]
+	\begin{lstlisting}[language=cobol, caption={Esempio d'uso costrutto SET in COBOL}]
 ABDELI*--------ESEMPIO USO COSTRUTTO SET--------
 ABDELI SET FLAG		TO TRUE.
 	\end{lstlisting}
 
 	\item \textbf{VARYING}: permette la gestione di un contatore numerico specificando il valore di inizializzazione dopo il FROM, l'incremento ad ogni ciclo dopo il BY e la condizione di uscita dopo l'UNTIL, in questo modo è possibile utilizzare dei cicli di elaborazione dati in modo semplice.
-	\begin{lstlisting}[language=cobol]	
+	\begin{lstlisting}[language=cobol, caption={Esempio d'uso costrutto VARYING in COBOL}]	
 ABDELI*------ESEMPIO USO COSTRUTTO VARYING------
 ABDELI PERFORM VARYING VAR-INDICE FROM 1 BY 1
 ABDELI  UNTIL VAR-INDICE > LUNGHEZZA
@@ -321,10 +328,12 @@ Durante la formazione sulla parte tecnica ho avuto modo di operare superficialme
 
 Per il JCL non è stata prevista formazione, come da Piano di Lavoro; una volta apprese le modalità di sviluppo però ne ho scoperto l'indispensabilità.\\
 
+\newpage
+
 Di seguito riporto un frammento di codice\footnote{JCL - Eseguire programmi COBOL. URL: \url{https://goo.gl/bpaFUC}} in linguaggio JCL che esegue il programma MYCOBB a titolo di esempio:
 
 %\begin{lstlisting}[language=C++]
-\begin{lstlisting}[language=Cobol]
+\begin{lstlisting}[language=Cobol, caption={Struttura ideale di un programma JCL}]
 //STEP001  EXEC PGM=IKJEFT01
 //*
 //STEPLIB  DD DSN=MYDATA.URMI.DBRMLIB,DISP=SHR
@@ -348,12 +357,16 @@ Di seguito riporto un frammento di codice\footnote{JCL - Eseguire programmi COBO
 
 \section{Processo di sviluppo}
 %In questo inizio di sezione introdurrò la fase di stage relativa al processo di sviluppo del progetto di stage.
-Al termine delle prime fasi di formazione ero portato alla realizzazione di un progetto di stage che consisteva nella redazione di un'Analisi Funzionale e Tecnica del modulo "Pool", assieme all'implementazione di quanto studiato nell'Analisi Funzionale. Una volta entrato nell'ambiente lavorativo ed avuto un'idea di quella che era l'architettura di ELISE sono riuscito a concepire la difficoltà di questi compiti, sopratutto in relazione al tempo di formazione che avevo avuto. Il modulo "Pool" di cui si richiedeva l'analisi, infatti, era pressoché la metà dell'intera architettura del sistema, oltre al fatto di essere già implementato.\\
-
-Visto ciò si è scelto di analizzare un'altra funzionalità, in parte collegata al concetto di Pool, ovvero quella di "calcolo delle Commissioni di Mancato Utilizzo (CMU)"\footnote{La commissione di mancato utilizzo viene calcolata sull'importo non impiegato di un finanziamento, che però è stato predisposto dall'istituto di credito a favore del cliente; generalmente questa commissione ammonta allo 0,50\% su base annua.}, anch'essa già implementata ma solo a scopo di esercitazione mi preparavo ad esaminarla.
+%Al termine delle prime fasi di formazione ero portato alla realizzazione di un progetto di stage che consisteva nella redazione di un'Analisi Funzionale e Tecnica del modulo "Pool", assieme all'implementazione di quanto studiato nell'Analisi Funzionale. Una volta entrato nell'ambiente lavorativo ed avuto un'idea di quella che era l'architettura di ELISE sono riuscito a concepire la difficoltà di questi compiti, sopratutto in relazione al tempo di formazione che avevo avuto. Il modulo "Pool" di cui si richiedeva l'analisi, infatti, era pressoché la metà dell'intera architettura del sistema, oltre al fatto di essere già implementato.\\
+%
+%Visto ciò ho scelto di analizzare un'altra funzionalità, in parte collegata al concetto di Pool, ovvero quella di "calcolo delle Commissioni di Mancato Utilizzo (CMU)"\footnote{La commissione di mancato utilizzo viene calcolata sull'importo non impiegato di un finanziamento, che però è stato predisposto dall'istituto di credito a favore del cliente; generalmente questa commissione ammonta allo 0,50\% su base annua.}, anch'essa già implementata ma solo a scopo di esercitazione mi preparavo ad esaminarla.
 
 \subsection{Analisi dei requisiti}
 %In questa sottosezione descriverò l'attività di analisi dei requisiti e riporterò il modo in cui è stata svolta.
+
+Al termine delle prime fasi di formazione ero portato alla realizzazione di un progetto di stage che consisteva nella redazione di un'Analisi Funzionale e Tecnica del modulo "Pool", assieme all'implementazione di quanto studiato nell'Analisi Funzionale. Una volta entrato nell'ambiente lavorativo ed avuto un'idea di quella che era l'architettura di ELISE sono riuscito a concepire la difficoltà di questi compiti, sopratutto in relazione al tempo di formazione che avevo avuto. Il modulo "Pool" di cui si richiedeva l'analisi, infatti, era pressoché la metà dell'intera architettura del sistema, oltre al fatto di essere già implementato.\\
+
+Visto ciò ho scelto di analizzare un'altra funzionalità, in parte collegata al concetto di Pool, ovvero quella di "calcolo delle Commissioni di Mancato Utilizzo (CMU)"\footnote{La commissione di mancato utilizzo viene calcolata sull'importo non impiegato di un finanziamento, che però è stato predisposto dall'istituto di credito a favore del cliente; generalmente questa commissione ammonta allo 0,50\% su base annua.}, anch'essa già implementata ma solo a scopo di esercitazione mi preparavo ad esaminarla.\\
 
 	Come prima attività nel processo di sviluppo di nuove funzionalità l'azienda esegue delle attività di consulenza assieme al cliente, sottoscrivendo infine i contratti una volta giunti ad un accordo sui requisiti da soddisfare.\\
 	
@@ -402,7 +415,7 @@ L'analisi statica consiste nei test che possono essere eseguiti sui sorgenti sen
 Avendo utilizzando lo strumento ISPF\glossario\ [\ref{Ambienti di sviluppo ed emulatori}] come ambiente di sviluppo lato \textit{host} posso affermare l'insufficienza di questo per l'analisi di questo tipo; tale strumento infatti non fornisce alcun tipo di \textit{warning} o \textit{error} causati da problemi nel codice o utilizzi poco adatti del linguaggio, tranne per quanto riguarda il posizionamento errato del codice nelle colonne riservate, ovvero quelle adibite al cosiddetto "segnalino", o quando si fuoriesce dalla larghezza massima processabile dall'elaboratore, in questi casi infatti il codice assume una differente colorazione al fine di notificare il possibile errore.\\
 
 In quel che è il complesso sistema ELISE, inoltre, seguendo il paradigma aziendale per quanto riguarda la strutturazione del codice, troviamo l'obbligo dell'uso di uno strumento utile ai fini di \textit{debug}, implementato manualmente ma con un funzionamento ed un'utilità essenziali in quello che è un ambiente povero di questi strumenti, solitamente implementati automaticamente dagli ambienti di sviluppo. Lo sviluppatore, infatti. è tenuto al richiamo del modulo di \textit{debug} passando rispettivamente il nome della funzione e il grado di precisione con cui questo deve operare. Di seguito un frammento di codice a titolo esemplificativo:
-	\begin{lstlisting}[language=cobol]
+	\begin{lstlisting}[language=cobol, caption={Modalità di \textit{debugging} secondo la prassi aziendale}]
 ABDELI*---------------ESEMPIO  USO  DEBUG---------------
 ABDELI FUNZIONE-XY.
 ABDELI     MOVE 'FUNZIONE-XY'     TO DEBUG-NOME
@@ -431,4 +444,10 @@ ABDELI     PERFORM TRACCIA-NOME.
 
 	Il prodotto di questo processo di sviluppo è stato parzialmente positivo, con una formazione più approfondita avrei potuto integrare la funzionalità di calcolo della CMU all'interno di ELISE. I documenti di Analisi Funzionale e Tecnica sono stati utili ma solo per l'uso interno che ne ho fatto io, tali documenti infatti non sarebbero stati sufficienti nel caso reale di interazione con il cliente e ai fini implementativi per gli sviluppatori.\\
 	
-	D'altra parte, però, il modulo messo in piedi da me ha ottenuto i risultati attesi nella fase di verifica, tale modulo infatti potrà essere usato integrandolo all'interno dell'architettura e richiamandolo correttamente.
+	D'altra parte, però, il modulo messo in piedi da me ha ottenuto i risultati attesi nella fase di verifica, tale modulo infatti potrà essere usato integrandolo all'interno dell'architettura e richiamandolo correttamente.\\
+	
+	Integrando il mio operato con l'architettura, infatti, l'utente utilizzatore di ELISE avrà la possibilità di ottenere automaticamente il risultato del calcolo della Commissione di Mancato Utilizzo soltando delimitando un \textit{range} temporale su cui operare. Migliore sarebbe l'opzione che prevede che l'utente scelga tale \textit{range} da un menu a tendina ed in base a questo effettuare il calcolo; questa variante a mio avviso è migliore perchè nella pratica questa commissione viene solitamente calcolata su scaglioni trimestrali, difficilmente a scaglioni temporali di minore durata.\\
+	
+	Con l'integrazione della funzionalità da me creata, inoltre, una volta calcolata la CMU l'utente utilizzatore di ELISE potrà trovare tale commissione, sottoforma di onere, addizionata all'importo della prossima rata da pagare.\\
+	
+	Avendo a disposizione questa funzionalità gli utenti degli istituti di credito che utilizzano ELISE non dovranno più calcolare manualmente questo tipo di commissione e aggiungerla manualmente come onere alle rate ma sarà fatto tutto da un procedimento automatico, innescabile semplicemente impostando tale tipo di \textit{feature} alla tipologia di "\textit{Prodotto di Finanziamento}"[\ref{ELISE}].
