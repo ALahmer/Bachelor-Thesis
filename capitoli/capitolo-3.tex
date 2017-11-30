@@ -109,6 +109,7 @@ Settimanalmente inoltre aggiornavo il mio tutor interno sulla mia situazione in 
 Le prime due fasi del percorso di stage le ho dedicate alla formazione in due ambiti, quello tecnico e quello funzionale. La formazione tecnica si poneva come obiettivo fornire una sufficiente base sul linguaggio di programmazione COBOL e le modalità di sviluppo, utilizzando quest'ultimo, in ambiente mainframe. La formazione funzionale, invece, si poneva come obiettivo quello di apprendimento d'uso di ELISE e dei concetti economici fondamentali utilizzati in esso.
 
 \subsection{Conoscenze economiche acquisite}
+\label{Conoscenze economiche acquisite}
 %In questa sottosezione parlerò più approfonditamente della formazione in ambito teorico-economico che ho ricevuto e riporterò i macro argomenti trattati, magari con qualche accenno a qualche concetto fondamentale.
 
 Come ho indicato nella sezione dedicata [\ref{ELISE: Extended Loans Integrated System}], ELISE è un complesso sistema di gestione di finanziamenti, esso infatti fornisce un ambiente completo che permette il tracciamento di un prestito da quando questo viene istanziato alla sua estinzione. I concetti di natura teorica indispensabili al concepimento degli stati in cui questo può trovarsi e delle funzionalità predisposte dall'applicazione su di esso sono stati oggetto della formazione teorica ricevuta.\\
@@ -160,7 +161,7 @@ I prestiti sindacati, conosciuti anche come "finanziamenti in pool", sono erogat
 \label{ELISE}
 %In questa sotto sottosezione descriverò ELISE e spiegherò i suoi scopi e funzionalità principali, collegando infine il tutto con le attività formazione teorico-economiche che ho applicato in essa dopo averle acquisite.
 
-Nella formazione sotto l'aspetto funzionale uno dei principali obiettivi era anche quello di apprendere la modalità d'uso di ELISE, ovvero l'applicazione ambito di progetto aziendale. Durante questa fase di formazione ho cercato di acquisire capacità di navigazione all'interno di essa. Quest'attività di apprendimento è strettamente legata alla formazione sui concetti teorico-economici discussi nella sezione precedente.\\
+Nella formazione sotto l'aspetto funzionale uno dei principali obiettivi era anche quello di apprendere la modalità d'uso di ELISE, ovvero l'applicazione ambito di progetto aziendale. Durante questa fase di formazione ho cercato di acquisire capacità di navigazione all'interno di essa. Quest'attività di apprendimento è strettamente legata alla formazione sui concetti teorico-economici discussi nella sezione precedente [\ref{Conoscenze economiche acquisite}].\\
 
 Nel formarmi su questo complesso sistema ho afferrato un concetto molto importante: ELISE è un applicazione orientata ai "\textit{Prodotti di Finanziamento}", ogni prestito istanziabile infatti fa parte di un prodotto, che è visto come una tipologia di finanziamento offerto dall'istituto di credito. Ogni prodotto ha le proprie condizioni, che possono essere derogabili o meno. Tali condizioni possono variare nel tempo, per questo nel processo di richiesta di un finanziamento il prodotto viene clonato, assieme alle rispettive condizioni, al fine di salvare la versione utilizzata.\\
 
@@ -223,7 +224,7 @@ In un programma scritto in linguaggio COBOL è indispensabile, secondo la prassi
 
 Di seguito riporto un frammento di codice con la struttura ideale di un programma scritto in linguaggio COBOL:
 
-\begin{lstlisting}[language=cobol, caption={Struttura ideale di un programma COBOL}]
+\begin{lstlisting}[language=cobol, caption={Struttura ideale di un programma COBOL}, label={Struttura ideale di un programma COBOL}]
 ABDELI IDENTIFICATION DIVISION.
 ABDELI PROGRAM-ID.   ESCOBOL.
 ABDELI AUTHOR.       ABDELILAH LAHMER.
@@ -251,7 +252,7 @@ ABDELI     DISPLAY 'FINE PROGRAMMA ESCOBOL'.
 ABDELI*--------COMMENTO: FINE PROCEDURE DIVISION--------
 \end{lstlisting}
 
-Come si nota dal frammento di codice precedente l'area che verrà interpretata dal compilatore va dalla ottava colonna in poi, le prime sei colonne infatti sono adibite al cosiddetto "\textit{segnalino}" (accennato nella sezione [\ref{Vincoli del progetto}]) e la settima all'eventuale commento della riga.\\
+Come si nota dal frammento di codice precedente [\ref{Struttura ideale di un programma COBOL}] l'area che verrà interpretata dal compilatore va dalla ottava colonna in poi, le prime sei colonne infatti sono adibite al cosiddetto "\textit{segnalino}" (accennato nella sezione [\ref{Vincoli del progetto}]) e la settima all'eventuale commento della riga.\\
 
 %\leavevmode	\newline
 
@@ -446,12 +447,13 @@ ABDELI     PERFORM TRACCIA-NOME.
 	
 	D'altra parte, però, il modulo messo in piedi da me ha ottenuto i risultati attesi nella fase di verifica, tale modulo infatti potrà essere usato integrandolo all'interno dell'architettura e richiamandolo correttamente.\\
 	
-	Le modalità con cui questo potrà essere integrato sono diverse, in particolare tale implementazione potrà essere inserita tra gli strumenti a supporto degli impiegati delle banche senza influire su alcun finanziamento, ma soltanto al fine di automatizzare il calcolo. Tali strumenti in ELISE sono posizionati lungo la spalla laterale destra come evidenziato dalla figura seguente.
+	Le modalità con cui questo potrà essere integrato sono diverse, in particolare tale implementazione potrà essere inserita tra gli strumenti a supporto degli impiegati delle banche senza influire su alcun finanziamento, ma soltanto al fine di automatizzare il calcolo. Tali strumenti in ELISE sono posizionati lungo la spalla laterale destra come evidenziato dalla figura seguente [\ref{ImmagineEliseValutazioneProdotto}].
 	
 	\begin{figure}[H]
 		\centering
 	   	\includegraphics[width=0.95\textwidth]{immagini/Elise_postCMU}
 	   	\caption{Posizionamento possibile integrazione calcolo CMU in ELISE -\\ Fonte immagine originale: documento di collaudo interno aziendale}
+	\label{ImmagineEliseValutazioneProdotto}
 	\end{figure}
 	
 	
@@ -459,4 +461,4 @@ ABDELI     PERFORM TRACCIA-NOME.
 	
 	Conseguentemente a questo inoltre, una volta calcolata la CMU l'utente utilizzatore di ELISE potrà trovare tale commissione, sotto forma di onere, addizionata all'importo della prossima rata da pagare.\\
 	
-	Avendo a disposizione questa funzionalità gli utenti degli istituti di credito che utilizzano ELISE non dovranno più calcolare manualmente questo tipo di commissione e aggiungerla manualmente come onere alle rate ma sarà fatto tutto da un procedimento automatico, innescabile semplicemente impostando tale tipo di \textit{feature} alla tipologia di "\textit{Prodotto di Finanziamento}" [\ref{ELISE}]. Tale proprietà potrà essere impostata dal menu di spalla laterale sinistra in ELISE, come evidenziato dalla figura precedente.
+	Avendo a disposizione questa funzionalità gli utenti degli istituti di credito che utilizzano ELISE non dovranno più calcolare manualmente questo tipo di commissione e aggiungerla manualmente come onere alle rate ma sarà fatto tutto da un procedimento automatico, innescabile semplicemente impostando tale tipo di \textit{feature} alla tipologia di "\textit{Prodotto di Finanziamento}" [\ref{ELISE}]. Tale proprietà potrà essere impostata dal menu di spalla laterale sinistra in ELISE, come evidenziato dalla figura precedente [\ref{ImmagineEliseValutazioneProdotto}].
