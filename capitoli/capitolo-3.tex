@@ -437,7 +437,7 @@ ABDELI     PERFORM TRACCIA-NOME.
 
 	Prima dell'effettivo rilascio delle funzionalità implementate il team di analisti effettua generalmente le attività di collaudo, coinvolgendo anche il cliente, a cui il prodotto di questa attività è indirizzato.\\
 	
-	Con questa attività, infatti, il team di analisti si impegna a testare le possibili dinamiche di esecuzione delle funzionalità implementate e produce quello che è il Documento di Collaudo, validando così i requisiti funzionali.\\
+	Con questa attività, infatti, il team di analisti si impegna a testare le possibili dinamiche di esecuzione delle funzionalità implementate e produce quello che è il Documento di Collaudo, validando così i requisiti funzionali.
 
 \section{Valutazione del prodotto}
 %In questa sezione parlerò della valutazione dei documenti e del prodotto dopo i vari test e collaudi.
@@ -446,8 +446,17 @@ ABDELI     PERFORM TRACCIA-NOME.
 	
 	D'altra parte, però, il modulo messo in piedi da me ha ottenuto i risultati attesi nella fase di verifica, tale modulo infatti potrà essere usato integrandolo all'interno dell'architettura e richiamandolo correttamente.\\
 	
-	Integrando il mio operato con l'architettura, infatti, l'utente utilizzatore di ELISE avrà la possibilità di ottenere automaticamente il risultato del calcolo della Commissione di Mancato Utilizzo soltando delimitando un \textit{range} temporale su cui operare. Migliore sarebbe l'opzione che prevede che l'utente scelga tale \textit{range} da un menu a tendina ed in base a questo effettuare il calcolo; questa variante a mio avviso è migliore perchè nella pratica questa commissione viene solitamente calcolata su scaglioni trimestrali, difficilmente a scaglioni temporali di minore durata.\\
+	Le modalità con cui questo potrà essere integrato sono diverse, in particolare tale implementazione potrà essere inserita tra gli strumenti a supporto degli impiegati delle banche senza influire su alcun finanziamento, ma soltanto al fine di automatizzare il calcolo. Tali strumenti in ELISE sono posizionati lungo la spalla laterale destra come evidenziato dalla figura seguente.
 	
-	Con l'integrazione della funzionalità da me creata, inoltre, una volta calcolata la CMU l'utente utilizzatore di ELISE potrà trovare tale commissione, sottoforma di onere, addizionata all'importo della prossima rata da pagare.\\
+	\begin{figure}[H]
+		\centering
+	   	\includegraphics[width=0.95\textwidth]{immagini/Elise_postCMU}
+	   	\caption{Posizionamento possibile integrazione calcolo CMU in ELISE -\\ Fonte immagine originale: documento di collaudo interno aziendale}
+	\end{figure}
 	
-	Avendo a disposizione questa funzionalità gli utenti degli istituti di credito che utilizzano ELISE non dovranno più calcolare manualmente questo tipo di commissione e aggiungerla manualmente come onere alle rate ma sarà fatto tutto da un procedimento automatico, innescabile semplicemente impostando tale tipo di \textit{feature} alla tipologia di "\textit{Prodotto di Finanziamento}"[\ref{ELISE}].
+	
+	Integrando il mio operato più a basso livello all'interno dell'architettura, invece, l'utente utilizzatore di ELISE avrà la possibilità di ottenere automaticamente il risultato del calcolo della Commissione di Mancato Utilizzo soltando delimitando un \textit{range} temporale su cui operare. Migliore sarebbe l'opzione che prevede che l'utente scelga tale \textit{range} da un menu a tendina ed in base a questo effettuare il calcolo; questa variante a mio avviso è migliore perché nella pratica questa commissione viene solitamente calcolata su scaglioni trimestrali, difficilmente a scaglioni temporali di minore durata.\\
+	
+	Conseguentemente a questo inoltre, una volta calcolata la CMU l'utente utilizzatore di ELISE potrà trovare tale commissione, sotto forma di onere, addizionata all'importo della prossima rata da pagare.\\
+	
+	Avendo a disposizione questa funzionalità gli utenti degli istituti di credito che utilizzano ELISE non dovranno più calcolare manualmente questo tipo di commissione e aggiungerla manualmente come onere alle rate ma sarà fatto tutto da un procedimento automatico, innescabile semplicemente impostando tale tipo di \textit{feature} alla tipologia di "\textit{Prodotto di Finanziamento}" [\ref{ELISE}]. Tale proprietà potrà essere impostata dal menu di spalla laterale sinistra in ELISE, come evidenziato dalla figura precedente.
